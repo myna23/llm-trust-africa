@@ -1,187 +1,213 @@
-# Translation and sentiment analysis with ML
+# 🤖 LLM-Trust-Africa Dataset
 
-In the previous lessons you learned how to build a basic bot using `TextBlob`, a library that embeds ML behind-the-scenes to perform basic NLP tasks such as noun phrase extraction. Another important challenge in computational linguistics is accurate _translation_ of a sentence from one spoken or written language to another.
-
-## [Pre-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/35/)
-
-Translation is a very hard problem compounded by the fact that there are thousands of languages and each can have very different grammar rules. One approach is to convert the formal grammar rules for one language, such as English, into a non-language dependent structure, and then translate it by converting back to another language. This approach means that you would take the following steps:
-
-1. **Identification**. Identify or tag the words in input language into nouns, verbs etc.
-2. **Create translation**. Produce a direct translation of each word in the target language format.
-
-### Example sentence, English to Irish
-
-In 'English', the sentence _I feel happy_ is three words in the order:
-
-- **subject** (I)
-- **verb** (feel)
-- **adjective** (happy)
-
-However, in the 'Irish' language, the same sentence has a very different grammatical structure - emotions like "*happy*" or "*sad*" are expressed as being *upon* you.
-
-The English phrase `I feel happy` in Irish would be `Tá athas orm`. A *literal* translation would be `Happy is upon me`.
-
-An Irish speaker translating to English would say `I feel happy`, not `Happy is upon me`, because they understand the meaning of the sentence, even if the words and sentence structure are different.
-
-The formal order for the sentence in Irish are:
-
-- **verb** (Tá or is)
-- **adjective** (athas, or happy)
-- **subject** (orm, or upon me)
-
-## Translation
-
-A naive translation program might translate words only, ignoring the sentence structure.
-
-✅ If you've learned a second (or third or more) language as an adult, you might have started by thinking in your native language, translating a concept word by word in your head to the second language, and then speaking out your translation. This is similar to what naive translation computer programs are doing. It's important to get past this phase to attain fluency!
-
-Naive translation leads to bad (and sometimes hilarious) mistranslations: `I feel happy` translates literally to `Mise bhraitheann athas` in Irish. That means (literally) `me feel happy` and is not a valid Irish sentence. Even though English and Irish are languages spoken on two closely neighboring islands, they are very different languages with different grammar structures.
-
-> You can watch some videos about Irish linguistic traditions such as [this one](https://www.youtube.com/watch?v=mRIaLSdRMMs)
-
-### Machine learning approaches
-
-So far, you've learned about the formal rules approach to natural language processing. Another approach is to ignore the meaning of the words, and _instead use machine learning to detect patterns_. This can work in translation if you have lots of text (a *corpus*) or texts (*corpora*) in both the origin and target languages.
-
-For instance, consider the case of *Pride and Prejudice*, a well-known English novel written by Jane Austen in 1813. If you consult the book in English and a human translation of the book in *French*, you could detect phrases in one that are _idiomatically_ translated into the other. You'll do that in a minute.
-
-For instance, when an English phrase such as `I have no money` is translated literally to French, it might become `Je n'ai pas de monnaie`. "Monnaie" is a tricky french 'false cognate', as 'money' and 'monnaie' are not synonymous. A better translation that a human might make would be `Je n'ai pas d'argent`, because it better conveys the meaning that you have no money (rather than 'loose change' which is the meaning of 'monnaie').
-
-![monnaie](images/monnaie.png)
-
-> Image by [Jen Looper](https://twitter.com/jenlooper)
-
-If an ML model has enough human translations to build a model on, it can improve the accuracy of translations by identifying common patterns in texts that have been previously translated by expert human speakers of both languages.
-
-### Exercise - translation
-
-You can use `TextBlob` to translate sentences. Try the famous first line of **Pride and Prejudice**:
-
-```python
-from textblob import TextBlob
-
-blob = TextBlob(
-    "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife!"
-)
-print(blob.translate(to="fr"))
-
-```
-
-`TextBlob` does a pretty good job at the translation: "C'est une vérité universellement reconnue, qu'un homme célibataire en possession d'une bonne fortune doit avoir besoin d'une femme!". 
-
-It can be argued that TextBlob's translation is far more exact, in fact, than the 1932 French translation of the book by V. Leconte and Ch. Pressoir:
-
-"C'est une vérité universelle qu'un célibataire pourvu d'une belle fortune doit avoir envie de se marier, et, si peu que l'on sache de son sentiment à cet egard, lorsqu'il arrive dans une nouvelle résidence, cette idée est si bien fixée dans l'esprit de ses voisins qu'ils le considèrent sur-le-champ comme la propriété légitime de l'une ou l'autre de leurs filles."
-
-In this case, the translation informed by ML does a better job than the human translator who is unnecessarily putting words in the original author's mouth for 'clarity'.
-
-> What's going on here? and why is TextBlob so good at translation? Well, behind the scenes, it's using Google translate, a sophisticated AI able to parse millions of phrases to predict the best strings for the task at hand. There's nothing manual going on here and you need an internet connection to use `blob.translate`.
-
-✅ Try some more sentences. Which is better, ML or human translation? In which cases?
-
-## Sentiment analysis
-
-Another area where machine learning can work very well is sentiment analysis. A non-ML approach to sentiment is to identify words and phrases which are 'positive' and 'negative'. Then, given a new piece of text, calculate the total value of the positive, negative and neutral words to identify the overall sentiment. 
-
-This approach is easily tricked as you may have seen in the Marvin task - the sentence `Great, that was a wonderful waste of time, I'm glad we are lost on this dark road` is a sarcastic, negative sentiment sentence, but the simple algorithm detects 'great', 'wonderful', 'glad' as positive and 'waste', 'lost' and 'dark' as negative. The overall sentiment is swayed by these conflicting words.
-
-✅ Stop a second and think about how we convey sarcasm as human speakers. Tone inflection plays a large role. Try to say the phrase "Well, that film was awesome" in different ways to discover how your voice conveys meaning.
-
-### ML approaches
-
-The ML approach would be to manually gather negative and positive bodies of text - tweets, or movie reviews, or anything where the human has given a score *and* a written opinion. Then NLP techniques can be applied to opinions and scores, so that patterns emerge (e.g., positive movie reviews tend to have the phrase 'Oscar worthy' more than negative movie reviews, or positive restaurant reviews say 'gourmet' much more than 'disgusting').
-
-> ⚖️ **Example**: If you worked in a politician's office and there was some new law being debated, constituents might write to the office with emails supporting or emails against the particular new law. Let's say you are tasked with reading the emails and sorting them in 2 piles, *for* and *against*. If there were a lot of emails, you might be overwhelmed attempting to read them all. Wouldn't it be nice if a bot could read them all for you, understand them and tell you in which pile each email belonged? 
-> 
-> One way to achieve that is to use Machine Learning. You would train the model with a portion of the *against* emails and a portion of the *for* emails. The model would tend to associate phrases and words with the against side and the for side, *but it would not understand any of the content*, only that certain words and patterns were more likely to appear in an *against* or a *for* email. You could test it with some emails that you had not used to train the model, and see if it came to the same conclusion as you did. Then, once you were happy with the accuracy of the model, you could process future emails without having to read each one.
-
-✅ Does this process sound like processes you have used in previous lessons?
-
-## Exercise - sentimental sentences
-
-Sentiment is measured in with a *polarity* of -1 to 1, meaning -1 is the most negative sentiment, and 1 is the most positive. Sentiment is also measured with an 0 - 1 score for objectivity (0) and subjectivity (1).
-
-Take another look at Jane Austen's *Pride and Prejudice*. The text is available here at [Project Gutenberg](https://www.gutenberg.org/files/1342/1342-h/1342-h.htm). The sample below shows a short program which analyses the sentiment of first and last sentences from the book and display its sentiment polarity and subjectivity/objectivity score.
-
-You should use the `TextBlob` library (described above) to determine `sentiment` (you do not have to write your own sentiment calculator) in the following task.
-
-```python
-from textblob import TextBlob
-
-quote1 = """It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."""
-
-quote2 = """Darcy, as well as Elizabeth, really loved them; and they were both ever sensible of the warmest gratitude towards the persons who, by bringing her into Derbyshire, had been the means of uniting them."""
-
-sentiment1 = TextBlob(quote1).sentiment
-sentiment2 = TextBlob(quote2).sentiment
-
-print(quote1 + " has a sentiment of " + str(sentiment1))
-print(quote2 + " has a sentiment of " + str(sentiment2))
-```
-
-You see the following output:
-
-```output
-It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want # of a wife. has a sentiment of Sentiment(polarity=0.20952380952380953, subjectivity=0.27142857142857146)
-
-Darcy, as well as Elizabeth, really loved them; and they were
-     both ever sensible of the warmest gratitude towards the persons
-      who, by bringing her into Derbyshire, had been the means of
-      uniting them. has a sentiment of Sentiment(polarity=0.7, subjectivity=0.8)
-```
-
-## Challenge - check sentiment polarity
-
-Your task is to determine, using sentiment polarity, if *Pride and Prejudice* has more absolutely positive sentences than absolutely negative ones. For this task, you may assume that a polarity score of 1 or -1 is absolutely positive or negative respectively.
-
-**Steps:**
-
-1. Download a [copy of Pride and Prejudice](https://www.gutenberg.org/files/1342/1342-h/1342-h.htm) from Project Gutenberg as a .txt file. Remove the metadata at the start and end of the file, leaving only the original text
-2. Open the file in Python and extract the contents as a string
-3. Create a TextBlob using the book string
-4. Analyse each sentence in the book in a loop
-   1. If the polarity is 1 or -1 store the sentence in an array or list of positive or negative messages
-5. At the end, print out all the positive sentences and negative sentences (separately) and the number of each.
-
-Here is a sample [solution](https://github.com/microsoft/ML-For-Beginners/blob/main/6-NLP/3-Translation-Sentiment/solution/notebook.ipynb).
-
-✅ Knowledge Check
-
-1. The sentiment is based on words used in the sentence, but does the code *understand* the words?
-2. Do you think the sentiment polarity is accurate, or in other words, do you *agree* with the scores?
-   1. In particular, do you agree or disagree with the absolute **positive** polarity of the following sentences?
-      * “What an excellent father you have, girls!” said she, when the door was shut.
-      * “Your examination of Mr. Darcy is over, I presume,” said Miss Bingley; “and pray what is the result?” “I am perfectly convinced by it that Mr. Darcy has no defect.
-      * How wonderfully these sort of things occur!
-      * I have the greatest dislike in the world to that sort of thing.
-      * Charlotte is an excellent manager, I dare say.
-      * “This is delightful indeed!
-      * I am so happy!
-      * Your idea of the ponies is delightful.
-   2. The next 3 sentences were scored with an absolute positive sentiment, but on close reading, they are not positive sentences. Why did the sentiment analysis think they were positive sentences?
-      * Happy shall I be, when his stay at Netherfield is over!” “I wish I could say anything to comfort you,” replied Elizabeth; “but it is wholly out of my power.
-      * If I could but see you as happy!
-      * Our distress, my dear Lizzy, is very great.
-   3. Do you agree or disagree with the absolute **negative** polarity of the following sentences?
-      - Everybody is disgusted with his pride.
-      - “I should like to know how he behaves among strangers.” “You shall hear then—but prepare yourself for something very dreadful.
-      - The pause was to Elizabeth’s feelings dreadful.
-      - It would be dreadful!
-
-✅ Any aficionado of Jane Austen will understand that she often uses her books to critique the more ridiculous aspects of English Regency society. Elizabeth Bennett, the main character in *Pride and Prejudice*, is a keen social observer (like the author) and her language is often heavily nuanced. Even Mr. Darcy (the love interest in the story) notes Elizabeth's playful and teasing use of language: "I have had the pleasure of your acquaintance long enough to know that you find great enjoyment in occasionally professing opinions which in fact are not your own."
+> **"Do You Believe the Machine? Human Trust and Perception of LLM-Generated Content — An African Context Empirical Study"**  
+> *Supplementary annotated dataset — submitted to ACL 2025*
 
 ---
 
-## 🚀Challenge
+## 📋 Overview
 
-Can you make Marvin even better by extracting other features from the user input?
+This repository contains the **publicly available annotated dataset** of **1,236 human–LLM text pair evaluations** collected in the first large-scale empirical study of how people across **12 African countries** perceive and trust content generated by Large Language Models (LLMs).
 
-## [Post-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/36/)
+The dataset accompanies the paper:
 
-## Review & Self Study
+> **Do You Believe the Machine? An Empirical Study of Human Trust and Perception of LLM-Generated Content**  
+> Anonymous Submission — ACL 2025  
+> Pre-registration: OSF `osf.io/[BLINDED]`
 
-There are many ways to extract sentiment from text. Think of the business applications that might make use of this technique. Think about how it can go awry. Read more about sophisticated enterprise-ready systems that analyze sentiment such as [Azure Text Analysis](https://docs.microsoft.com/azure/cognitive-services/Text-Analytics/how-tos/text-analytics-how-to-sentiment-analysis?tabs=version-3-1?WT.mc_id=academic-77952-leestott). Test some of the Pride and Prejudice sentences above and see if it can detect nuance.
+---
 
-## Assignment 
+## 🌍 Why Africa?
 
-[Poetic license](assignment.md)
+The vast majority of prior trust-in-AI research has drawn samples from **Western, Educated, Industrialised, Rich, and Democratic (WEIRD)** countries — primarily the United States, United Kingdom, and Western Europe. This dataset is, to our knowledge, the **first of its kind to systematically measure LLM trust perception across diverse African populations**, including participants from:
+
+| Country | n | Country | n |
+|---|---|---|---|
+| Nigeria | 80 | Kenya | 50 |
+| South Africa | 85 | Ghana | 42 |
+| Ethiopia | 35 | Tanzania | 33 |
+| Rwanda | 25 | Uganda | 19 |
+| Senegal | 17 | Zimbabwe | 11 |
+| Zambia | 10 | Cameroon | 5 |
+
+Topics in the stimulus corpus are **African-contextualised**, covering the African Union, AfCFTA trade, Sahel food security, the H3Africa genomics initiative, East African data protection law, and more.
+
+---
+
+## 📁 Repository Structure
+
+```
+llm-trust-africa/
+│
+├── data/
+│   ├── llm_trust_africa_dataset.csv     ← Main dataset (1,236 rows)
+│   ├── stimuli_corpus.json              ← 12 matched human–LLM passage pairs
+│   └── participant_demographics.csv     ← Aggregated demographics (no PII)
+│
+├── code/
+│   ├── stimulus_generator.py            ← GPT-4 stimulus generation pipeline
+│   ├── randomisation_engine.py          ← 2×3×2 mixed design counterbalancing
+│   ├── preprocessing.py                 ← Data cleaning, scale construction
+│   ├── analysis.py                      ← Statistical analysis (RQ1–RQ3)
+│   └── visualisations.py               ← Publication-quality figures
+│
+├── figures/
+│   ├── fig1_disclosure_effect.pdf
+│   ├── fig2_domain_moderation.pdf
+│   └── fig3_ai_literacy_slopes.pdf
+│
+├── survey/
+│   └── survey_instrument.pdf            ← Full survey (Appendix A of paper)
+│
+├── requirements.txt
+├── LICENSE                              ← CC BY 4.0
+└── README.md                            ← This file
+```
+
+---
+
+## 📊 Dataset Description
+
+**File:** `data/llm_trust_africa_dataset.csv`  
+**Rows:** 1,236 (412 participants × 3 passages per participant, one per domain)  
+**Encoding:** UTF-8  
+**Delimiter:** comma (`,`)
+
+### Column Codebook
+
+| Column | Type | Description | Values / Range |
+|---|---|---|---|
+| `participant_id` | string | Unique participant identifier | `AF0001`–`AF0412` |
+| `trial_id` | string | Unique participant × passage identifier | `AF0001_NEWS_01` |
+| `passage_id` | string | Stimulus passage identifier | `NEWS_01`–`LEG_04` |
+| `domain` | categorical | Content domain of the passage | `news`, `science`, `legal` |
+| `topic` | string | Topic label of the passage | See stimuli_corpus.json |
+| `source` | categorical | Actual authorship of passage | `human`, `llm` |
+| `disclosure_condition` | categorical | Whether authorship was disclosed | `disclosed`, `blind` |
+| `passage_text` | string | Full text of the evaluated passage | ~200 words |
+| `country` | string | Participant's country of residence | 12 African countries |
+| `age` | integer | Participant age in years | 18–65 |
+| `gender` | categorical | Participant gender identity | Woman, Man, Non-binary, Prefer not to say |
+| `education` | categorical | Highest education level | 6-level ordinal scale |
+| `occupation` | string | Participant's primary occupation | 12 categories |
+| `primary_language` | string | Participant's primary language | e.g., English, Swahili, Yoruba, Amharic |
+| `ai_use_frequency` | categorical | Self-reported AI tool usage frequency | 5-level ordinal scale |
+| `ai_literacy_score` | float | Mean score on AI Literacy Scale (Carolus et al., 2023) | 1.0–5.0 |
+| `trust_competence` | float | Competence-based trust subscale mean | 1.0–7.0 |
+| `trust_integrity` | float | Integrity-based trust subscale mean | 1.0–7.0 |
+| `trust_benevolence` | float | Benevolence-based trust subscale mean | 1.0–7.0 |
+| `trust_overall` | float | Mean of three trust subscales | 1.0–7.0 |
+| `perceived_credibility` | float | Perceived credibility scale mean | 1.0–7.0 |
+| `information_quality` | float | Perceived information quality scale mean | 1.0–7.0 |
+| `fact_check_intention` | float | Intention to fact-check the passage | 1.0–7.0 |
+| `source_guess_blind` | string | Participant's authorship guess (blind condition only) | `human`, `llm`, `N/A (disclosed)` |
+
+---
+
+## 🔑 Key Findings (Summary)
+
+| Metric | Value |
+|---|---|
+| Mean trust — LLM disclosed | 3.25 / 7.0 |
+| Mean trust — Human disclosed | 4.67 / 7.0 |
+| Source-disclosure trust gap | **1.42 points (Cohen's d = 1.45)** |
+| Detection accuracy (blind) | **53.8%** (not above chance, p = .13) |
+| Trust gap — News domain | 1.08 |
+| Trust gap — Science domain | 1.28 |
+| Trust gap — Legal domain | **1.62** (largest) |
+| AI literacy moderation | Higher literacy → ~47% smaller trust gap |
+
+---
+
+## ⚙️ Reproducing the Analysis
+
+```bash
+# Clone the repository
+git clone https://github.com/[BLINDED]/llm-trust-africa
+cd llm-trust-africa
+
+# Create virtual environment
+python -m venv .venv
+source .venv/bin/activate       # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+# Preprocess raw data
+python code/preprocessing.py
+
+# Run statistical analysis (outputs to console + results_tables.xlsx)
+python code/analysis.py
+
+# Generate publication figures (saved to figures/)
+python code/visualisations.py
+```
+
+---
+
+## 📏 Stimulus Materials
+
+The dataset includes **12 matched human–LLM passage pairs** across three domains, all **African-contextualised**:
+
+| Domain | Topics Covered |
+|---|---|
+| **News** (4 pairs) | AU Climate Summit · AfCFTA Trade · Sahel Drought · East African Tech Startups |
+| **Science** (4 pairs) | Malaria Vaccine · H3Africa Genomics · Nile Water Stress · Rural Solar Energy |
+| **Legal** (4 pairs) | African Court Land Rights · Kenya Data Protection · ICC–AU Jurisdiction · SA Mining Rights |
+
+Human and LLM passages were **matched on**:
+- Topic and approximate length (~200 words)
+- Flesch-Kincaid readability grade (human M = 13.0, LLM M = 12.8; p = .61)
+- Factual accuracy — rated by domain experts (all ≥ 4.6/5.0)
+
+---
+
+## 📜 Citing This Dataset
+
+If you use this dataset in your research, please cite:
+
+```bibtex
+@inproceedings{anonymous2025llmtrust,
+  title     = {Do You Believe the Machine? An Empirical Study of Human Trust
+               and Perception of LLM-Generated Content},
+  author    = {Anonymous},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association
+               for Computational Linguistics (ACL 2025)},
+  year      = {2025},
+  note      = {Dataset: https://github.com/[BLINDED]/llm-trust-africa}
+}
+```
+
+---
+
+## 📄 Licence
+
+This dataset is released under a **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
+You are free to **share** and **adapt** the material for any purpose, provided you give appropriate credit.
+
+See [`LICENSE`](LICENSE) for full terms.
+
+---
+
+## 🔒 Ethics & Privacy
+
+- All participants provided **informed digital consent** prior to participation.
+- No personally identifiable information (PII) is stored in the dataset.
+- Participant IDs are **pseudonymised** codes with no link to Prolific IDs.
+- The study received **IRB approval** from [BLINDED] University (Protocol #[BLINDED]).
+- Pre-registered on OSF prior to data collection: `osf.io/[BLINDED]`
+
+---
+
+## 🤝 Contributing
+
+We welcome:
+- **Translations** of the survey instrument into additional African languages
+- **Extended datasets** replicating the protocol in additional African countries
+- **Analyses** using this dataset — please open a pull request to add your work to a community contributions section
+
+Open an issue or email [BLINDED]@[BLINDED].edu to get in touch.
+
+---
+
+## 🙏 Acknowledgements
+
+We thank all 412 participants who generously gave their time to this study. We also thank the three domain experts who reviewed our stimulus materials, and the Prolific Academic platform for enabling recruitment across African countries.
