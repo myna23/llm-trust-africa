@@ -1,0 +1,1237 @@
+trial_id,participant_id,passage_id,domain,topic,source,disclosure_condition,trust_competence,trust_integrity,trust_benevolence,trust_overall,perceived_credibility,information_quality,fact_check_intention,source_guess_blind
+T0001,AF0001,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.1,4.1,4.6,4.2,4.4,4.5,4.7,N/A
+T0002,AF0001,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.2,4.0,3.0,3.9,4.3,3.6,3.3,llm
+T0003,AF0001,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.4,4.9,4.9,5.2,5.3,5.3,2.6,N/A
+T0004,AF0002,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.7,2.9,2.5,2.8,3.3,3.1,3.7,N/A
+T0005,AF0002,SCI_04,science,Off-Grid Solar Africa,llm,blind,5.5,4.9,5.1,5.0,5.0,4.7,1.2,llm
+T0006,AF0002,LEG_01,legal,African Court Land Rights,llm,disclosed,3.7,3.7,3.3,3.5,3.0,3.7,2.7,N/A
+T0007,AF0003,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.1,4.1,4.0,4.0,4.2,4.2,3.8,N/A
+T0008,AF0003,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.4,4.3,4.8,4.7,5.1,4.5,2.6,N/A
+T0009,AF0003,LEG_04,legal,South Africa Mining Charter,human,blind,4.9,4.5,4.8,4.9,4.8,5.0,3.0,llm
+T0010,AF0004,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.8,4.8,4.4,4.5,3.8,5.0,3.8,N/A
+T0011,AF0004,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,4.7,4.6,4.3,4.4,4.6,4.8,3.7,human
+T0012,AF0004,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.6,2.6,2.8,2.5,2.0,2.6,5.2,N/A
+T0013,AF0005,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.9,5.3,5.2,5.3,5.3,5.3,2.9,N/A
+T0014,AF0005,SCI_02,science,H3Africa Genomics Hypertension,human,blind,3.6,3.4,3.2,3.4,2.8,3.6,4.1,llm
+T0015,AF0005,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.5,4.8,3.3,4.2,4.2,4.4,4.5,N/A
+T0016,AF0006,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.9,3.1,2.5,2.7,2.7,3.0,4.6,N/A
+T0017,AF0006,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,2.8,2.2,2.3,2.2,2.6,2.2,6.0,N/A
+T0018,AF0006,LEG_01,legal,African Court Land Rights,llm,blind,4.1,4.5,4.2,4.4,4.4,5.0,2.7,llm
+T0019,AF0007,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.4,3.4,3.1,3.4,3.2,3.4,4.8,N/A
+T0020,AF0007,SCI_04,science,Off-Grid Solar Africa,human,blind,4.8,4.9,4.4,4.7,4.8,4.9,3.9,llm
+T0021,AF0007,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,6.1,5.3,5.5,5.5,6.0,5.0,1.6,N/A
+T0022,AF0008,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.4,4.0,4.3,4.4,4.5,4.8,3.6,N/A
+T0023,AF0008,SCI_03,science,Nile Basin Water Stress,llm,blind,5.5,5.5,5.7,5.7,5.7,5.7,3.4,llm
+T0024,AF0008,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.8,2.6,3.0,2.9,2.9,3.5,5.3,N/A
+T0025,AF0009,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,6.5,5.5,5.5,5.6,5.1,5.5,2.2,N/A
+T0026,AF0009,SCI_02,science,H3Africa Genomics Hypertension,human,blind,4.6,4.1,4.0,4.2,4.3,4.2,3.1,llm
+T0027,AF0009,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.2,4.1,3.4,3.9,4.0,3.8,5.0,N/A
+T0028,AF0010,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,4.4,4.4,4.1,4.4,4.5,4.7,5.0,N/A
+T0029,AF0010,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,4.7,4.2,4.6,4.7,5.2,4.3,2.5,human
+T0030,AF0010,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.9,3.9,3.6,3.5,3.7,4.5,5.5,N/A
+T0031,AF0011,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.6,3.6,3.8,3.8,4.3,4.0,5.0,N/A
+T0032,AF0011,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,6.5,6.6,6.1,6.3,6.9,7.0,1.0,llm
+T0033,AF0011,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.9,5.5,5.8,5.7,6.0,5.4,2.1,N/A
+T0034,AF0012,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.1,3.4,2.7,3.5,3.6,3.5,5.4,N/A
+T0035,AF0012,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.9,3.0,2.4,2.6,2.5,3.1,4.8,N/A
+T0036,AF0012,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,3.1,3.9,3.2,3.5,3.2,4.1,3.6,llm
+T0037,AF0013,NEWS_04,news,East African Tech Startup Growth,human,blind,4.8,5.0,5.2,5.2,4.8,5.2,2.3,llm
+T0038,AF0013,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,3.4,3.4,3.6,3.2,3.5,3.5,5.5,N/A
+T0039,AF0013,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.6,5.2,4.9,4.9,5.2,5.4,3.7,N/A
+T0040,AF0014,NEWS_03,news,Sahel Drought Food Security,llm,blind,3.9,3.8,3.5,3.6,3.9,4.0,4.3,human
+T0041,AF0014,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.9,4.0,3.2,3.7,3.7,3.7,3.7,N/A
+T0042,AF0014,LEG_01,legal,African Court Land Rights,llm,disclosed,3.2,2.8,2.9,2.7,2.8,3.1,5.8,N/A
+T0043,AF0015,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.2,4.7,4.7,4.6,4.2,4.9,2.6,N/A
+T0044,AF0015,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.3,4.5,4.8,4.3,4.6,4.4,1.0,N/A
+T0045,AF0015,LEG_04,legal,South Africa Mining Charter,human,blind,4.2,4.1,3.7,4.2,4.0,4.7,3.9,llm
+T0046,AF0016,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.7,2.9,2.5,2.7,2.7,2.5,6.3,N/A
+T0047,AF0016,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.0,2.5,3.2,2.9,2.5,3.7,5.2,N/A
+T0048,AF0016,LEG_01,legal,African Court Land Rights,llm,blind,4.4,5.2,5.4,4.9,4.6,4.7,2.7,human
+T0049,AF0017,NEWS_03,news,Sahel Drought Food Security,human,disclosed,3.5,3.8,3.9,4.1,4.3,4.5,3.9,N/A
+T0050,AF0017,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.7,3.7,4.1,3.8,4.1,4.5,4.4,N/A
+T0051,AF0017,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,3.5,3.9,3.5,3.7,4.3,3.9,4.5,human
+T0052,AF0018,NEWS_01,news,African Union Climate Summit,llm,disclosed,1.1,1.8,1.5,1.4,1.0,1.9,4.4,N/A
+T0053,AF0018,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,5.1,5.1,4.8,4.6,4.9,4.4,3.9,N/A
+T0054,AF0018,LEG_01,legal,African Court Land Rights,llm,blind,3.9,4.7,4.0,4.2,3.7,4.0,2.7,human
+T0055,AF0019,NEWS_03,news,Sahel Drought Food Security,human,disclosed,6.1,5.6,5.6,5.8,6.0,6.1,1.5,N/A
+T0056,AF0019,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,2.9,2.2,3.0,2.8,2.7,2.7,6.1,llm
+T0057,AF0019,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.0,3.9,3.9,3.7,3.9,4.1,3.1,N/A
+T0058,AF0020,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,1.8,1.7,2.1,1.7,1.5,1.4,7.0,N/A
+T0059,AF0020,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,2.3,1.9,1.8,2.2,2.7,1.7,5.8,N/A
+T0060,AF0020,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,3.1,3.1,2.8,3.2,3.0,3.9,3.6,human
+T0061,AF0021,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.1,4.5,4.5,4.5,4.1,4.5,4.1,N/A
+T0062,AF0021,SCI_03,science,Nile Basin Water Stress,human,blind,4.4,5.0,3.8,4.5,3.9,4.7,1.1,llm
+T0063,AF0021,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.4,4.8,5.7,5.1,5.0,4.5,3.1,N/A
+T0064,AF0022,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.2,4.4,3.7,4.4,4.3,4.4,4.1,N/A
+T0065,AF0022,SCI_03,science,Nile Basin Water Stress,llm,blind,4.8,4.7,4.3,4.7,5.1,5.1,1.0,llm
+T0066,AF0022,LEG_01,legal,African Court Land Rights,llm,disclosed,1.9,1.9,1.0,1.5,1.0,2.3,6.1,N/A
+T0067,AF0023,NEWS_01,news,African Union Climate Summit,human,disclosed,6.1,5.6,6.0,5.7,5.6,5.6,1.7,N/A
+T0068,AF0023,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,5.1,4.9,4.8,5.0,5.6,5.2,2.3,human
+T0069,AF0023,LEG_04,legal,South Africa Mining Charter,human,disclosed,3.8,3.8,3.2,3.4,3.5,3.6,3.6,N/A
+T0070,AF0024,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.3,3.6,2.9,3.1,3.5,2.8,5.5,N/A
+T0071,AF0024,SCI_04,science,Off-Grid Solar Africa,llm,blind,5.2,4.2,4.6,4.7,4.8,5.5,3.1,human
+T0072,AF0024,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.6,3.6,4.0,3.7,3.7,4.3,4.5,N/A
+T0073,AF0025,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.5,3.2,3.6,3.3,3.6,3.3,4.2,N/A
+T0074,AF0025,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,5.9,5.5,5.6,5.6,5.6,6.5,2.9,human
+T0075,AF0025,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.3,4.3,3.8,4.2,4.3,4.9,3.7,N/A
+T0076,AF0026,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,1.5,1.8,1.7,1.9,1.6,2.0,6.3,N/A
+T0077,AF0026,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.3,3.3,3.0,3.3,3.1,2.9,4.2,N/A
+T0078,AF0026,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,3.7,3.8,4.1,3.8,4.1,3.3,3.6,human
+T0079,AF0027,NEWS_01,news,African Union Climate Summit,human,disclosed,5.5,5.7,5.2,5.4,6.0,5.6,2.0,N/A
+T0080,AF0027,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.0,5.1,5.4,5.3,5.0,5.5,2.5,N/A
+T0081,AF0027,LEG_03,legal,ICC African Union Jurisdiction,human,blind,3.5,3.3,4.0,3.7,4.0,3.6,2.9,llm
+T0082,AF0028,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.2,4.6,4.7,5.0,5.2,6.0,2.8,N/A
+T0083,AF0028,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,2.4,2.3,2.4,2.3,1.9,2.2,5.9,N/A
+T0084,AF0028,LEG_01,legal,African Court Land Rights,llm,blind,5.0,4.9,4.4,4.7,4.6,4.6,2.5,human
+T0085,AF0029,NEWS_03,news,Sahel Drought Food Security,human,blind,5.2,4.7,4.8,4.6,4.8,4.7,2.0,human
+T0086,AF0029,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.3,4.2,4.1,4.2,4.1,4.6,2.1,N/A
+T0087,AF0029,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.6,5.1,4.2,4.6,4.9,4.2,1.7,N/A
+T0088,AF0030,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,4.1,4.1,4.1,4.2,4.2,4.8,3.6,N/A
+T0089,AF0030,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.2,3.0,2.4,2.9,3.6,3.5,5.5,N/A
+T0090,AF0030,LEG_01,legal,African Court Land Rights,llm,blind,4.3,4.2,4.2,4.3,4.5,3.9,5.2,llm
+T0091,AF0031,NEWS_03,news,Sahel Drought Food Security,human,disclosed,5.5,5.3,4.6,5.4,5.3,5.4,2.7,N/A
+T0092,AF0031,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.3,3.9,4.2,4.1,4.2,4.3,4.3,N/A
+T0093,AF0031,LEG_01,legal,African Court Land Rights,human,blind,5.7,5.1,5.8,5.2,5.4,5.3,1.2,llm
+T0094,AF0032,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.8,3.0,2.2,2.6,2.9,1.9,6.3,N/A
+T0095,AF0032,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,6.2,5.4,6.0,5.8,5.8,6.0,2.1,human
+T0096,AF0032,LEG_01,legal,African Court Land Rights,llm,disclosed,2.9,2.7,2.6,2.8,2.6,3.4,5.5,N/A
+T0097,AF0033,NEWS_03,news,Sahel Drought Food Security,human,blind,4.3,4.1,4.6,4.5,4.5,4.6,3.5,human
+T0098,AF0033,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.0,4.0,3.4,3.9,4.6,3.8,2.8,N/A
+T0099,AF0033,LEG_01,legal,African Court Land Rights,human,disclosed,3.6,4.4,4.0,4.2,4.3,4.1,4.2,N/A
+T0100,AF0034,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.3,3.5,3.2,3.3,2.9,4.0,5.5,N/A
+T0101,AF0034,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.0,2.9,2.4,2.7,2.7,3.0,5.2,N/A
+T0102,AF0034,LEG_01,legal,African Court Land Rights,llm,blind,2.3,2.8,2.8,2.6,2.4,3.3,4.4,llm
+T0103,AF0035,NEWS_01,news,African Union Climate Summit,human,disclosed,3.8,3.3,3.0,3.6,3.7,4.3,4.5,N/A
+T0104,AF0035,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.6,4.4,4.8,5.0,5.2,5.4,3.5,N/A
+T0105,AF0035,LEG_04,legal,South Africa Mining Charter,human,blind,3.6,3.4,3.3,3.8,3.8,4.0,2.5,llm
+T0106,AF0036,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.7,3.1,3.0,3.2,3.0,3.3,4.3,N/A
+T0107,AF0036,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.5,2.4,3.0,3.0,3.0,3.1,4.5,N/A
+T0108,AF0036,LEG_01,legal,African Court Land Rights,llm,blind,4.9,4.4,4.3,4.7,4.6,5.0,2.3,human
+T0109,AF0037,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.3,3.8,4.7,4.4,4.5,4.4,2.7,N/A
+T0110,AF0037,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,6.4,6.1,6.5,6.3,6.3,6.2,1.0,human
+T0111,AF0037,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.6,6.2,5.2,5.9,6.3,6.7,1.2,N/A
+T0112,AF0038,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,6.0,5.2,5.5,5.5,5.4,5.9,2.0,N/A
+T0113,AF0038,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.9,3.0,3.5,3.2,2.8,3.8,4.5,N/A
+T0114,AF0038,LEG_01,legal,African Court Land Rights,llm,blind,3.9,4.6,4.0,3.9,3.7,4.2,2.7,human
+T0115,AF0039,NEWS_03,news,Sahel Drought Food Security,human,blind,4.6,3.9,4.3,4.3,4.6,4.1,3.1,human
+T0116,AF0039,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.9,5.1,4.9,5.3,5.1,5.7,2.5,N/A
+T0117,AF0039,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.7,5.4,5.2,5.2,5.8,5.5,3.1,N/A
+T0118,AF0040,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.2,2.1,2.4,2.0,1.8,2.1,6.3,N/A
+T0119,AF0040,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.4,2.4,2.8,2.7,2.7,2.7,5.8,N/A
+T0120,AF0040,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,2.9,3.5,2.4,3.0,3.3,2.8,5.9,human
+T0121,AF0041,NEWS_01,news,African Union Climate Summit,human,disclosed,5.6,5.0,5.2,5.1,4.7,5.4,3.4,N/A
+T0122,AF0041,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.5,4.8,4.2,4.6,4.7,5.0,1.0,human
+T0123,AF0041,LEG_04,legal,South Africa Mining Charter,human,disclosed,3.8,3.8,4.1,3.9,4.1,4.0,4.3,N/A
+T0124,AF0042,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.0,3.3,3.2,3.9,4.5,4.1,3.6,N/A
+T0125,AF0042,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.5,2.3,2.3,2.9,3.0,2.7,5.1,N/A
+T0126,AF0042,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,4.2,4.3,3.8,4.5,4.4,4.8,3.4,human
+T0127,AF0043,NEWS_01,news,African Union Climate Summit,human,blind,4.7,4.6,4.5,4.5,4.2,4.1,3.6,llm
+T0128,AF0043,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.0,3.5,3.3,3.6,3.4,3.8,4.0,N/A
+T0129,AF0043,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,6.2,5.9,5.6,5.9,6.2,6.0,1.9,N/A
+T0130,AF0044,NEWS_02,news,AfCFTA Trade Progress,llm,blind,6.2,6.5,6.0,6.2,6.1,6.7,1.4,llm
+T0131,AF0044,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.3,3.6,3.3,3.4,3.3,3.3,5.7,N/A
+T0132,AF0044,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.5,3.7,3.7,3.8,4.3,3.6,4.3,N/A
+T0133,AF0045,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,3.7,3.4,3.9,3.5,3.7,3.7,4.8,N/A
+T0134,AF0045,SCI_03,science,Nile Basin Water Stress,human,blind,5.7,5.4,5.1,5.7,5.7,5.7,1.6,human
+T0135,AF0045,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,6.2,6.4,6.3,6.3,6.4,6.6,1.9,N/A
+T0136,AF0046,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.3,3.9,4.1,4.1,4.0,4.1,3.5,N/A
+T0137,AF0046,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,3.5,4.1,3.8,3.7,3.3,3.9,3.5,llm
+T0138,AF0046,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,4.0,3.4,3.7,3.7,3.8,3.8,3.8,N/A
+T0139,AF0047,NEWS_04,news,East African Tech Startup Growth,human,blind,2.7,2.5,2.3,2.9,3.0,3.2,4.6,llm
+T0140,AF0047,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.1,3.9,4.0,4.1,4.2,3.6,3.1,N/A
+T0141,AF0047,LEG_01,legal,African Court Land Rights,human,disclosed,4.7,4.2,4.1,4.2,4.4,4.8,3.6,N/A
+T0142,AF0048,NEWS_04,news,East African Tech Startup Growth,llm,blind,4.5,4.3,4.2,4.3,4.2,4.0,4.2,llm
+T0143,AF0048,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.9,3.9,3.6,3.7,4.0,3.6,5.3,N/A
+T0144,AF0048,LEG_01,legal,African Court Land Rights,llm,disclosed,3.6,3.6,3.7,3.8,3.6,3.7,3.8,N/A
+T0145,AF0049,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.5,4.2,3.5,4.3,4.4,4.3,5.4,N/A
+T0146,AF0049,SCI_03,science,Nile Basin Water Stress,human,blind,4.4,4.6,4.6,4.1,3.9,4.1,3.8,human
+T0147,AF0049,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.9,5.0,5.1,5.0,5.0,5.0,2.6,N/A
+T0148,AF0050,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.6,2.6,2.3,2.6,2.6,2.6,5.7,N/A
+T0149,AF0050,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.5,1.5,2.2,2.2,2.3,1.8,5.9,N/A
+T0150,AF0050,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,3.3,3.1,3.0,2.6,2.5,3.0,6.1,llm
+T0151,AF0051,NEWS_02,news,AfCFTA Trade Progress,human,blind,5.0,4.3,4.9,4.8,4.8,5.3,2.4,llm
+T0152,AF0051,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.4,4.6,4.5,4.3,4.2,5.0,3.6,N/A
+T0153,AF0051,LEG_01,legal,African Court Land Rights,human,disclosed,5.1,4.4,4.8,5.0,5.1,4.1,3.9,N/A
+T0154,AF0052,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.5,3.1,3.5,3.4,3.4,3.5,4.1,N/A
+T0155,AF0052,SCI_03,science,Nile Basin Water Stress,llm,blind,6.0,5.8,5.5,5.6,5.6,6.2,1.3,llm
+T0156,AF0052,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.6,2.9,1.9,2.4,2.7,2.8,5.0,N/A
+T0157,AF0053,NEWS_02,news,AfCFTA Trade Progress,human,blind,4.6,4.7,4.2,4.5,4.8,4.3,4.7,llm
+T0158,AF0053,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.3,5.2,5.3,5.6,5.4,6.1,2.1,N/A
+T0159,AF0053,LEG_01,legal,African Court Land Rights,human,disclosed,5.4,5.0,4.0,5.1,4.7,4.3,2.4,N/A
+T0160,AF0054,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.0,4.0,3.6,4.0,4.1,4.0,3.6,N/A
+T0161,AF0054,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.3,1.9,2.7,2.4,2.9,2.8,4.2,N/A
+T0162,AF0054,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,3.5,4.1,3.8,3.8,4.3,4.0,3.7,llm
+T0163,AF0055,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.2,4.0,3.8,3.7,3.8,3.9,3.8,N/A
+T0164,AF0055,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.1,4.3,4.2,4.0,4.1,4.6,5.7,N/A
+T0165,AF0055,LEG_04,legal,South Africa Mining Charter,human,blind,4.7,4.4,5.0,4.6,4.5,4.4,2.6,llm
+T0166,AF0056,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.9,2.8,3.4,3.1,2.9,2.6,4.3,N/A
+T0167,AF0056,SCI_03,science,Nile Basin Water Stress,llm,blind,4.3,3.6,3.6,3.8,3.2,4.0,4.3,human
+T0168,AF0056,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.8,3.3,2.4,2.5,2.6,2.5,4.8,N/A
+T0169,AF0057,NEWS_01,news,African Union Climate Summit,human,blind,4.7,4.0,4.3,4.2,4.5,4.4,4.2,llm
+T0170,AF0057,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.8,4.3,3.8,4.6,4.7,4.5,2.9,N/A
+T0171,AF0057,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.7,5.2,4.8,5.2,5.5,5.6,3.3,N/A
+T0172,AF0058,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.2,2.0,2.1,1.9,2.1,2.0,6.3,N/A
+T0173,AF0058,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,2.5,2.1,2.4,2.4,2.5,2.8,4.7,N/A
+T0174,AF0058,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,3.7,3.4,3.2,3.6,3.9,4.1,4.9,llm
+T0175,AF0059,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.8,4.0,4.9,4.5,4.9,4.8,4.2,N/A
+T0176,AF0059,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,5.6,5.0,4.9,5.2,4.6,5.8,1.0,N/A
+T0177,AF0059,LEG_04,legal,South Africa Mining Charter,human,blind,4.6,4.5,4.5,4.7,4.3,5.0,5.1,llm
+T0178,AF0060,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,1.6,1.0,1.0,1.1,1.3,1.5,6.7,N/A
+T0179,AF0060,SCI_04,science,Off-Grid Solar Africa,llm,blind,4.9,5.1,4.9,5.0,5.2,5.7,3.2,llm
+T0180,AF0060,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.7,2.2,2.4,2.6,1.9,2.4,4.0,N/A
+T0181,AF0061,NEWS_02,news,AfCFTA Trade Progress,human,blind,5.2,4.4,5.3,5.0,5.2,5.7,3.6,human
+T0182,AF0061,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.8,4.5,5.0,4.5,5.1,4.7,2.0,N/A
+T0183,AF0061,LEG_01,legal,African Court Land Rights,human,disclosed,4.2,5.0,3.5,4.3,4.3,4.3,3.5,N/A
+T0184,AF0062,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.0,3.3,4.7,4.0,3.8,4.3,4.4,N/A
+T0185,AF0062,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.4,3.4,3.4,3.2,3.2,3.4,4.8,N/A
+T0186,AF0062,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,3.6,3.6,3.4,3.6,3.8,3.8,5.2,llm
+T0187,AF0063,NEWS_01,news,African Union Climate Summit,human,blind,4.3,4.2,3.8,4.1,4.8,4.0,2.5,human
+T0188,AF0063,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.8,2.9,2.7,3.3,3.5,3.9,5.3,N/A
+T0189,AF0063,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.6,4.6,4.7,4.5,4.8,5.0,2.1,N/A
+T0190,AF0064,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,4.6,4.9,4.7,4.9,4.9,4.0,3.5,N/A
+T0191,AF0064,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.4,3.3,3.3,3.6,4.1,4.0,3.6,N/A
+T0192,AF0064,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,6.1,5.1,5.2,5.9,5.6,5.8,2.6,human
+T0193,AF0065,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.9,5.2,5.4,5.2,5.6,5.0,3.2,N/A
+T0194,AF0065,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.8,4.8,4.8,5.1,5.6,5.0,2.5,N/A
+T0195,AF0065,LEG_01,legal,African Court Land Rights,human,blind,4.4,4.3,4.3,4.3,5.0,4.6,3.0,llm
+T0196,AF0066,NEWS_01,news,African Union Climate Summit,llm,disclosed,2.0,1.8,1.6,1.8,1.7,1.8,6.5,N/A
+T0197,AF0066,SCI_04,science,Off-Grid Solar Africa,llm,blind,4.7,4.3,3.8,4.4,4.6,4.4,4.4,llm
+T0198,AF0066,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.0,3.2,3.3,3.2,3.6,3.5,6.6,N/A
+T0199,AF0067,NEWS_02,news,AfCFTA Trade Progress,human,blind,4.4,4.2,5.1,4.3,4.0,4.3,3.2,human
+T0200,AF0067,SCI_03,science,Nile Basin Water Stress,human,disclosed,5.3,5.4,5.3,5.4,5.8,5.2,1.6,N/A
+T0201,AF0067,LEG_01,legal,African Court Land Rights,human,disclosed,4.4,3.6,3.8,3.8,3.6,4.0,2.7,N/A
+T0202,AF0068,NEWS_01,news,African Union Climate Summit,llm,disclosed,3.8,3.5,3.2,3.3,3.4,2.9,5.0,N/A
+T0203,AF0068,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.5,3.2,2.9,3.1,3.2,3.2,5.2,N/A
+T0204,AF0068,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,4.3,4.3,4.9,4.2,4.7,4.0,2.4,human
+T0205,AF0069,NEWS_04,news,East African Tech Startup Growth,human,blind,3.4,3.5,3.7,3.2,2.9,3.4,3.7,human
+T0206,AF0069,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,5.4,5.5,5.5,5.5,5.6,5.9,2.1,N/A
+T0207,AF0069,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.3,4.8,4.9,4.9,5.6,4.9,4.0,N/A
+T0208,AF0070,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.6,4.1,4.0,3.7,2.9,3.5,5.1,N/A
+T0209,AF0070,SCI_04,science,Off-Grid Solar Africa,llm,blind,4.4,4.8,4.2,4.7,5.1,5.3,3.1,human
+T0210,AF0070,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,1.2,1.2,1.7,1.4,1.6,1.4,6.9,N/A
+T0211,AF0071,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.2,2.4,2.6,3.1,2.7,3.2,4.3,N/A
+T0212,AF0071,SCI_04,science,Off-Grid Solar Africa,human,blind,5.1,5.4,5.2,5.4,5.2,5.7,2.4,llm
+T0213,AF0071,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,5.0,4.5,4.8,4.8,5.0,5.2,3.4,N/A
+T0214,AF0072,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,2.2,2.2,2.0,2.2,2.7,2.5,6.4,N/A
+T0215,AF0072,SCI_03,science,Nile Basin Water Stress,llm,blind,6.3,5.6,5.8,6.0,5.9,5.9,1.0,llm
+T0216,AF0072,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,1.0,1.3,1.0,1.0,1.2,1.0,6.3,N/A
+T0217,AF0073,NEWS_03,news,Sahel Drought Food Security,human,blind,4.7,5.0,4.5,4.5,4.4,3.9,2.4,human
+T0218,AF0073,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.9,3.7,3.6,3.8,3.5,3.7,3.9,N/A
+T0219,AF0073,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.0,3.7,3.6,4.0,4.3,3.8,3.0,N/A
+T0220,AF0074,NEWS_03,news,Sahel Drought Food Security,llm,blind,3.9,3.9,3.9,4.1,4.2,4.6,2.8,human
+T0221,AF0074,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,4.0,4.1,3.9,4.0,4.0,4.5,4.2,N/A
+T0222,AF0074,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.7,2.9,3.0,2.9,2.8,2.8,4.6,N/A
+T0223,AF0075,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.9,3.4,4.2,3.5,4.2,3.3,4.2,N/A
+T0224,AF0075,SCI_04,science,Off-Grid Solar Africa,human,blind,5.6,5.7,5.7,5.7,5.4,5.8,1.8,llm
+T0225,AF0075,LEG_01,legal,African Court Land Rights,human,disclosed,5.3,4.9,5.2,5.3,5.3,5.9,2.1,N/A
+T0226,AF0076,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.1,3.5,4.0,4.0,4.2,4.0,4.3,N/A
+T0227,AF0076,SCI_04,science,Off-Grid Solar Africa,llm,blind,3.8,4.1,4.2,4.0,3.9,5.0,2.4,human
+T0228,AF0076,LEG_01,legal,African Court Land Rights,llm,disclosed,3.1,2.4,3.3,2.9,2.9,3.1,5.8,N/A
+T0229,AF0077,NEWS_01,news,African Union Climate Summit,human,disclosed,2.9,3.0,3.1,3.2,3.4,2.9,5.1,N/A
+T0230,AF0077,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,5.7,5.0,5.3,5.4,5.1,5.1,2.8,human
+T0231,AF0077,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.9,5.1,4.4,4.9,4.8,4.8,2.8,N/A
+T0232,AF0078,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.6,3.3,3.3,3.5,3.6,3.8,5.6,N/A
+T0233,AF0078,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.2,1.7,2.7,2.5,2.8,2.6,5.8,N/A
+T0234,AF0078,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,5.0,5.0,4.5,5.3,5.4,5.5,1.3,human
+T0235,AF0079,NEWS_01,news,African Union Climate Summit,human,disclosed,4.8,4.9,5.2,4.9,4.9,5.0,4.4,N/A
+T0236,AF0079,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.3,4.6,4.9,4.3,3.9,4.7,3.2,N/A
+T0237,AF0079,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,4.3,3.2,3.5,3.8,4.3,3.7,4.2,llm
+T0238,AF0080,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.8,3.8,3.8,3.7,3.7,3.1,3.7,N/A
+T0239,AF0080,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,3.5,3.3,3.2,3.3,3.5,3.4,5.3,human
+T0240,AF0080,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.4,2.6,3.2,3.2,3.3,3.6,4.3,N/A
+T0241,AF0081,NEWS_03,news,Sahel Drought Food Security,human,blind,4.3,4.3,4.0,4.1,4.3,3.6,3.1,llm
+T0242,AF0081,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.1,3.8,4.0,4.2,4.3,4.2,2.8,N/A
+T0243,AF0081,LEG_01,legal,African Court Land Rights,human,disclosed,2.8,2.8,3.1,3.0,3.1,3.1,4.2,N/A
+T0244,AF0082,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,4.4,3.9,3.7,4.3,3.9,4.6,3.1,N/A
+T0245,AF0082,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,1.7,1.5,1.3,1.6,1.5,1.8,6.7,N/A
+T0246,AF0082,LEG_01,legal,African Court Land Rights,llm,blind,3.1,4.2,3.1,3.6,3.6,3.8,4.0,human
+T0247,AF0083,NEWS_01,news,African Union Climate Summit,human,disclosed,6.6,6.1,5.8,5.9,5.7,6.4,1.0,N/A
+T0248,AF0083,SCI_03,science,Nile Basin Water Stress,human,disclosed,6.3,6.0,6.2,6.0,5.9,5.7,1.2,N/A
+T0249,AF0083,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.7,4.7,4.1,4.6,4.5,5.1,2.8,human
+T0250,AF0084,NEWS_03,news,Sahel Drought Food Security,llm,blind,4.8,4.8,4.8,4.7,4.7,4.4,4.0,llm
+T0251,AF0084,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,1.2,1.0,1.3,1.1,1.5,1.1,7.0,N/A
+T0252,AF0084,LEG_01,legal,African Court Land Rights,llm,disclosed,3.7,2.8,2.5,2.7,3.2,2.5,4.9,N/A
+T0253,AF0085,NEWS_04,news,East African Tech Startup Growth,human,disclosed,5.1,5.0,5.5,5.3,5.5,5.4,2.7,N/A
+T0254,AF0085,SCI_04,science,Off-Grid Solar Africa,human,blind,5.3,5.2,5.4,5.3,5.4,5.2,1.8,llm
+T0255,AF0085,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.7,5.3,4.8,5.4,5.8,5.2,2.5,N/A
+T0256,AF0086,NEWS_03,news,Sahel Drought Food Security,llm,blind,5.0,5.2,3.7,4.6,4.5,5.0,3.6,llm
+T0257,AF0086,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.2,3.7,3.2,3.5,3.9,3.3,5.7,N/A
+T0258,AF0086,LEG_01,legal,African Court Land Rights,llm,disclosed,2.2,2.5,1.7,2.1,2.3,2.1,5.9,N/A
+T0259,AF0087,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,6.6,6.1,6.3,6.5,7.0,6.7,1.0,N/A
+T0260,AF0087,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.8,4.8,4.4,4.5,4.3,4.3,2.6,N/A
+T0261,AF0087,LEG_01,legal,African Court Land Rights,human,blind,5.0,5.9,5.1,5.2,5.6,5.6,2.9,llm
+T0262,AF0088,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.5,2.7,2.9,3.1,3.1,3.1,4.8,N/A
+T0263,AF0088,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,2.2,2.5,1.6,2.2,2.2,2.5,5.6,N/A
+T0264,AF0088,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,3.8,3.8,4.1,3.9,4.1,4.0,4.4,llm
+T0265,AF0089,NEWS_01,news,African Union Climate Summit,human,disclosed,6.1,5.2,4.9,5.3,5.6,5.8,3.4,N/A
+T0266,AF0089,SCI_02,science,H3Africa Genomics Hypertension,human,blind,5.0,4.6,4.8,4.6,4.5,4.3,2.3,llm
+T0267,AF0089,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.5,3.8,4.6,4.3,4.1,4.0,2.9,N/A
+T0268,AF0090,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.2,2.8,3.3,2.8,3.2,3.1,5.9,N/A
+T0269,AF0090,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,5.1,4.8,4.8,5.0,5.2,4.4,2.3,llm
+T0270,AF0090,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.2,3.1,2.8,2.9,2.9,3.3,5.5,N/A
+T0271,AF0091,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.6,4.4,4.2,4.5,4.5,4.9,1.8,N/A
+T0272,AF0091,SCI_03,science,Nile Basin Water Stress,human,disclosed,3.6,3.8,3.8,3.9,3.9,3.6,2.5,N/A
+T0273,AF0091,LEG_04,legal,South Africa Mining Charter,human,blind,5.8,5.6,5.6,5.9,5.9,6.5,1.0,human
+T0274,AF0092,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.0,3.9,4.3,4.0,4.3,4.2,4.9,N/A
+T0275,AF0092,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.7,3.9,3.2,3.6,4.1,3.8,2.3,N/A
+T0276,AF0092,LEG_01,legal,African Court Land Rights,llm,blind,3.8,4.2,3.8,3.8,4.6,3.7,3.7,llm
+T0277,AF0093,NEWS_01,news,African Union Climate Summit,human,disclosed,5.2,5.6,6.0,5.4,5.7,5.6,2.1,N/A
+T0278,AF0093,SCI_02,science,H3Africa Genomics Hypertension,human,blind,4.9,4.5,4.5,4.6,4.6,4.6,3.0,llm
+T0279,AF0093,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.2,4.2,4.5,4.0,4.0,3.3,2.7,N/A
+T0280,AF0094,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.1,1.8,1.2,1.8,2.1,1.7,5.4,N/A
+T0281,AF0094,SCI_03,science,Nile Basin Water Stress,llm,blind,4.5,4.2,3.7,4.3,4.2,5.0,3.0,human
+T0282,AF0094,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.1,2.8,3.1,2.9,3.0,2.7,6.0,N/A
+T0283,AF0095,NEWS_04,news,East African Tech Startup Growth,human,blind,4.6,4.6,4.4,4.6,4.5,4.0,3.6,llm
+T0284,AF0095,SCI_03,science,Nile Basin Water Stress,human,disclosed,6.1,5.6,5.9,6.0,6.1,5.8,2.6,N/A
+T0285,AF0095,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.8,4.6,4.7,4.5,4.8,5.5,3.4,N/A
+T0286,AF0096,NEWS_01,news,African Union Climate Summit,llm,disclosed,1.3,2.2,2.3,2.2,2.4,2.0,5.5,N/A
+T0287,AF0096,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.0,3.8,2.9,3.1,3.3,3.3,5.6,N/A
+T0288,AF0096,LEG_01,legal,African Court Land Rights,llm,blind,4.0,3.7,4.0,3.8,4.0,3.8,4.1,human
+T0289,AF0097,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.2,4.9,4.3,4.2,4.3,4.3,4.1,N/A
+T0290,AF0097,SCI_02,science,H3Africa Genomics Hypertension,human,blind,5.6,5.5,5.7,5.4,5.2,4.7,2.0,human
+T0291,AF0097,LEG_01,legal,African Court Land Rights,human,disclosed,4.4,4.1,4.3,4.3,4.2,4.5,3.7,N/A
+T0292,AF0098,NEWS_04,news,East African Tech Startup Growth,llm,blind,5.7,5.4,5.4,5.6,5.6,5.2,2.2,human
+T0293,AF0098,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,4.5,4.4,3.8,4.2,4.3,4.9,3.6,N/A
+T0294,AF0098,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.3,3.2,2.7,2.4,2.3,2.3,5.5,N/A
+T0295,AF0099,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.8,4.7,4.2,4.8,4.9,4.8,3.3,N/A
+T0296,AF0099,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,3.1,3.1,3.5,3.6,3.0,3.4,4.3,N/A
+T0297,AF0099,LEG_04,legal,South Africa Mining Charter,human,blind,3.4,3.4,3.6,3.6,3.6,3.5,4.4,llm
+T0298,AF0100,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.1,3.9,3.5,3.4,3.4,3.8,4.2,N/A
+T0299,AF0100,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,4.7,4.8,4.9,4.5,4.8,4.2,1.8,human
+T0300,AF0100,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.1,1.3,2.1,1.7,1.5,1.9,5.0,N/A
+T0301,AF0101,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,7.0,6.9,6.7,6.7,7.0,6.9,1.1,N/A
+T0302,AF0101,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.1,4.0,4.2,4.5,4.5,4.3,2.3,N/A
+T0303,AF0101,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,5.6,5.2,5.1,5.6,5.7,5.5,1.2,human
+T0304,AF0102,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.4,4.2,4.5,4.4,4.4,4.1,3.8,N/A
+T0305,AF0102,SCI_03,science,Nile Basin Water Stress,llm,blind,4.2,4.5,4.4,4.5,4.5,4.6,3.0,llm
+T0306,AF0102,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.5,2.6,3.3,3.2,3.4,3.6,3.9,N/A
+T0307,AF0103,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.8,4.1,4.4,4.3,4.5,4.2,3.1,N/A
+T0308,AF0103,SCI_04,science,Off-Grid Solar Africa,human,blind,5.0,4.7,3.6,4.2,4.3,3.5,3.5,llm
+T0309,AF0103,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.1,5.4,4.7,5.1,4.9,5.7,3.6,N/A
+T0310,AF0104,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.7,3.6,2.7,2.8,2.7,2.3,6.8,N/A
+T0311,AF0104,SCI_04,science,Off-Grid Solar Africa,llm,blind,4.9,4.2,5.0,4.7,4.7,4.6,3.3,human
+T0312,AF0104,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,1.9,2.2,1.6,1.9,1.9,1.6,7.0,N/A
+T0313,AF0105,NEWS_02,news,AfCFTA Trade Progress,human,blind,5.2,4.5,4.6,4.8,4.8,5.4,2.3,human
+T0314,AF0105,SCI_03,science,Nile Basin Water Stress,human,disclosed,5.4,5.7,5.2,5.6,5.7,5.3,2.5,N/A
+T0315,AF0105,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.2,3.5,3.8,3.8,4.1,3.8,3.9,N/A
+T0316,AF0106,NEWS_02,news,AfCFTA Trade Progress,llm,blind,5.7,5.3,6.3,5.7,5.3,5.3,1.8,human
+T0317,AF0106,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.2,3.2,3.1,3.0,3.2,3.2,5.3,N/A
+T0318,AF0106,LEG_01,legal,African Court Land Rights,llm,disclosed,3.1,3.3,3.5,3.3,2.9,3.0,4.6,N/A
+T0319,AF0107,NEWS_02,news,AfCFTA Trade Progress,human,blind,4.0,3.7,3.8,4.3,4.4,4.9,4.4,human
+T0320,AF0107,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.5,4.2,4.6,4.3,4.6,4.3,4.3,N/A
+T0321,AF0107,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.3,5.1,4.2,4.9,5.1,4.4,3.6,N/A
+T0322,AF0108,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.9,3.2,4.0,4.0,4.4,4.1,5.1,N/A
+T0323,AF0108,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,4.5,4.4,3.9,4.2,4.3,4.6,3.6,N/A
+T0324,AF0108,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,4.3,4.8,4.8,4.5,4.1,4.2,4.7,human
+T0325,AF0109,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.8,4.5,4.8,4.8,5.2,4.9,3.5,N/A
+T0326,AF0109,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,5.5,4.5,4.4,5.1,5.5,4.9,2.6,human
+T0327,AF0109,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.9,5.7,5.8,5.6,5.3,5.1,2.2,N/A
+T0328,AF0110,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.5,3.3,3.1,3.0,3.3,2.7,5.0,N/A
+T0329,AF0110,SCI_03,science,Nile Basin Water Stress,llm,blind,4.5,4.3,4.8,4.7,5.0,4.8,3.7,human
+T0330,AF0110,LEG_01,legal,African Court Land Rights,llm,disclosed,4.1,4.4,3.5,3.7,3.8,4.1,3.5,N/A
+T0331,AF0111,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,2.8,3.0,2.2,3.0,2.7,3.1,4.3,N/A
+T0332,AF0111,SCI_04,science,Off-Grid Solar Africa,human,blind,4.9,4.2,4.3,4.4,4.8,4.7,2.7,llm
+T0333,AF0111,LEG_04,legal,South Africa Mining Charter,human,disclosed,6.1,6.1,5.5,5.8,6.0,6.0,3.0,N/A
+T0334,AF0112,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,4.0,3.6,3.2,3.7,3.7,3.6,5.1,N/A
+T0335,AF0112,SCI_03,science,Nile Basin Water Stress,llm,blind,3.6,3.9,3.5,3.6,3.4,3.5,3.6,human
+T0336,AF0112,LEG_01,legal,African Court Land Rights,llm,disclosed,4.7,3.8,4.3,4.2,4.7,4.1,4.8,N/A
+T0337,AF0113,NEWS_02,news,AfCFTA Trade Progress,human,blind,4.1,3.8,4.2,4.0,4.1,4.3,5.0,human
+T0338,AF0113,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.6,4.2,4.0,4.1,4.0,4.5,3.3,N/A
+T0339,AF0113,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.3,4.3,3.6,4.4,5.0,4.0,2.4,N/A
+T0340,AF0114,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.6,4.2,3.5,3.8,3.5,4.2,4.7,N/A
+T0341,AF0114,SCI_03,science,Nile Basin Water Stress,llm,blind,5.7,5.3,5.6,5.4,5.1,5.0,3.6,human
+T0342,AF0114,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.3,2.8,3.3,3.4,3.2,3.0,4.7,N/A
+T0343,AF0115,NEWS_03,news,Sahel Drought Food Security,human,disclosed,3.3,3.4,2.9,3.4,3.0,3.7,5.2,N/A
+T0344,AF0115,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.5,6.3,5.5,5.7,6.0,5.5,2.3,N/A
+T0345,AF0115,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,4.6,4.7,4.2,4.7,4.8,5.1,1.9,human
+T0346,AF0116,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,4.6,4.2,4.0,4.1,4.1,4.8,2.8,N/A
+T0347,AF0116,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,2.4,2.6,2.1,2.5,2.4,2.7,6.2,N/A
+T0348,AF0116,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,5.8,6.4,6.2,5.9,5.9,6.1,1.8,llm
+T0349,AF0117,NEWS_01,news,African Union Climate Summit,human,blind,3.7,3.5,4.1,4.0,4.1,4.4,5.2,llm
+T0350,AF0117,SCI_03,science,Nile Basin Water Stress,human,disclosed,3.8,3.5,2.1,3.4,3.5,3.7,3.8,N/A
+T0351,AF0117,LEG_04,legal,South Africa Mining Charter,human,disclosed,6.0,5.7,5.2,6.0,5.7,6.3,1.0,N/A
+T0352,AF0118,NEWS_01,news,African Union Climate Summit,llm,blind,4.2,4.4,3.9,4.1,4.5,4.0,3.1,human
+T0353,AF0118,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,4.7,4.0,4.0,4.3,4.7,4.4,3.1,N/A
+T0354,AF0118,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.2,3.0,2.4,2.9,2.7,2.7,5.5,N/A
+T0355,AF0119,NEWS_01,news,African Union Climate Summit,human,blind,3.6,3.7,3.9,3.6,3.2,3.4,4.0,human
+T0356,AF0119,SCI_03,science,Nile Basin Water Stress,human,disclosed,6.5,5.9,6.1,6.1,6.2,6.1,1.7,N/A
+T0357,AF0119,LEG_01,legal,African Court Land Rights,human,disclosed,6.3,6.6,6.4,6.2,6.0,6.9,2.4,N/A
+T0358,AF0120,NEWS_02,news,AfCFTA Trade Progress,llm,blind,4.7,5.0,4.2,4.6,4.8,4.5,2.4,human
+T0359,AF0120,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.8,3.5,3.6,3.6,3.4,3.6,4.5,N/A
+T0360,AF0120,LEG_01,legal,African Court Land Rights,llm,disclosed,2.3,1.9,1.8,1.9,1.9,1.9,5.9,N/A
+T0361,AF0121,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.5,3.8,4.3,4.0,3.9,4.2,3.5,N/A
+T0362,AF0121,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.5,4.6,4.9,4.5,4.4,4.2,1.8,human
+T0363,AF0121,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,2.5,3.2,3.1,3.0,3.1,2.6,4.4,N/A
+T0364,AF0122,NEWS_03,news,Sahel Drought Food Security,llm,blind,5.0,5.2,5.0,4.9,5.1,5.2,2.3,llm
+T0365,AF0122,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,2.6,3.0,2.9,2.9,3.6,2.9,5.4,N/A
+T0366,AF0122,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.3,3.1,3.2,3.0,2.5,3.6,5.1,N/A
+T0367,AF0123,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.5,4.7,4.8,4.7,4.4,4.4,3.1,N/A
+T0368,AF0123,SCI_02,science,H3Africa Genomics Hypertension,human,blind,4.5,4.5,4.3,4.7,4.8,4.8,2.2,llm
+T0369,AF0123,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.7,4.6,4.4,4.8,5.2,4.5,2.5,N/A
+T0370,AF0124,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.9,3.2,3.2,3.5,3.7,3.6,4.3,N/A
+T0371,AF0124,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.0,4.1,3.0,3.4,3.7,3.2,5.1,N/A
+T0372,AF0124,LEG_04,legal,South Africa Mining Charter,llm,blind,4.2,4.1,3.6,3.8,4.0,3.7,4.2,llm
+T0373,AF0125,NEWS_03,news,Sahel Drought Food Security,human,blind,3.3,3.2,3.5,3.4,3.7,3.7,3.9,human
+T0374,AF0125,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.5,4.3,4.7,4.4,4.1,5.0,3.9,N/A
+T0375,AF0125,LEG_01,legal,African Court Land Rights,human,disclosed,6.0,6.1,5.5,5.9,6.3,6.8,2.2,N/A
+T0376,AF0126,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.7,3.3,2.8,3.2,2.9,3.3,4.7,N/A
+T0377,AF0126,SCI_03,science,Nile Basin Water Stress,llm,blind,3.9,4.5,4.1,3.9,3.9,4.2,2.9,llm
+T0378,AF0126,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.1,2.5,2.2,2.7,3.0,2.8,6.0,N/A
+T0379,AF0127,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,6.3,5.5,6.2,5.9,6.2,6.1,2.0,N/A
+T0380,AF0127,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.9,4.6,4.4,4.6,4.8,4.7,1.5,N/A
+T0381,AF0127,LEG_01,legal,African Court Land Rights,human,blind,5.0,4.4,4.4,4.3,4.1,4.8,3.9,human
+T0382,AF0128,NEWS_01,news,African Union Climate Summit,llm,blind,4.2,4.1,3.6,4.2,4.6,5.2,2.8,human
+T0383,AF0128,SCI_03,science,Nile Basin Water Stress,llm,disclosed,1.6,1.9,2.0,2.0,2.0,1.9,5.5,N/A
+T0384,AF0128,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.3,3.3,3.0,3.2,3.1,3.5,4.7,N/A
+T0385,AF0129,NEWS_03,news,Sahel Drought Food Security,human,blind,6.1,6.0,5.9,6.2,6.5,6.2,1.0,llm
+T0386,AF0129,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.8,5.8,5.3,5.4,5.2,5.9,1.9,N/A
+T0387,AF0129,LEG_01,legal,African Court Land Rights,human,disclosed,4.1,4.4,4.5,4.1,4.1,4.4,4.6,N/A
+T0388,AF0130,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.6,3.8,3.3,3.7,3.7,3.9,5.5,N/A
+T0389,AF0130,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.8,4.3,3.5,3.8,4.0,4.1,3.6,N/A
+T0390,AF0130,LEG_01,legal,African Court Land Rights,llm,blind,3.8,3.9,4.2,3.7,3.5,3.9,4.0,human
+T0391,AF0131,NEWS_03,news,Sahel Drought Food Security,human,blind,5.2,4.8,4.7,4.8,5.2,4.4,1.5,llm
+T0392,AF0131,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.4,4.2,4.0,4.1,4.7,4.7,1.9,N/A
+T0393,AF0131,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.5,5.5,5.4,5.6,5.6,6.4,2.8,N/A
+T0394,AF0132,NEWS_01,news,African Union Climate Summit,llm,blind,5.2,4.6,4.6,4.8,4.9,4.5,3.6,human
+T0395,AF0132,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.9,3.7,3.8,3.7,3.3,3.8,5.2,N/A
+T0396,AF0132,LEG_01,legal,African Court Land Rights,llm,disclosed,3.8,3.1,3.4,3.5,3.5,3.4,3.4,N/A
+T0397,AF0133,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.9,3.8,3.8,3.8,3.9,3.9,2.6,N/A
+T0398,AF0133,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.5,4.4,4.2,4.2,4.0,5.1,4.2,N/A
+T0399,AF0133,LEG_03,legal,ICC African Union Jurisdiction,human,blind,5.6,5.1,5.3,5.1,5.3,5.4,3.8,human
+T0400,AF0134,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.7,3.1,3.5,3.2,3.4,3.5,4.6,N/A
+T0401,AF0134,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,2.4,2.9,2.4,2.5,2.5,2.2,4.9,N/A
+T0402,AF0134,LEG_04,legal,South Africa Mining Charter,llm,blind,4.0,3.3,3.9,3.7,3.5,3.2,3.8,llm
+T0403,AF0135,NEWS_04,news,East African Tech Startup Growth,human,disclosed,5.3,5.2,5.0,4.9,5.4,4.3,1.8,N/A
+T0404,AF0135,SCI_03,science,Nile Basin Water Stress,human,blind,4.1,4.0,3.5,3.7,3.8,3.7,5.2,llm
+T0405,AF0135,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.7,4.3,4.4,4.5,5.0,4.2,2.4,N/A
+T0406,AF0136,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.2,2.9,2.4,2.4,2.5,2.4,5.2,N/A
+T0407,AF0136,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.2,5.3,5.2,5.2,5.2,5.8,3.2,llm
+T0408,AF0136,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.5,2.1,1.7,2.3,2.1,2.4,5.4,N/A
+T0409,AF0137,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.6,4.4,4.7,4.4,4.6,4.3,3.2,N/A
+T0410,AF0137,SCI_02,science,H3Africa Genomics Hypertension,human,blind,5.7,6.2,6.2,5.9,5.9,6.0,1.3,llm
+T0411,AF0137,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.7,5.2,4.9,5.3,5.2,5.4,2.3,N/A
+T0412,AF0138,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.1,3.4,2.8,2.9,2.5,2.1,3.9,N/A
+T0413,AF0138,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,5.1,4.4,4.3,4.7,4.4,4.9,3.7,N/A
+T0414,AF0138,LEG_01,legal,African Court Land Rights,llm,blind,6.3,6.1,6.2,5.8,5.8,5.6,1.4,human
+T0415,AF0139,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.3,3.3,3.8,3.3,3.2,3.6,5.0,N/A
+T0416,AF0139,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.6,4.3,4.8,4.8,5.3,5.1,3.4,llm
+T0417,AF0139,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.8,4.4,5.0,4.8,4.8,4.7,2.2,N/A
+T0418,AF0140,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.7,3.0,4.0,3.6,3.4,3.9,4.2,N/A
+T0419,AF0140,SCI_03,science,Nile Basin Water Stress,llm,blind,4.9,5.2,5.2,5.0,4.7,5.1,2.9,llm
+T0420,AF0140,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.5,1.8,2.4,2.3,2.2,2.8,5.4,N/A
+T0421,AF0141,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.2,3.5,4.0,4.1,3.5,3.6,3.7,N/A
+T0422,AF0141,SCI_03,science,Nile Basin Water Stress,human,blind,4.2,4.3,4.0,4.3,4.1,3.8,3.7,llm
+T0423,AF0141,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.3,4.4,4.1,4.3,5.0,4.7,4.9,N/A
+T0424,AF0142,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.0,4.2,3.9,4.0,4.2,4.8,3.9,N/A
+T0425,AF0142,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.8,4.7,5.4,5.4,5.2,5.7,2.2,llm
+T0426,AF0142,LEG_01,legal,African Court Land Rights,llm,disclosed,3.6,3.4,3.7,3.5,3.5,4.3,4.8,N/A
+T0427,AF0143,NEWS_01,news,African Union Climate Summit,human,disclosed,5.7,5.8,5.6,5.8,6.1,6.5,1.0,N/A
+T0428,AF0143,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.1,4.8,4.5,4.7,4.7,4.6,2.1,N/A
+T0429,AF0143,LEG_03,legal,ICC African Union Jurisdiction,human,blind,3.9,3.5,3.4,3.5,3.6,2.9,3.6,llm
+T0430,AF0144,NEWS_01,news,African Union Climate Summit,llm,blind,3.1,3.0,2.3,2.8,3.1,2.6,4.8,human
+T0431,AF0144,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.8,2.7,2.4,2.7,2.8,2.8,4.1,N/A
+T0432,AF0144,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.3,3.3,3.3,3.3,3.4,3.9,3.4,N/A
+T0433,AF0145,NEWS_04,news,East African Tech Startup Growth,human,disclosed,6.2,6.2,5.2,5.6,6.0,5.2,1.4,N/A
+T0434,AF0145,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.5,4.3,4.2,4.5,4.1,4.3,2.5,N/A
+T0435,AF0145,LEG_01,legal,African Court Land Rights,human,blind,4.6,4.7,4.2,4.1,4.0,4.5,2.7,human
+T0436,AF0146,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,5.2,5.1,5.1,5.0,5.2,4.7,3.9,N/A
+T0437,AF0146,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.4,2.8,3.1,3.4,3.7,3.1,5.0,N/A
+T0438,AF0146,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,3.6,4.2,3.5,3.7,3.2,4.2,5.1,llm
+T0439,AF0147,NEWS_04,news,East African Tech Startup Growth,human,blind,4.7,4.5,3.9,4.2,4.8,4.9,4.6,llm
+T0440,AF0147,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.9,3.5,4.4,3.8,4.3,3.4,4.6,N/A
+T0441,AF0147,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.1,4.8,4.8,4.9,4.6,4.5,2.5,N/A
+T0442,AF0148,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.8,2.8,2.9,2.6,3.0,1.8,4.4,N/A
+T0443,AF0148,SCI_04,science,Off-Grid Solar Africa,llm,blind,5.9,6.4,5.9,5.9,5.7,5.7,1.1,llm
+T0444,AF0148,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.9,2.8,2.7,2.8,3.0,3.3,5.4,N/A
+T0445,AF0149,NEWS_01,news,African Union Climate Summit,human,disclosed,5.2,5.0,5.4,5.3,5.5,5.4,1.3,N/A
+T0446,AF0149,SCI_04,science,Off-Grid Solar Africa,human,disclosed,6.3,6.5,6.4,6.3,5.9,6.5,1.2,N/A
+T0447,AF0149,LEG_04,legal,South Africa Mining Charter,human,blind,5.3,5.3,5.1,5.0,5.2,5.0,3.3,llm
+T0448,AF0150,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.3,2.3,2.7,2.5,2.9,2.6,2.7,N/A
+T0449,AF0150,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.4,3.1,3.1,3.2,3.3,3.3,4.1,N/A
+T0450,AF0150,LEG_01,legal,African Court Land Rights,llm,blind,5.3,4.9,5.7,5.1,5.7,5.4,3.2,human
+T0451,AF0151,NEWS_03,news,Sahel Drought Food Security,human,disclosed,6.1,5.1,5.9,5.8,6.1,6.0,1.9,N/A
+T0452,AF0151,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.9,5.5,6.0,5.8,5.9,5.3,3.0,N/A
+T0453,AF0151,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,4.9,5.7,4.8,5.4,5.6,5.5,1.6,human
+T0454,AF0152,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.3,4.3,4.0,4.0,4.0,4.3,3.7,N/A
+T0455,AF0152,SCI_03,science,Nile Basin Water Stress,llm,blind,5.0,5.4,5.1,4.8,5.2,4.7,3.3,llm
+T0456,AF0152,LEG_01,legal,African Court Land Rights,llm,disclosed,2.7,3.0,2.3,2.7,2.7,3.2,5.1,N/A
+T0457,AF0153,NEWS_04,news,East African Tech Startup Growth,human,blind,3.9,4.0,3.9,4.0,4.0,3.4,3.6,human
+T0458,AF0153,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,3.3,3.2,3.3,3.5,3.6,4.3,5.8,N/A
+T0459,AF0153,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.0,4.6,4.5,4.9,5.0,4.9,1.8,N/A
+T0460,AF0154,NEWS_01,news,African Union Climate Summit,llm,blind,5.3,5.6,5.4,5.5,5.5,5.3,1.5,human
+T0461,AF0154,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,2.9,2.4,2.1,2.4,2.6,2.0,5.4,N/A
+T0462,AF0154,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.1,3.1,2.6,3.1,3.2,3.1,4.9,N/A
+T0463,AF0155,NEWS_04,news,East African Tech Startup Growth,human,blind,4.1,4.0,3.9,4.0,3.6,4.2,3.9,llm
+T0464,AF0155,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.5,6.0,5.4,5.4,5.4,5.8,1.9,N/A
+T0465,AF0155,LEG_01,legal,African Court Land Rights,human,disclosed,4.0,4.6,4.3,4.4,4.6,4.8,4.8,N/A
+T0466,AF0156,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.4,3.7,3.6,3.6,3.7,4.0,4.7,N/A
+T0467,AF0156,SCI_04,science,Off-Grid Solar Africa,llm,blind,6.4,5.8,5.2,5.8,5.7,5.7,1.0,human
+T0468,AF0156,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.7,2.6,2.4,2.5,2.6,2.4,6.1,N/A
+T0469,AF0157,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.5,3.7,3.6,3.4,3.2,3.5,4.6,N/A
+T0470,AF0157,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.5,3.9,4.1,3.7,4.2,3.9,4.0,N/A
+T0471,AF0157,LEG_04,legal,South Africa Mining Charter,human,blind,3.4,3.8,3.5,3.6,3.5,3.2,5.5,human
+T0472,AF0158,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.8,1.5,2.5,2.5,2.7,3.1,5.6,N/A
+T0473,AF0158,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,3.2,3.6,3.3,3.3,3.6,3.6,4.4,human
+T0474,AF0158,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.5,2.0,2.5,2.2,1.6,2.1,6.3,N/A
+T0475,AF0159,NEWS_01,news,African Union Climate Summit,human,blind,6.3,6.5,6.3,6.0,6.4,6.3,1.0,llm
+T0476,AF0159,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,6.4,5.5,6.1,5.9,6.1,6.2,1.9,N/A
+T0477,AF0159,LEG_01,legal,African Court Land Rights,human,disclosed,4.5,3.7,4.0,4.1,4.3,3.6,5.5,N/A
+T0478,AF0160,NEWS_01,news,African Union Climate Summit,llm,disclosed,5.1,4.1,4.5,4.6,4.8,5.2,2.6,N/A
+T0479,AF0160,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,4.1,4.1,3.9,4.0,3.8,3.9,3.9,N/A
+T0480,AF0160,LEG_04,legal,South Africa Mining Charter,llm,blind,3.2,3.4,2.8,3.3,3.2,3.9,3.9,human
+T0481,AF0161,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.2,4.0,3.9,3.9,4.0,4.5,4.1,N/A
+T0482,AF0161,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.9,5.4,5.6,5.0,5.0,4.8,3.5,llm
+T0483,AF0161,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,5.6,5.4,6.0,5.0,5.1,5.6,2.6,N/A
+T0484,AF0162,NEWS_04,news,East African Tech Startup Growth,llm,blind,4.4,4.8,3.8,4.3,4.6,4.3,4.3,llm
+T0485,AF0162,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,1.7,1.8,1.5,2.0,2.2,1.7,6.3,N/A
+T0486,AF0162,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.6,2.2,1.9,2.2,2.3,1.7,6.1,N/A
+T0487,AF0163,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.4,5.3,5.0,5.4,5.7,5.2,1.0,N/A
+T0488,AF0163,SCI_03,science,Nile Basin Water Stress,human,disclosed,6.2,6.2,6.4,6.3,6.4,6.4,1.3,N/A
+T0489,AF0163,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.2,4.0,3.4,3.5,3.5,3.6,2.9,llm
+T0490,AF0164,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,1.1,1.3,1.0,1.0,1.1,1.3,6.7,N/A
+T0491,AF0164,SCI_03,science,Nile Basin Water Stress,llm,blind,3.1,2.2,3.2,2.9,2.5,3.3,2.9,llm
+T0492,AF0164,LEG_04,legal,South Africa Mining Charter,llm,disclosed,4.3,3.6,4.3,3.9,3.7,4.1,4.2,N/A
+T0493,AF0165,NEWS_04,news,East African Tech Startup Growth,human,disclosed,6.2,6.5,6.7,6.1,6.2,6.1,2.2,N/A
+T0494,AF0165,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.5,5.6,5.2,5.4,5.1,5.9,2.7,N/A
+T0495,AF0165,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,3.6,3.1,2.9,3.1,3.0,3.5,5.6,llm
+T0496,AF0166,NEWS_01,news,African Union Climate Summit,llm,disclosed,3.6,2.9,3.8,3.4,3.2,3.4,3.8,N/A
+T0497,AF0166,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,4.4,4.3,3.7,4.2,4.6,4.7,4.1,N/A
+T0498,AF0166,LEG_04,legal,South Africa Mining Charter,llm,blind,3.8,3.9,3.7,3.6,3.9,3.9,4.8,human
+T0499,AF0167,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.3,4.1,4.6,3.8,4.2,4.2,2.6,N/A
+T0500,AF0167,SCI_03,science,Nile Basin Water Stress,human,disclosed,6.0,5.6,6.3,5.6,5.3,6.0,1.7,N/A
+T0501,AF0167,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,6.1,5.5,6.4,6.0,5.7,6.7,1.0,llm
+T0502,AF0168,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.4,3.9,3.4,3.3,3.6,4.0,4.8,N/A
+T0503,AF0168,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.7,3.6,3.3,3.2,3.7,4.0,4.7,N/A
+T0504,AF0168,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,4.1,4.1,3.5,3.9,3.8,3.9,2.7,llm
+T0505,AF0169,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.4,4.1,2.9,3.8,3.5,3.9,3.9,N/A
+T0506,AF0169,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.6,4.6,5.0,4.8,4.4,4.9,4.0,human
+T0507,AF0169,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.8,4.3,4.4,4.6,4.6,5.2,3.9,N/A
+T0508,AF0170,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.6,3.7,4.1,3.7,3.9,3.7,3.8,N/A
+T0509,AF0170,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,5.3,5.1,5.4,5.4,5.2,5.2,2.7,llm
+T0510,AF0170,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.9,2.7,2.5,2.9,3.3,2.5,4.8,N/A
+T0511,AF0171,NEWS_01,news,African Union Climate Summit,human,blind,4.7,4.1,4.5,4.6,4.3,4.8,3.0,human
+T0512,AF0171,SCI_03,science,Nile Basin Water Stress,human,disclosed,5.4,5.8,4.7,5.4,5.6,5.6,1.9,N/A
+T0513,AF0171,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,3.9,3.9,3.4,4.1,4.2,4.0,1.7,N/A
+T0514,AF0172,NEWS_01,news,African Union Climate Summit,llm,disclosed,3.9,3.7,3.6,3.5,4.1,4.1,5.5,N/A
+T0515,AF0172,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,4.4,4.0,4.7,4.4,4.4,4.6,3.0,N/A
+T0516,AF0172,LEG_01,legal,African Court Land Rights,llm,blind,5.5,5.4,5.3,5.3,5.2,5.6,2.8,llm
+T0517,AF0173,NEWS_01,news,African Union Climate Summit,human,disclosed,6.1,6.4,6.1,6.1,5.8,6.4,1.0,N/A
+T0518,AF0173,SCI_03,science,Nile Basin Water Stress,human,blind,4.9,4.4,4.4,4.5,5.0,4.7,2.4,llm
+T0519,AF0173,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.4,4.1,3.9,4.3,4.8,4.1,3.3,N/A
+T0520,AF0174,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.2,2.8,2.8,2.8,2.4,3.4,6.2,N/A
+T0521,AF0174,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,3.9,4.4,3.9,4.1,3.7,4.1,2.4,human
+T0522,AF0174,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.3,2.7,3.1,3.1,3.1,3.4,5.5,N/A
+T0523,AF0175,NEWS_03,news,Sahel Drought Food Security,human,blind,3.3,3.0,3.1,3.0,3.4,2.6,3.6,llm
+T0524,AF0175,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.0,4.9,4.5,4.8,5.3,4.8,3.1,N/A
+T0525,AF0175,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.5,5.0,4.3,4.7,4.3,4.7,2.3,N/A
+T0526,AF0176,NEWS_01,news,African Union Climate Summit,llm,disclosed,2.6,2.9,2.2,2.7,2.3,2.7,4.5,N/A
+T0527,AF0176,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.8,5.5,5.4,5.7,5.8,6.4,1.5,llm
+T0528,AF0176,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.7,3.3,3.6,3.5,3.4,3.2,4.2,N/A
+T0529,AF0177,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,6.7,6.4,6.2,6.4,6.5,6.0,1.1,N/A
+T0530,AF0177,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.0,4.5,4.2,4.7,4.7,4.6,3.3,N/A
+T0531,AF0177,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,5.3,5.7,5.3,5.7,5.8,5.1,2.2,human
+T0532,AF0178,NEWS_02,news,AfCFTA Trade Progress,llm,blind,5.0,4.5,4.5,4.8,5.1,4.7,1.0,human
+T0533,AF0178,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.5,3.8,3.9,3.9,4.3,4.3,5.8,N/A
+T0534,AF0178,LEG_04,legal,South Africa Mining Charter,llm,disclosed,1.7,2.4,2.5,1.9,2.2,1.9,5.1,N/A
+T0535,AF0179,NEWS_03,news,Sahel Drought Food Security,human,disclosed,5.4,4.9,4.6,4.9,4.8,5.3,2.2,N/A
+T0536,AF0179,SCI_03,science,Nile Basin Water Stress,human,blind,6.1,6.7,5.9,6.2,6.6,6.5,1.0,llm
+T0537,AF0179,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.5,3.2,3.1,3.4,3.2,3.1,2.7,N/A
+T0538,AF0180,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.1,3.6,4.0,4.1,4.0,4.1,3.3,N/A
+T0539,AF0180,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,2.9,2.3,2.8,2.7,2.3,2.9,5.6,N/A
+T0540,AF0180,LEG_04,legal,South Africa Mining Charter,llm,blind,6.1,5.7,5.5,6.0,6.3,6.4,1.5,llm
+T0541,AF0181,NEWS_03,news,Sahel Drought Food Security,human,disclosed,3.2,2.6,3.0,3.0,3.1,3.1,4.0,N/A
+T0542,AF0181,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.8,4.3,4.1,4.2,4.2,4.0,2.9,N/A
+T0543,AF0181,LEG_01,legal,African Court Land Rights,human,blind,3.6,2.7,3.4,3.4,3.6,3.3,4.6,human
+T0544,AF0182,NEWS_01,news,African Union Climate Summit,llm,blind,3.2,3.4,3.3,3.4,3.4,3.2,3.4,llm
+T0545,AF0182,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.6,3.8,3.8,3.8,3.8,4.0,3.5,N/A
+T0546,AF0182,LEG_04,legal,South Africa Mining Charter,llm,disclosed,1.6,1.9,1.9,1.8,1.2,1.4,7.0,N/A
+T0547,AF0183,NEWS_01,news,African Union Climate Summit,human,blind,5.2,4.0,4.1,4.6,4.9,4.8,3.4,human
+T0548,AF0183,SCI_03,science,Nile Basin Water Stress,human,disclosed,3.5,3.1,2.9,3.2,3.4,3.3,5.5,N/A
+T0549,AF0183,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.2,4.8,4.4,4.4,4.1,4.7,3.6,N/A
+T0550,AF0184,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.1,3.1,2.9,3.2,3.4,3.6,5.8,N/A
+T0551,AF0184,SCI_03,science,Nile Basin Water Stress,llm,blind,5.1,4.9,5.0,5.0,4.6,5.7,2.0,llm
+T0552,AF0184,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.8,3.9,3.5,3.9,3.8,4.5,6.1,N/A
+T0553,AF0185,NEWS_01,news,African Union Climate Summit,human,blind,4.2,4.5,4.2,4.3,3.8,4.3,4.1,llm
+T0554,AF0185,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.3,4.6,4.5,4.4,4.7,4.5,3.1,N/A
+T0555,AF0185,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.0,2.9,2.7,2.9,2.9,3.4,3.0,N/A
+T0556,AF0186,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.2,3.3,3.1,3.3,3.3,3.8,3.7,N/A
+T0557,AF0186,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,2.7,3.0,3.1,3.0,2.6,3.1,4.4,human
+T0558,AF0186,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.4,2.8,2.1,2.3,2.4,2.3,7.0,N/A
+T0559,AF0187,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.0,4.7,3.7,4.0,4.2,3.7,3.6,N/A
+T0560,AF0187,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,5.4,5.1,4.4,4.9,5.1,5.8,3.2,human
+T0561,AF0187,LEG_01,legal,African Court Land Rights,human,disclosed,5.2,5.9,5.2,5.4,5.9,5.7,2.3,N/A
+T0562,AF0188,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.6,4.1,3.0,3.4,3.3,3.4,3.5,N/A
+T0563,AF0188,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.8,2.2,2.8,2.3,2.5,2.6,5.1,N/A
+T0564,AF0188,LEG_01,legal,African Court Land Rights,llm,blind,5.0,4.3,5.0,4.6,4.6,4.7,2.8,llm
+T0565,AF0189,NEWS_01,news,African Union Climate Summit,human,blind,5.8,6.0,5.4,5.5,5.7,5.7,3.2,human
+T0566,AF0189,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.3,4.2,3.7,4.2,4.2,4.7,3.9,N/A
+T0567,AF0189,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,3.9,3.6,3.4,3.7,3.5,4.2,4.1,N/A
+T0568,AF0190,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.5,4.8,4.4,4.6,4.4,4.8,2.9,N/A
+T0569,AF0190,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,3.3,3.9,3.4,3.7,3.8,3.3,4.0,human
+T0570,AF0190,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,1.0,1.0,1.1,1.0,1.0,1.0,5.5,N/A
+T0571,AF0191,NEWS_03,news,Sahel Drought Food Security,human,blind,5.4,5.1,4.7,5.3,5.6,5.1,1.3,llm
+T0572,AF0191,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.0,4.4,4.1,4.0,3.5,4.1,3.8,N/A
+T0573,AF0191,LEG_01,legal,African Court Land Rights,human,disclosed,6.1,5.6,5.3,5.5,5.6,6.0,2.0,N/A
+T0574,AF0192,NEWS_01,news,African Union Climate Summit,llm,disclosed,5.0,5.2,5.5,5.1,5.1,5.2,3.1,N/A
+T0575,AF0192,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.2,5.2,5.2,5.1,4.7,4.6,1.1,human
+T0576,AF0192,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.1,3.3,3.3,3.2,3.4,3.7,4.6,N/A
+T0577,AF0193,NEWS_02,news,AfCFTA Trade Progress,human,blind,5.4,5.1,5.2,5.2,5.5,4.7,1.7,llm
+T0578,AF0193,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,3.5,3.0,3.0,3.5,3.6,3.5,3.1,N/A
+T0579,AF0193,LEG_04,legal,South Africa Mining Charter,human,disclosed,3.4,3.3,3.5,3.5,4.0,3.9,4.1,N/A
+T0580,AF0194,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,1.7,1.7,1.4,2.1,1.8,2.5,6.5,N/A
+T0581,AF0194,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.4,3.1,3.4,3.1,3.7,2.9,4.0,N/A
+T0582,AF0194,LEG_01,legal,African Court Land Rights,llm,blind,4.1,4.7,4.1,4.4,4.4,4.6,3.1,llm
+T0583,AF0195,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.0,4.9,4.5,4.8,4.9,4.6,4.0,N/A
+T0584,AF0195,SCI_03,science,Nile Basin Water Stress,human,blind,4.9,5.4,4.9,5.0,5.3,5.3,2.9,human
+T0585,AF0195,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.1,5.1,4.2,4.8,5.1,4.7,3.3,N/A
+T0586,AF0196,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.9,3.8,3.4,3.6,3.5,3.4,4.4,N/A
+T0587,AF0196,SCI_03,science,Nile Basin Water Stress,llm,blind,5.4,5.4,5.1,5.2,5.1,5.1,2.7,human
+T0588,AF0196,LEG_01,legal,African Court Land Rights,llm,disclosed,2.5,2.1,2.2,2.3,2.5,1.8,4.9,N/A
+T0589,AF0197,NEWS_01,news,African Union Climate Summit,human,disclosed,3.7,3.8,3.1,3.5,4.2,3.3,3.9,N/A
+T0590,AF0197,SCI_04,science,Off-Grid Solar Africa,human,blind,5.7,5.0,4.7,5.2,4.8,5.7,3.0,llm
+T0591,AF0197,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.1,4.9,5.5,4.9,5.0,4.9,3.4,N/A
+T0592,AF0198,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.7,3.2,2.7,2.9,2.7,3.1,6.8,N/A
+T0593,AF0198,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,5.6,5.7,5.2,5.2,4.8,5.4,2.4,human
+T0594,AF0198,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,4.1,4.3,4.6,4.4,4.1,4.3,2.9,N/A
+T0595,AF0199,NEWS_01,news,African Union Climate Summit,human,disclosed,5.1,4.9,4.9,5.1,5.5,5.6,3.3,N/A
+T0596,AF0199,SCI_04,science,Off-Grid Solar Africa,human,blind,4.0,3.6,3.2,3.6,3.6,3.6,5.3,llm
+T0597,AF0199,LEG_01,legal,African Court Land Rights,human,disclosed,5.2,5.1,4.9,5.3,5.7,5.4,2.1,N/A
+T0598,AF0200,NEWS_03,news,Sahel Drought Food Security,llm,blind,3.5,4.0,4.3,3.9,3.9,3.9,5.5,llm
+T0599,AF0200,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.0,2.0,2.4,2.3,2.1,2.2,5.3,N/A
+T0600,AF0200,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,4.6,4.1,3.9,4.2,4.4,4.7,3.2,N/A
+T0601,AF0201,NEWS_01,news,African Union Climate Summit,human,disclosed,5.5,5.4,5.3,5.3,5.6,5.0,3.2,N/A
+T0602,AF0201,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,3.4,4.0,3.0,3.5,3.8,3.4,5.0,human
+T0603,AF0201,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,5.5,4.9,5.3,5.1,5.0,4.8,2.3,N/A
+T0604,AF0202,NEWS_03,news,Sahel Drought Food Security,llm,blind,6.3,6.0,5.8,6.2,6.6,6.2,1.0,llm
+T0605,AF0202,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.4,3.2,3.3,3.6,2.9,3.9,4.6,N/A
+T0606,AF0202,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,4.0,4.0,3.6,3.8,3.2,3.4,4.5,N/A
+T0607,AF0203,NEWS_03,news,Sahel Drought Food Security,human,blind,5.0,4.1,5.1,4.6,4.6,4.8,4.1,llm
+T0608,AF0203,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.1,3.6,4.5,3.8,4.8,3.6,3.8,N/A
+T0609,AF0203,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.8,5.0,4.7,4.8,4.3,5.7,1.0,N/A
+T0610,AF0204,NEWS_01,news,African Union Climate Summit,llm,blind,4.4,4.6,4.6,4.7,4.9,4.6,2.5,human
+T0611,AF0204,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,2.7,2.9,2.6,2.7,3.1,3.0,5.7,N/A
+T0612,AF0204,LEG_01,legal,African Court Land Rights,llm,disclosed,1.6,1.0,1.0,1.0,1.4,1.5,6.9,N/A
+T0613,AF0205,NEWS_01,news,African Union Climate Summit,human,blind,3.2,3.6,3.0,3.1,3.2,2.9,4.3,llm
+T0614,AF0205,SCI_04,science,Off-Grid Solar Africa,human,disclosed,3.9,3.6,4.3,4.0,4.0,4.3,3.1,N/A
+T0615,AF0205,LEG_04,legal,South Africa Mining Charter,human,disclosed,6.3,6.1,6.6,6.0,6.2,6.4,1.8,N/A
+T0616,AF0206,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.4,3.0,2.9,3.1,2.7,3.2,5.0,N/A
+T0617,AF0206,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,6.7,7.0,6.5,7.0,7.0,6.8,1.0,human
+T0618,AF0206,LEG_01,legal,African Court Land Rights,llm,disclosed,4.0,4.1,3.8,4.0,4.1,4.4,2.5,N/A
+T0619,AF0207,NEWS_01,news,African Union Climate Summit,human,disclosed,4.5,4.5,4.6,4.5,4.7,4.8,2.1,N/A
+T0620,AF0207,SCI_03,science,Nile Basin Water Stress,human,disclosed,3.2,3.6,3.8,3.5,3.6,3.0,3.9,N/A
+T0621,AF0207,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.0,3.7,3.6,3.9,3.8,4.6,4.2,human
+T0622,AF0208,NEWS_03,news,Sahel Drought Food Security,llm,blind,5.4,5.4,4.9,5.7,5.7,6.0,2.3,human
+T0623,AF0208,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,2.0,2.2,2.0,2.0,1.7,2.2,6.7,N/A
+T0624,AF0208,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.9,3.0,1.9,2.6,2.5,2.5,5.4,N/A
+T0625,AF0209,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.0,3.0,2.5,3.1,3.2,3.1,4.4,N/A
+T0626,AF0209,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.8,3.7,3.5,3.9,4.0,4.3,2.8,N/A
+T0627,AF0209,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,3.2,3.4,2.9,3.2,3.1,3.5,3.9,llm
+T0628,AF0210,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.6,4.1,4.2,4.3,4.3,4.4,3.5,N/A
+T0629,AF0210,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,4.2,3.7,3.8,4.0,4.1,4.0,5.2,human
+T0630,AF0210,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.2,2.3,2.8,3.1,2.5,3.3,4.6,N/A
+T0631,AF0211,NEWS_04,news,East African Tech Startup Growth,human,blind,4.1,3.6,4.0,3.6,3.6,3.2,3.2,llm
+T0632,AF0211,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,6.4,6.1,6.0,6.1,6.0,6.3,1.6,N/A
+T0633,AF0211,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.9,4.0,4.2,3.9,4.4,4.2,3.6,N/A
+T0634,AF0212,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.7,4.7,4.6,4.7,5.0,4.8,3.5,N/A
+T0635,AF0212,SCI_03,science,Nile Basin Water Stress,llm,disclosed,4.9,4.7,5.1,4.8,4.3,5.4,2.1,N/A
+T0636,AF0212,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,5.1,4.4,4.9,4.8,4.6,4.9,2.7,human
+T0637,AF0213,NEWS_04,news,East African Tech Startup Growth,human,blind,4.3,4.7,3.8,3.9,4.2,4.3,3.8,human
+T0638,AF0213,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,5.6,5.8,5.0,5.6,5.9,6.0,2.1,N/A
+T0639,AF0213,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,3.9,4.0,3.7,4.1,4.0,4.1,4.1,N/A
+T0640,AF0214,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.4,4.3,4.5,4.1,4.3,3.8,4.7,N/A
+T0641,AF0214,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,4.5,4.8,4.3,4.4,4.2,4.4,2.4,human
+T0642,AF0214,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.9,3.1,2.6,2.7,3.0,3.1,3.0,N/A
+T0643,AF0215,NEWS_01,news,African Union Climate Summit,human,disclosed,4.9,4.9,5.1,5.2,4.8,5.3,3.2,N/A
+T0644,AF0215,SCI_04,science,Off-Grid Solar Africa,human,disclosed,2.6,1.9,1.9,2.4,2.4,2.7,5.0,N/A
+T0645,AF0215,LEG_04,legal,South Africa Mining Charter,human,blind,4.4,4.5,4.3,4.5,4.6,4.8,4.6,human
+T0646,AF0216,NEWS_04,news,East African Tech Startup Growth,llm,blind,5.2,5.3,4.7,5.2,5.5,5.2,3.0,human
+T0647,AF0216,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.6,3.1,3.3,3.2,3.3,4.1,4.9,N/A
+T0648,AF0216,LEG_01,legal,African Court Land Rights,llm,disclosed,1.8,1.7,1.7,1.8,1.9,2.1,5.8,N/A
+T0649,AF0217,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.6,5.0,4.8,4.9,5.3,5.0,3.1,N/A
+T0650,AF0217,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.3,4.7,4.0,4.4,4.1,4.6,3.7,N/A
+T0651,AF0217,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.4,4.5,4.2,4.6,5.0,4.6,3.7,llm
+T0652,AF0218,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.1,2.7,2.8,3.1,3.4,3.8,4.0,N/A
+T0653,AF0218,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,4.8,4.6,5.0,4.5,4.9,4.6,3.3,llm
+T0654,AF0218,LEG_01,legal,African Court Land Rights,llm,disclosed,2.8,2.4,3.0,2.8,2.7,2.6,3.1,N/A
+T0655,AF0219,NEWS_01,news,African Union Climate Summit,human,disclosed,6.2,7.0,6.4,6.5,6.3,6.7,1.0,N/A
+T0656,AF0219,SCI_02,science,H3Africa Genomics Hypertension,human,blind,4.8,4.8,4.9,4.8,4.8,5.0,1.6,llm
+T0657,AF0219,LEG_01,legal,African Court Land Rights,human,disclosed,4.4,4.6,4.3,4.6,4.8,4.3,3.0,N/A
+T0658,AF0220,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.0,3.9,3.9,4.0,3.9,3.7,5.9,N/A
+T0659,AF0220,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,1.1,1.1,1.2,1.1,1.2,1.0,6.4,N/A
+T0660,AF0220,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,5.2,4.9,4.6,4.8,5.1,5.4,2.8,llm
+T0661,AF0221,NEWS_04,news,East African Tech Startup Growth,human,disclosed,5.0,4.9,4.8,5.1,5.2,5.3,3.0,N/A
+T0662,AF0221,SCI_03,science,Nile Basin Water Stress,human,disclosed,3.3,3.6,3.5,3.6,3.9,3.9,3.3,N/A
+T0663,AF0221,LEG_04,legal,South Africa Mining Charter,human,blind,3.4,4.1,3.6,3.5,2.9,3.7,4.1,llm
+T0664,AF0222,NEWS_03,news,Sahel Drought Food Security,llm,blind,3.2,3.2,3.3,3.2,2.8,3.2,5.2,human
+T0665,AF0222,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.5,4.0,4.0,3.9,3.7,4.2,4.6,N/A
+T0666,AF0222,LEG_04,legal,South Africa Mining Charter,llm,disclosed,1.0,1.0,1.3,1.2,1.2,1.2,6.7,N/A
+T0667,AF0223,NEWS_01,news,African Union Climate Summit,human,disclosed,4.8,4.9,5.1,4.6,4.7,4.4,3.1,N/A
+T0668,AF0223,SCI_04,science,Off-Grid Solar Africa,human,blind,4.6,4.2,3.8,4.2,4.2,4.6,3.0,llm
+T0669,AF0223,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.2,4.1,4.0,4.1,4.5,4.0,3.4,N/A
+T0670,AF0224,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,1.8,1.3,2.2,1.9,2.3,1.8,7.0,N/A
+T0671,AF0224,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,3.6,3.9,3.1,3.5,3.2,3.9,4.1,llm
+T0672,AF0224,LEG_04,legal,South Africa Mining Charter,llm,disclosed,4.8,4.4,4.3,4.5,4.6,4.7,2.6,N/A
+T0673,AF0225,NEWS_02,news,AfCFTA Trade Progress,human,blind,3.4,3.1,3.0,3.3,3.4,3.6,3.4,llm
+T0674,AF0225,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.5,5.5,4.7,4.6,4.5,4.5,3.2,N/A
+T0675,AF0225,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.3,5.4,5.6,5.1,4.8,4.7,3.1,N/A
+T0676,AF0226,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,2.0,2.6,1.4,2.3,2.7,2.4,6.0,N/A
+T0677,AF0226,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,3.4,2.9,2.1,3.1,3.5,2.7,4.5,llm
+T0678,AF0226,LEG_01,legal,African Court Land Rights,llm,disclosed,3.4,3.5,3.7,3.4,3.7,3.7,4.2,N/A
+T0679,AF0227,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.0,4.7,4.7,4.4,4.5,4.3,5.0,N/A
+T0680,AF0227,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.5,3.7,3.4,3.7,3.8,4.3,3.9,N/A
+T0681,AF0227,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.7,5.1,4.9,4.9,5.4,4.6,4.5,human
+T0682,AF0228,NEWS_01,news,African Union Climate Summit,llm,disclosed,3.9,3.6,3.7,3.6,3.7,4.0,4.6,N/A
+T0683,AF0228,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.1,4.5,4.8,4.6,5.0,4.8,3.0,llm
+T0684,AF0228,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.3,2.8,3.3,3.1,3.8,2.9,4.9,N/A
+T0685,AF0229,NEWS_03,news,Sahel Drought Food Security,human,disclosed,5.1,4.9,4.8,5.1,5.0,4.6,2.9,N/A
+T0686,AF0229,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.2,5.1,4.7,4.9,4.7,5.1,2.7,N/A
+T0687,AF0229,LEG_01,legal,African Court Land Rights,human,blind,4.8,4.9,5.1,4.9,5.2,5.2,4.4,llm
+T0688,AF0230,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.9,3.2,2.7,2.6,2.7,2.4,5.3,N/A
+T0689,AF0230,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,4.9,5.0,4.2,4.4,4.0,4.7,4.9,human
+T0690,AF0230,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,4.0,4.0,3.3,3.7,3.7,4.0,3.9,N/A
+T0691,AF0231,NEWS_04,news,East African Tech Startup Growth,human,blind,5.0,4.9,4.5,4.8,4.9,5.4,2.3,llm
+T0692,AF0231,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,5.2,4.5,4.3,4.7,4.5,4.9,2.6,N/A
+T0693,AF0231,LEG_01,legal,African Court Land Rights,human,disclosed,5.6,6.4,5.5,5.9,6.1,6.1,1.4,N/A
+T0694,AF0232,NEWS_02,news,AfCFTA Trade Progress,llm,blind,4.3,4.1,3.9,4.0,3.8,4.0,4.4,llm
+T0695,AF0232,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,5.2,4.9,4.5,4.8,5.2,4.4,1.7,N/A
+T0696,AF0232,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.1,1.9,2.6,2.5,2.4,2.8,5.5,N/A
+T0697,AF0233,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.8,4.2,4.1,4.5,4.3,4.5,4.4,N/A
+T0698,AF0233,SCI_03,science,Nile Basin Water Stress,human,blind,6.2,6.2,5.6,5.9,5.8,6.2,1.0,human
+T0699,AF0233,LEG_01,legal,African Court Land Rights,human,disclosed,4.2,3.9,3.4,3.7,3.7,3.9,3.3,N/A
+T0700,AF0234,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.6,2.5,2.1,2.7,3.2,2.8,4.3,N/A
+T0701,AF0234,SCI_03,science,Nile Basin Water Stress,llm,blind,5.4,5.9,5.6,5.4,5.5,5.5,2.1,human
+T0702,AF0234,LEG_04,legal,South Africa Mining Charter,llm,disclosed,4.0,3.6,3.7,4.0,4.4,4.2,4.6,N/A
+T0703,AF0235,NEWS_03,news,Sahel Drought Food Security,human,disclosed,3.0,2.5,3.3,2.9,2.6,3.4,5.1,N/A
+T0704,AF0235,SCI_04,science,Off-Grid Solar Africa,human,disclosed,3.0,2.9,2.8,2.8,2.6,3.5,4.1,N/A
+T0705,AF0235,LEG_01,legal,African Court Land Rights,human,blind,5.4,5.0,5.3,5.1,5.2,5.0,2.3,human
+T0706,AF0236,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,5.1,4.9,4.5,4.9,5.3,5.2,3.8,N/A
+T0707,AF0236,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,5.4,4.8,4.7,5.1,4.9,4.9,2.2,llm
+T0708,AF0236,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.8,2.9,3.2,3.3,2.8,3.2,5.5,N/A
+T0709,AF0237,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.4,5.3,5.2,5.2,4.6,5.4,2.7,N/A
+T0710,AF0237,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,6.3,6.3,6.5,6.3,7.0,6.2,1.1,llm
+T0711,AF0237,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.7,3.5,3.2,3.2,2.6,3.3,5.0,N/A
+T0712,AF0238,NEWS_01,news,African Union Climate Summit,llm,blind,4.2,4.4,4.4,4.3,4.7,4.2,2.8,human
+T0713,AF0238,SCI_03,science,Nile Basin Water Stress,llm,disclosed,1.5,1.0,1.0,1.0,1.3,1.5,6.3,N/A
+T0714,AF0238,LEG_01,legal,African Court Land Rights,llm,disclosed,3.8,3.8,3.9,3.8,3.8,3.8,4.7,N/A
+T0715,AF0239,NEWS_03,news,Sahel Drought Food Security,human,blind,4.8,4.6,4.8,4.3,4.4,3.9,2.2,human
+T0716,AF0239,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.3,4.2,4.5,4.3,4.3,4.2,3.0,N/A
+T0717,AF0239,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,3.4,3.2,3.2,3.4,3.6,4.1,4.2,N/A
+T0718,AF0240,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.4,3.4,2.9,3.2,2.9,3.2,5.8,N/A
+T0719,AF0240,SCI_03,science,Nile Basin Water Stress,llm,disclosed,5.3,4.8,4.8,5.0,5.4,5.4,2.7,N/A
+T0720,AF0240,LEG_01,legal,African Court Land Rights,llm,blind,5.9,5.4,5.1,5.4,4.8,5.5,1.0,llm
+T0721,AF0241,NEWS_02,news,AfCFTA Trade Progress,human,blind,4.4,3.8,4.4,4.1,3.9,3.8,3.1,llm
+T0722,AF0241,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.3,3.6,3.8,4.1,4.1,4.3,2.7,N/A
+T0723,AF0241,LEG_01,legal,African Court Land Rights,human,disclosed,4.3,4.3,5.2,4.6,4.7,5.1,4.2,N/A
+T0724,AF0242,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.8,3.2,4.2,3.5,3.8,3.7,5.0,N/A
+T0725,AF0242,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.4,5.6,4.7,5.2,5.4,5.3,2.5,human
+T0726,AF0242,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.5,3.8,3.5,3.5,3.7,3.4,4.8,N/A
+T0727,AF0243,NEWS_01,news,African Union Climate Summit,human,blind,5.3,5.4,4.8,5.0,5.0,5.1,1.8,human
+T0728,AF0243,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.9,4.1,4.0,4.3,4.1,5.2,3.7,N/A
+T0729,AF0243,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.7,5.6,5.7,5.7,5.1,5.4,2.0,N/A
+T0730,AF0244,NEWS_01,news,African Union Climate Summit,llm,blind,5.0,4.3,4.9,4.7,4.9,4.6,4.0,llm
+T0731,AF0244,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.4,3.4,3.3,3.1,3.6,3.2,6.9,N/A
+T0732,AF0244,LEG_01,legal,African Court Land Rights,llm,disclosed,2.0,2.1,2.4,2.2,1.9,2.7,6.9,N/A
+T0733,AF0245,NEWS_04,news,East African Tech Startup Growth,human,blind,4.6,5.3,4.3,4.3,4.5,4.6,2.3,llm
+T0734,AF0245,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.0,4.1,3.5,3.7,3.6,3.2,4.0,N/A
+T0735,AF0245,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.9,5.6,5.1,5.2,5.5,5.2,2.3,N/A
+T0736,AF0246,NEWS_01,news,African Union Climate Summit,llm,blind,4.9,4.3,4.7,4.5,4.4,5.0,3.8,llm
+T0737,AF0246,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.8,2.3,1.7,2.4,2.5,3.0,5.2,N/A
+T0738,AF0246,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.1,2.4,2.6,2.8,2.3,2.4,6.1,N/A
+T0739,AF0247,NEWS_03,news,Sahel Drought Food Security,human,blind,4.0,4.2,3.7,3.8,3.2,3.8,2.5,llm
+T0740,AF0247,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.2,5.2,4.6,5.0,5.1,5.2,1.7,N/A
+T0741,AF0247,LEG_01,legal,African Court Land Rights,human,disclosed,5.4,5.4,4.5,5.5,5.9,5.8,1.1,N/A
+T0742,AF0248,NEWS_03,news,Sahel Drought Food Security,llm,blind,3.7,4.1,3.4,3.8,4.1,3.8,3.7,human
+T0743,AF0248,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.3,3.9,3.6,3.6,3.6,3.5,5.3,N/A
+T0744,AF0248,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.5,2.7,2.8,3.2,3.4,3.2,4.1,N/A
+T0745,AF0249,NEWS_01,news,African Union Climate Summit,human,blind,6.2,5.7,6.4,5.7,5.8,5.5,2.2,human
+T0746,AF0249,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.7,5.6,5.4,5.7,5.3,5.7,2.5,N/A
+T0747,AF0249,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,5.4,5.8,5.7,5.7,6.2,6.3,2.7,N/A
+T0748,AF0250,NEWS_02,news,AfCFTA Trade Progress,llm,blind,4.6,4.2,4.5,4.3,4.3,4.0,2.5,human
+T0749,AF0250,SCI_03,science,Nile Basin Water Stress,llm,disclosed,1.5,1.8,1.8,1.6,2.0,1.8,6.9,N/A
+T0750,AF0250,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.8,4.0,3.7,3.6,4.0,3.8,3.5,N/A
+T0751,AF0251,NEWS_03,news,Sahel Drought Food Security,human,disclosed,6.6,6.7,6.4,6.4,6.8,7.0,2.9,N/A
+T0752,AF0251,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,5.0,4.8,4.7,4.9,4.6,5.2,2.0,human
+T0753,AF0251,LEG_01,legal,African Court Land Rights,human,disclosed,3.2,2.5,2.9,2.7,2.9,2.9,4.6,N/A
+T0754,AF0252,NEWS_02,news,AfCFTA Trade Progress,llm,blind,4.9,4.6,4.6,4.8,4.6,4.9,4.2,llm
+T0755,AF0252,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,2.3,2.9,2.4,2.4,2.2,2.5,6.5,N/A
+T0756,AF0252,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.2,3.3,3.3,3.3,3.0,3.4,6.3,N/A
+T0757,AF0253,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.0,4.6,5.0,4.9,4.8,5.3,1.9,N/A
+T0758,AF0253,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.0,4.4,4.1,4.1,4.2,4.4,3.5,N/A
+T0759,AF0253,LEG_04,legal,South Africa Mining Charter,human,blind,4.2,4.9,4.2,4.3,4.2,4.9,3.7,human
+T0760,AF0254,NEWS_04,news,East African Tech Startup Growth,llm,blind,3.1,2.9,2.2,2.5,2.2,2.6,5.5,human
+T0761,AF0254,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.2,3.0,2.7,3.1,2.9,3.2,4.6,N/A
+T0762,AF0254,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,1.7,1.5,1.0,1.2,1.5,1.3,6.7,N/A
+T0763,AF0255,NEWS_03,news,Sahel Drought Food Security,human,blind,4.2,3.6,3.8,3.9,3.9,3.5,5.5,human
+T0764,AF0255,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.6,5.1,5.3,5.3,5.4,5.0,2.5,N/A
+T0765,AF0255,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.0,5.6,5.9,5.3,5.7,5.3,1.0,N/A
+T0766,AF0256,NEWS_01,news,African Union Climate Summit,llm,disclosed,2.5,2.3,2.7,2.3,2.5,2.6,6.4,N/A
+T0767,AF0256,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.4,3.1,2.9,3.3,3.5,3.2,5.6,N/A
+T0768,AF0256,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,4.5,4.9,4.5,4.6,4.4,5.1,3.0,llm
+T0769,AF0257,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.6,4.4,4.8,4.7,4.9,4.2,2.3,N/A
+T0770,AF0257,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.7,4.8,5.4,5.0,5.1,5.6,1.0,llm
+T0771,AF0257,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.9,4.1,4.1,4.1,4.5,4.0,3.9,N/A
+T0772,AF0258,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.6,2.5,2.7,2.4,2.5,2.8,5.7,N/A
+T0773,AF0258,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,4.6,4.6,5.1,4.7,4.7,4.8,2.8,llm
+T0774,AF0258,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,4.6,4.5,5.1,5.0,4.5,4.8,3.1,N/A
+T0775,AF0259,NEWS_03,news,Sahel Drought Food Security,human,disclosed,5.0,5.0,4.6,4.9,5.1,4.9,3.5,N/A
+T0776,AF0259,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,3.6,3.7,3.1,3.5,3.4,4.0,3.1,llm
+T0777,AF0259,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.8,3.7,4.4,4.7,4.7,5.0,1.9,N/A
+T0778,AF0260,NEWS_01,news,African Union Climate Summit,llm,disclosed,3.3,3.0,3.8,3.6,4.3,3.6,3.6,N/A
+T0779,AF0260,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.8,2.3,2.7,2.7,3.1,2.8,4.6,N/A
+T0780,AF0260,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,3.5,3.0,2.7,2.9,3.1,2.2,3.8,llm
+T0781,AF0261,NEWS_03,news,Sahel Drought Food Security,human,disclosed,5.7,5.4,5.2,5.5,5.9,4.9,2.2,N/A
+T0782,AF0261,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.0,5.1,4.8,4.9,4.3,4.8,3.5,N/A
+T0783,AF0261,LEG_04,legal,South Africa Mining Charter,human,blind,2.6,2.4,2.8,2.5,2.6,2.5,4.2,human
+T0784,AF0262,NEWS_03,news,Sahel Drought Food Security,llm,blind,3.7,4.3,3.4,3.8,3.8,4.0,4.3,llm
+T0785,AF0262,SCI_03,science,Nile Basin Water Stress,llm,disclosed,4.8,4.1,5.3,4.4,4.8,4.7,3.0,N/A
+T0786,AF0262,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.5,3.0,3.0,3.0,3.2,3.2,4.8,N/A
+T0787,AF0263,NEWS_01,news,African Union Climate Summit,human,disclosed,5.3,3.9,4.1,4.6,4.3,4.7,3.6,N/A
+T0788,AF0263,SCI_04,science,Off-Grid Solar Africa,human,blind,4.2,3.3,3.8,3.9,4.0,3.7,2.7,llm
+T0789,AF0263,LEG_01,legal,African Court Land Rights,human,disclosed,4.6,4.5,5.0,4.6,5.0,4.3,3.2,N/A
+T0790,AF0264,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.6,2.7,2.5,2.7,3.0,2.4,4.8,N/A
+T0791,AF0264,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,4.7,4.5,4.3,4.1,4.2,4.5,5.0,human
+T0792,AF0264,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,1.8,1.7,2.0,1.8,1.8,1.8,5.5,N/A
+T0793,AF0265,NEWS_01,news,African Union Climate Summit,human,disclosed,4.3,4.3,4.5,4.4,4.3,4.6,4.1,N/A
+T0794,AF0265,SCI_03,science,Nile Basin Water Stress,human,blind,4.5,4.5,4.1,4.4,4.3,4.7,4.3,human
+T0795,AF0265,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,5.1,5.2,4.3,5.2,5.8,4.5,2.3,N/A
+T0796,AF0266,NEWS_03,news,Sahel Drought Food Security,llm,blind,4.5,4.6,5.0,4.8,4.9,5.2,2.5,llm
+T0797,AF0266,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,1.0,1.4,1.0,1.0,1.0,1.4,7.0,N/A
+T0798,AF0266,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.6,3.3,3.4,3.3,3.3,3.7,3.9,N/A
+T0799,AF0267,NEWS_04,news,East African Tech Startup Growth,human,blind,3.2,3.8,4.0,3.7,3.8,3.1,5.4,human
+T0800,AF0267,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,6.2,6.6,6.0,6.1,6.2,6.4,2.2,N/A
+T0801,AF0267,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.5,4.6,3.6,4.3,3.7,4.4,2.8,N/A
+T0802,AF0268,NEWS_04,news,East African Tech Startup Growth,llm,blind,3.1,3.6,2.7,3.0,2.8,2.3,5.2,llm
+T0803,AF0268,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.3,3.4,3.5,3.3,3.5,3.8,5.3,N/A
+T0804,AF0268,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.9,2.3,2.7,3.0,3.3,3.5,5.6,N/A
+T0805,AF0269,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.3,4.7,4.1,4.3,4.2,4.7,3.4,N/A
+T0806,AF0269,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.6,4.4,4.3,4.6,4.7,5.0,3.4,N/A
+T0807,AF0269,LEG_01,legal,African Court Land Rights,human,blind,3.9,4.0,3.4,3.8,3.4,3.8,5.0,llm
+T0808,AF0270,NEWS_04,news,East African Tech Startup Growth,llm,blind,5.8,5.9,5.7,5.7,5.7,5.9,1.2,llm
+T0809,AF0270,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.0,2.2,2.3,2.8,3.2,3.3,4.7,N/A
+T0810,AF0270,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,1.8,1.5,1.7,1.5,1.0,1.4,5.4,N/A
+T0811,AF0271,NEWS_01,news,African Union Climate Summit,human,disclosed,2.6,2.5,2.5,2.9,3.0,2.9,2.8,N/A
+T0812,AF0271,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.3,5.1,4.9,4.9,5.4,5.4,3.1,N/A
+T0813,AF0271,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.9,4.9,4.2,4.4,4.2,3.6,4.4,llm
+T0814,AF0272,NEWS_04,news,East African Tech Startup Growth,llm,blind,4.5,4.4,4.4,4.6,4.3,4.6,2.7,llm
+T0815,AF0272,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,4.1,4.1,4.3,4.0,4.3,4.6,3.2,N/A
+T0816,AF0272,LEG_01,legal,African Court Land Rights,llm,disclosed,1.3,1.0,1.0,1.0,1.3,1.4,6.7,N/A
+T0817,AF0273,NEWS_01,news,African Union Climate Summit,human,disclosed,4.7,4.3,4.1,4.4,4.2,4.4,4.0,N/A
+T0818,AF0273,SCI_04,science,Off-Grid Solar Africa,human,disclosed,6.3,6.3,6.4,6.3,6.2,6.6,3.3,N/A
+T0819,AF0273,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,3.3,3.7,3.0,3.4,3.5,3.1,5.5,human
+T0820,AF0274,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,4.5,4.3,4.4,4.4,4.7,4.8,3.7,N/A
+T0821,AF0274,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.5,3.1,3.3,3.2,3.2,3.2,3.8,N/A
+T0822,AF0274,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,4.1,4.0,4.2,4.2,4.3,4.1,3.0,human
+T0823,AF0275,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.5,4.3,4.4,4.4,4.5,4.4,2.7,N/A
+T0824,AF0275,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.6,4.3,3.8,4.4,4.1,4.3,3.6,N/A
+T0825,AF0275,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.2,4.3,4.0,4.3,4.1,5.1,3.7,human
+T0826,AF0276,NEWS_03,news,Sahel Drought Food Security,llm,blind,5.8,6.1,6.1,6.0,6.1,6.1,1.7,llm
+T0827,AF0276,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,4.1,4.2,4.1,4.1,4.2,4.3,4.5,N/A
+T0828,AF0276,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,1.6,1.7,1.6,1.8,2.0,1.7,5.7,N/A
+T0829,AF0277,NEWS_03,news,Sahel Drought Food Security,human,blind,4.6,4.8,4.1,4.6,4.8,4.1,3.4,llm
+T0830,AF0277,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.4,4.9,4.7,4.3,4.6,4.8,2.8,N/A
+T0831,AF0277,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.9,5.1,4.7,4.7,4.6,4.7,4.2,N/A
+T0832,AF0278,NEWS_01,news,African Union Climate Summit,llm,disclosed,3.9,3.6,3.6,3.7,3.9,3.5,4.4,N/A
+T0833,AF0278,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,4.3,3.5,3.6,3.8,4.3,3.2,3.3,llm
+T0834,AF0278,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.5,3.1,2.7,2.9,2.9,2.9,5.0,N/A
+T0835,AF0279,NEWS_04,news,East African Tech Startup Growth,human,blind,4.8,4.3,4.0,4.2,4.3,4.1,3.1,human
+T0836,AF0279,SCI_04,science,Off-Grid Solar Africa,human,disclosed,6.6,5.7,6.4,6.1,6.2,6.4,1.7,N/A
+T0837,AF0279,LEG_01,legal,African Court Land Rights,human,disclosed,3.6,3.2,3.6,3.5,3.5,4.0,4.1,N/A
+T0838,AF0280,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.1,3.3,3.1,3.3,2.8,3.6,5.7,N/A
+T0839,AF0280,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,1.4,1.0,1.2,1.5,1.8,1.6,6.2,N/A
+T0840,AF0280,LEG_04,legal,South Africa Mining Charter,llm,blind,6.3,6.4,5.4,5.9,5.7,5.8,1.3,human
+T0841,AF0281,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.5,4.2,4.2,4.4,4.6,4.6,2.2,N/A
+T0842,AF0281,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,6.0,5.9,5.5,5.6,5.6,6.6,2.0,llm
+T0843,AF0281,LEG_01,legal,African Court Land Rights,human,disclosed,4.1,4.3,3.9,4.3,4.5,4.5,3.3,N/A
+T0844,AF0282,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.9,4.1,3.7,4.1,4.2,4.1,5.1,N/A
+T0845,AF0282,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,5.3,5.3,6.1,5.4,5.6,4.6,4.0,llm
+T0846,AF0282,LEG_04,legal,South Africa Mining Charter,llm,disclosed,1.9,1.7,1.5,1.9,1.9,1.9,6.3,N/A
+T0847,AF0283,NEWS_01,news,African Union Climate Summit,human,blind,3.4,3.3,3.4,3.4,3.6,3.5,5.2,llm
+T0848,AF0283,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,5.8,5.0,5.8,5.6,5.1,5.6,1.0,N/A
+T0849,AF0283,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.8,3.9,3.9,3.7,4.0,3.3,3.6,N/A
+T0850,AF0284,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.0,3.6,3.3,3.3,3.3,3.5,4.6,N/A
+T0851,AF0284,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,5.6,5.7,6.0,5.5,5.0,5.3,1.0,human
+T0852,AF0284,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,5.0,4.5,4.7,4.7,4.4,4.3,2.3,N/A
+T0853,AF0285,NEWS_01,news,African Union Climate Summit,human,blind,5.8,6.1,5.7,5.8,6.3,6.4,1.1,llm
+T0854,AF0285,SCI_03,science,Nile Basin Water Stress,human,disclosed,6.3,6.2,6.6,6.3,5.9,6.6,1.0,N/A
+T0855,AF0285,LEG_04,legal,South Africa Mining Charter,human,disclosed,3.4,3.4,3.5,3.5,3.7,3.8,3.5,N/A
+T0856,AF0286,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.0,3.5,3.1,3.7,3.3,3.9,3.9,N/A
+T0857,AF0286,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,4.6,4.5,4.8,4.3,3.9,4.1,2.2,N/A
+T0858,AF0286,LEG_04,legal,South Africa Mining Charter,llm,blind,3.3,4.0,3.2,3.5,3.6,4.0,3.0,human
+T0859,AF0287,NEWS_01,news,African Union Climate Summit,human,disclosed,4.7,4.7,4.0,4.3,4.4,4.3,3.8,N/A
+T0860,AF0287,SCI_04,science,Off-Grid Solar Africa,human,disclosed,3.8,3.9,3.5,3.6,3.6,3.7,3.3,N/A
+T0861,AF0287,LEG_04,legal,South Africa Mining Charter,human,blind,4.9,4.2,4.1,4.5,5.1,4.6,2.9,human
+T0862,AF0288,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,4.1,3.9,4.0,4.1,4.1,3.5,2.0,N/A
+T0863,AF0288,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,3.9,3.4,3.6,3.9,3.9,4.4,3.2,llm
+T0864,AF0288,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.7,3.3,2.9,3.1,3.4,3.0,6.0,N/A
+T0865,AF0289,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.6,5.3,5.4,5.3,5.5,5.3,2.3,N/A
+T0866,AF0289,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.9,5.9,5.9,5.7,5.7,6.3,1.0,N/A
+T0867,AF0289,LEG_04,legal,South Africa Mining Charter,human,blind,4.0,3.8,4.5,4.1,4.0,4.7,2.9,llm
+T0868,AF0290,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,2.8,2.9,3.0,3.0,2.7,3.2,4.6,N/A
+T0869,AF0290,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,4.8,4.5,5.4,5.1,4.9,5.6,3.3,llm
+T0870,AF0290,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,4.5,4.3,4.1,4.1,4.2,3.9,4.3,N/A
+T0871,AF0291,NEWS_01,news,African Union Climate Summit,human,disclosed,4.4,4.4,3.9,4.4,4.8,4.6,2.1,N/A
+T0872,AF0291,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.0,4.5,4.6,4.9,5.1,4.9,2.4,N/A
+T0873,AF0291,LEG_04,legal,South Africa Mining Charter,human,blind,3.3,3.4,3.5,3.0,2.7,2.8,4.6,llm
+T0874,AF0292,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,2.6,2.3,1.7,2.2,2.3,2.6,3.9,N/A
+T0875,AF0292,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,4.8,4.3,4.3,4.3,3.9,4.0,3.9,human
+T0876,AF0292,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.4,2.8,2.2,2.4,2.4,2.2,5.5,N/A
+T0877,AF0293,NEWS_01,news,African Union Climate Summit,human,disclosed,4.7,5.8,5.3,5.0,5.1,4.5,1.1,N/A
+T0878,AF0293,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.7,4.1,4.3,4.5,4.5,4.4,2.8,human
+T0879,AF0293,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.1,4.0,3.5,4.1,4.7,3.9,3.0,N/A
+T0880,AF0294,NEWS_01,news,African Union Climate Summit,llm,blind,4.7,4.5,4.5,4.3,4.0,4.2,3.2,human
+T0881,AF0294,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.8,3.6,3.6,3.5,3.6,3.6,5.0,N/A
+T0882,AF0294,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.5,3.2,3.2,3.5,3.7,3.6,3.8,N/A
+T0883,AF0295,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.9,5.0,4.2,4.8,4.7,5.3,3.9,N/A
+T0884,AF0295,SCI_02,science,H3Africa Genomics Hypertension,human,blind,4.3,4.1,3.6,4.2,3.8,3.7,3.2,human
+T0885,AF0295,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,3.6,4.1,3.9,3.7,3.7,3.8,3.1,N/A
+T0886,AF0296,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.9,4.2,3.8,4.0,4.3,3.7,4.0,N/A
+T0887,AF0296,SCI_03,science,Nile Basin Water Stress,llm,blind,4.9,4.2,4.5,4.7,5.1,4.8,1.0,llm
+T0888,AF0296,LEG_01,legal,African Court Land Rights,llm,disclosed,3.9,3.8,4.2,3.6,2.9,3.4,5.9,N/A
+T0889,AF0297,NEWS_03,news,Sahel Drought Food Security,human,disclosed,3.3,4.0,2.9,3.6,3.5,4.1,4.8,N/A
+T0890,AF0297,SCI_03,science,Nile Basin Water Stress,human,disclosed,2.9,3.4,2.8,3.3,3.5,3.0,3.2,N/A
+T0891,AF0297,LEG_01,legal,African Court Land Rights,human,blind,5.0,4.7,4.0,4.9,4.6,5.4,3.5,human
+T0892,AF0298,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.1,2.5,2.9,2.7,2.7,3.8,5.0,N/A
+T0893,AF0298,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,3.5,3.3,3.5,3.3,3.7,3.7,4.0,llm
+T0894,AF0298,LEG_04,legal,South Africa Mining Charter,llm,disclosed,1.9,1.7,1.6,2.0,1.6,2.1,6.2,N/A
+T0895,AF0299,NEWS_01,news,African Union Climate Summit,human,disclosed,5.3,5.0,5.6,5.4,6.1,6.1,2.7,N/A
+T0896,AF0299,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.2,5.0,4.6,4.3,4.2,4.4,2.4,N/A
+T0897,AF0299,LEG_04,legal,South Africa Mining Charter,human,blind,4.2,3.8,4.1,4.4,4.2,4.3,2.3,human
+T0898,AF0300,NEWS_02,news,AfCFTA Trade Progress,llm,blind,3.8,3.8,3.7,3.7,3.2,3.9,5.2,llm
+T0899,AF0300,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.8,3.4,4.1,3.6,3.3,3.8,4.6,N/A
+T0900,AF0300,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.0,1.9,1.2,1.8,2.0,2.2,6.0,N/A
+T0901,AF0301,NEWS_02,news,AfCFTA Trade Progress,human,blind,4.7,3.7,3.7,4.4,4.3,4.5,2.6,human
+T0902,AF0301,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.6,4.9,4.1,4.6,4.4,4.4,2.5,N/A
+T0903,AF0301,LEG_01,legal,African Court Land Rights,human,disclosed,4.3,4.3,3.7,3.9,4.1,4.2,2.9,N/A
+T0904,AF0302,NEWS_01,news,African Union Climate Summit,llm,disclosed,1.0,1.4,1.2,1.1,1.0,1.4,7.0,N/A
+T0905,AF0302,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.5,4.9,5.0,5.4,5.2,5.4,3.0,llm
+T0906,AF0302,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.2,2.8,3.9,3.1,3.3,2.6,4.9,N/A
+T0907,AF0303,NEWS_03,news,Sahel Drought Food Security,human,disclosed,3.4,3.8,3.2,3.5,3.5,3.6,3.1,N/A
+T0908,AF0303,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,6.9,5.8,6.3,6.2,6.4,6.2,2.0,human
+T0909,AF0303,LEG_01,legal,African Court Land Rights,human,disclosed,5.9,5.6,5.9,5.9,6.1,5.8,1.0,N/A
+T0910,AF0304,NEWS_02,news,AfCFTA Trade Progress,llm,blind,4.9,4.1,4.6,4.8,4.9,4.8,2.1,human
+T0911,AF0304,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.8,2.3,1.7,2.2,2.2,1.9,6.8,N/A
+T0912,AF0304,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.7,3.7,2.7,3.2,2.9,3.8,4.1,N/A
+T0913,AF0305,NEWS_01,news,African Union Climate Summit,human,disclosed,4.5,4.9,4.2,4.5,4.8,4.5,3.1,N/A
+T0914,AF0305,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.6,3.5,2.9,3.3,3.8,3.2,4.5,N/A
+T0915,AF0305,LEG_01,legal,African Court Land Rights,human,blind,3.6,3.6,3.3,3.6,3.8,3.1,4.9,llm
+T0916,AF0306,NEWS_03,news,Sahel Drought Food Security,llm,blind,5.0,4.6,4.4,4.5,4.5,4.2,2.2,human
+T0917,AF0306,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,2.5,3.6,3.1,3.0,3.1,2.9,4.0,N/A
+T0918,AF0306,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.5,2.7,2.3,2.4,3.0,2.4,3.9,N/A
+T0919,AF0307,NEWS_01,news,African Union Climate Summit,human,disclosed,6.0,5.4,5.6,5.8,5.8,5.3,1.9,N/A
+T0920,AF0307,SCI_03,science,Nile Basin Water Stress,human,blind,3.9,4.5,4.0,4.1,3.7,3.9,2.5,human
+T0921,AF0307,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.5,3.7,3.9,3.6,3.4,4.4,5.9,N/A
+T0922,AF0308,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.8,3.8,3.3,3.3,3.2,3.5,6.7,N/A
+T0923,AF0308,SCI_04,science,Off-Grid Solar Africa,llm,blind,3.8,3.6,3.9,3.8,3.8,3.5,2.2,human
+T0924,AF0308,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,4.5,4.0,4.4,4.4,4.0,4.5,4.0,N/A
+T0925,AF0309,NEWS_04,news,East African Tech Startup Growth,human,blind,4.1,4.0,4.1,4.1,4.5,4.3,4.5,human
+T0926,AF0309,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.6,3.9,4.4,4.2,3.9,4.5,4.0,N/A
+T0927,AF0309,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.3,4.7,3.9,4.3,4.5,4.3,4.6,N/A
+T0928,AF0310,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.3,3.9,3.9,3.9,3.9,3.5,3.4,N/A
+T0929,AF0310,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.6,2.6,2.5,2.5,2.1,2.4,5.7,N/A
+T0930,AF0310,LEG_04,legal,South Africa Mining Charter,llm,blind,4.6,4.2,4.4,4.3,4.4,4.7,3.6,human
+T0931,AF0311,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.1,4.8,4.2,4.9,5.3,4.7,2.3,N/A
+T0932,AF0311,SCI_03,science,Nile Basin Water Stress,human,blind,4.3,4.3,4.4,4.2,4.0,4.8,3.9,llm
+T0933,AF0311,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.2,4.9,4.0,4.9,5.4,4.9,1.9,N/A
+T0934,AF0312,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.5,3.1,3.0,2.8,2.9,2.4,5.3,N/A
+T0935,AF0312,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.5,3.9,3.2,3.3,3.2,3.1,5.1,N/A
+T0936,AF0312,LEG_01,legal,African Court Land Rights,llm,blind,5.3,4.6,5.0,4.9,5.0,4.5,2.9,llm
+T0937,AF0313,NEWS_04,news,East African Tech Startup Growth,human,disclosed,6.1,5.7,5.4,5.8,5.2,5.9,1.4,N/A
+T0938,AF0313,SCI_03,science,Nile Basin Water Stress,human,blind,5.6,5.5,6.3,5.8,5.8,5.9,1.5,llm
+T0939,AF0313,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.3,4.6,5.3,5.1,5.0,4.8,3.3,N/A
+T0940,AF0314,NEWS_01,news,African Union Climate Summit,llm,blind,4.7,4.5,4.7,4.9,5.4,5.3,3.7,llm
+T0941,AF0314,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.3,3.0,3.6,3.2,3.5,3.3,6.5,N/A
+T0942,AF0314,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.0,1.7,1.4,1.7,1.6,2.0,6.5,N/A
+T0943,AF0315,NEWS_03,news,Sahel Drought Food Security,human,blind,4.6,5.1,5.6,5.3,5.7,5.5,4.0,llm
+T0944,AF0315,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.8,4.5,4.7,4.6,3.8,4.3,3.6,N/A
+T0945,AF0315,LEG_01,legal,African Court Land Rights,human,disclosed,5.1,4.9,4.5,4.6,4.8,5.3,3.0,N/A
+T0946,AF0316,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.7,4.7,4.9,4.6,4.2,4.3,3.3,N/A
+T0947,AF0316,SCI_04,science,Off-Grid Solar Africa,llm,blind,4.3,4.4,3.9,4.3,4.8,4.1,3.9,human
+T0948,AF0316,LEG_01,legal,African Court Land Rights,llm,disclosed,2.7,2.3,1.3,2.1,1.5,2.2,6.7,N/A
+T0949,AF0317,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.1,4.6,5.0,5.1,5.1,5.1,2.3,N/A
+T0950,AF0317,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,3.7,4.4,4.2,3.9,3.9,4.0,4.1,human
+T0951,AF0317,LEG_01,legal,African Court Land Rights,human,disclosed,5.0,5.1,5.9,5.4,4.9,5.1,2.9,N/A
+T0952,AF0318,NEWS_02,news,AfCFTA Trade Progress,llm,blind,5.2,4.8,4.9,4.7,4.4,5.0,3.3,llm
+T0953,AF0318,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.9,4.4,3.5,3.9,4.0,3.3,2.6,N/A
+T0954,AF0318,LEG_01,legal,African Court Land Rights,llm,disclosed,1.8,1.8,1.3,1.7,1.4,1.4,6.5,N/A
+T0955,AF0319,NEWS_03,news,Sahel Drought Food Security,human,disclosed,3.6,3.8,3.2,3.8,3.3,4.3,2.5,N/A
+T0956,AF0319,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.5,5.0,4.2,4.2,4.3,4.6,3.6,N/A
+T0957,AF0319,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,5.1,5.3,4.9,5.1,5.1,5.0,3.3,llm
+T0958,AF0320,NEWS_02,news,AfCFTA Trade Progress,llm,blind,3.2,3.4,3.1,3.0,3.1,3.0,4.1,human
+T0959,AF0320,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.6,2.4,3.3,3.3,3.2,3.7,4.9,N/A
+T0960,AF0320,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.8,2.9,3.0,3.3,3.4,3.5,5.3,N/A
+T0961,AF0321,NEWS_03,news,Sahel Drought Food Security,human,disclosed,5.2,4.6,5.0,4.8,4.9,5.4,3.2,N/A
+T0962,AF0321,SCI_03,science,Nile Basin Water Stress,human,blind,4.4,4.6,4.6,4.5,5.3,4.2,2.5,llm
+T0963,AF0321,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.3,4.3,4.3,4.4,4.9,4.5,3.6,N/A
+T0964,AF0322,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.0,4.1,3.8,3.9,3.9,3.7,3.5,N/A
+T0965,AF0322,SCI_04,science,Off-Grid Solar Africa,llm,blind,4.5,4.7,4.2,4.5,4.8,4.7,2.9,llm
+T0966,AF0322,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.1,3.0,2.9,3.0,3.1,3.1,5.5,N/A
+T0967,AF0323,NEWS_04,news,East African Tech Startup Growth,human,blind,3.5,3.8,3.3,3.6,3.8,3.5,4.2,llm
+T0968,AF0323,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.5,4.8,4.7,4.6,4.6,4.4,3.9,N/A
+T0969,AF0323,LEG_01,legal,African Court Land Rights,human,disclosed,6.2,6.2,5.7,6.2,6.0,6.6,1.4,N/A
+T0970,AF0324,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,4.9,4.5,4.0,4.6,4.8,4.4,3.6,N/A
+T0971,AF0324,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.4,5.5,5.1,5.2,5.3,5.2,4.0,llm
+T0972,AF0324,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.5,2.3,1.8,2.5,2.2,2.4,5.3,N/A
+T0973,AF0325,NEWS_01,news,African Union Climate Summit,human,blind,5.1,5.1,4.4,4.7,4.7,4.2,2.9,human
+T0974,AF0325,SCI_03,science,Nile Basin Water Stress,human,disclosed,5.3,5.3,5.2,5.3,5.4,5.4,1.0,N/A
+T0975,AF0325,LEG_01,legal,African Court Land Rights,human,disclosed,4.8,4.5,4.3,4.5,3.9,4.7,2.1,N/A
+T0976,AF0326,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.8,3.3,3.1,3.4,3.9,3.8,4.1,N/A
+T0977,AF0326,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,4.3,3.3,3.7,3.8,3.8,3.9,6.6,N/A
+T0978,AF0326,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,3.7,3.6,3.8,3.8,4.3,3.4,4.6,llm
+T0979,AF0327,NEWS_01,news,African Union Climate Summit,human,disclosed,3.9,4.3,4.3,4.3,4.2,4.8,4.4,N/A
+T0980,AF0327,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,3.6,3.5,3.2,3.3,3.1,3.6,4.5,N/A
+T0981,AF0327,LEG_01,legal,African Court Land Rights,human,blind,4.5,4.3,4.1,4.3,4.6,4.5,1.9,human
+T0982,AF0328,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.4,3.5,3.2,3.4,4.3,3.1,4.6,N/A
+T0983,AF0328,SCI_04,science,Off-Grid Solar Africa,llm,blind,5.5,5.0,4.6,5.0,5.3,4.8,3.1,human
+T0984,AF0328,LEG_04,legal,South Africa Mining Charter,llm,disclosed,1.6,2.0,1.8,1.8,1.7,1.9,5.3,N/A
+T0985,AF0329,NEWS_01,news,African Union Climate Summit,human,disclosed,5.6,4.7,5.4,5.3,5.3,5.0,4.1,N/A
+T0986,AF0329,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.3,5.2,5.9,5.3,6.1,5.3,2.8,N/A
+T0987,AF0329,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.2,3.8,4.1,3.7,4.3,3.7,4.1,llm
+T0988,AF0330,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,1.7,1.5,1.0,1.6,2.0,1.9,6.0,N/A
+T0989,AF0330,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,4.9,4.9,4.8,4.9,5.4,4.6,2.1,human
+T0990,AF0330,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.2,3.2,2.9,3.1,3.2,3.6,3.9,N/A
+T0991,AF0331,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.0,4.0,4.0,3.9,4.3,4.2,2.9,N/A
+T0992,AF0331,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.3,4.2,3.8,4.1,4.2,4.1,2.4,llm
+T0993,AF0331,LEG_01,legal,African Court Land Rights,human,disclosed,4.7,4.6,4.5,4.3,4.4,5.3,2.8,N/A
+T0994,AF0332,NEWS_01,news,African Union Climate Summit,llm,blind,5.4,5.4,5.0,5.1,5.1,5.0,2.1,llm
+T0995,AF0332,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.7,3.5,3.8,3.4,3.6,3.4,4.7,N/A
+T0996,AF0332,LEG_04,legal,South Africa Mining Charter,llm,disclosed,1.7,1.4,1.5,1.4,1.7,1.9,6.4,N/A
+T0997,AF0333,NEWS_01,news,African Union Climate Summit,human,disclosed,5.0,4.6,4.3,4.7,4.9,5.1,4.0,N/A
+T0998,AF0333,SCI_04,science,Off-Grid Solar Africa,human,blind,2.0,1.9,1.9,2.0,2.3,2.1,5.8,human
+T0999,AF0333,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.5,4.4,4.1,4.5,3.8,4.3,3.0,N/A
+T1000,AF0334,NEWS_02,news,AfCFTA Trade Progress,llm,blind,5.4,4.4,4.7,4.9,5.2,4.4,2.2,human
+T1001,AF0334,SCI_03,science,Nile Basin Water Stress,llm,disclosed,1.6,1.8,2.4,2.0,2.7,2.2,6.6,N/A
+T1002,AF0334,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.8,4.0,3.5,3.7,3.6,4.4,4.4,N/A
+T1003,AF0335,NEWS_01,news,African Union Climate Summit,human,blind,5.7,6.0,5.8,5.8,5.3,5.7,2.5,llm
+T1004,AF0335,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.0,4.2,3.2,3.6,4.3,3.9,5.0,N/A
+T1005,AF0335,LEG_01,legal,African Court Land Rights,human,disclosed,3.4,3.3,2.7,3.1,3.0,3.1,2.9,N/A
+T1006,AF0336,NEWS_01,news,African Union Climate Summit,llm,blind,4.3,3.6,3.9,3.8,4.4,3.8,4.3,llm
+T1007,AF0336,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.6,3.9,3.2,3.9,4.0,4.1,5.4,N/A
+T1008,AF0336,LEG_04,legal,South Africa Mining Charter,llm,disclosed,2.8,3.2,2.7,3.2,2.9,3.2,5.4,N/A
+T1009,AF0337,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.9,5.3,4.8,5.0,5.0,4.9,3.2,N/A
+T1010,AF0337,SCI_03,science,Nile Basin Water Stress,human,disclosed,5.9,6.0,5.9,6.0,6.2,5.9,1.9,N/A
+T1011,AF0337,LEG_03,legal,ICC African Union Jurisdiction,human,blind,3.1,3.5,2.6,3.2,3.5,2.9,4.8,human
+T1012,AF0338,NEWS_01,news,African Union Climate Summit,llm,blind,3.2,3.0,3.3,3.2,3.5,3.0,4.6,llm
+T1013,AF0338,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,1.5,1.8,1.9,1.6,2.3,2.0,7.0,N/A
+T1014,AF0338,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,4.6,4.2,4.3,4.2,4.0,4.0,5.1,N/A
+T1015,AF0339,NEWS_02,news,AfCFTA Trade Progress,human,blind,3.3,3.0,2.7,3.0,3.0,3.1,4.5,human
+T1016,AF0339,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.4,5.0,5.2,5.0,4.8,5.5,3.0,N/A
+T1017,AF0339,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.6,4.9,5.1,5.0,5.0,4.6,1.3,N/A
+T1018,AF0340,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.0,3.9,4.1,3.9,4.0,3.8,4.3,N/A
+T1019,AF0340,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,2.9,2.5,3.0,3.0,3.1,2.8,4.3,human
+T1020,AF0340,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.1,2.3,2.7,3.0,3.1,2.8,5.5,N/A
+T1021,AF0341,NEWS_04,news,East African Tech Startup Growth,human,disclosed,3.2,3.6,3.8,3.7,3.8,3.5,2.9,N/A
+T1022,AF0341,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.8,4.9,5.0,5.0,5.1,5.1,2.5,N/A
+T1023,AF0341,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,4.0,3.5,3.8,3.7,3.9,3.7,3.3,llm
+T1024,AF0342,NEWS_01,news,African Union Climate Summit,llm,blind,5.0,4.4,4.0,4.4,4.4,5.1,2.2,llm
+T1025,AF0342,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,4.1,3.7,3.6,3.9,4.2,4.0,3.8,N/A
+T1026,AF0342,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.4,3.4,2.8,3.2,3.3,3.6,5.0,N/A
+T1027,AF0343,NEWS_03,news,Sahel Drought Food Security,human,blind,4.4,5.2,4.0,4.6,4.4,5.0,3.3,llm
+T1028,AF0343,SCI_04,science,Off-Grid Solar Africa,human,disclosed,6.3,6.0,6.0,5.9,6.0,6.1,1.3,N/A
+T1029,AF0343,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.2,4.2,3.9,4.3,4.5,4.9,3.1,N/A
+T1030,AF0344,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,5.5,5.4,5.7,5.2,5.1,5.0,2.7,N/A
+T1031,AF0344,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.3,3.3,4.2,3.8,3.4,3.7,5.3,N/A
+T1032,AF0344,LEG_04,legal,South Africa Mining Charter,llm,blind,5.9,5.9,5.6,5.7,5.9,5.5,1.3,llm
+T1033,AF0345,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.4,4.8,4.2,4.4,4.5,4.2,2.2,N/A
+T1034,AF0345,SCI_03,science,Nile Basin Water Stress,human,disclosed,4.5,4.4,4.5,4.5,4.6,4.9,2.9,N/A
+T1035,AF0345,LEG_04,legal,South Africa Mining Charter,human,blind,5.3,5.3,4.6,5.2,5.5,5.4,2.8,llm
+T1036,AF0346,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.4,1.9,1.6,1.9,1.7,1.8,6.2,N/A
+T1037,AF0346,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.0,2.7,2.3,2.9,3.4,2.9,5.6,N/A
+T1038,AF0346,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,4.9,5.4,4.5,5.1,5.3,5.2,2.1,human
+T1039,AF0347,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,3.7,3.5,3.7,3.5,3.4,4.1,5.3,N/A
+T1040,AF0347,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.7,4.9,4.7,4.5,4.4,4.9,3.3,N/A
+T1041,AF0347,LEG_03,legal,ICC African Union Jurisdiction,human,blind,6.0,6.0,5.7,5.8,5.8,5.8,2.5,human
+T1042,AF0348,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.5,3.8,3.8,4.0,3.6,4.6,4.5,N/A
+T1043,AF0348,SCI_04,science,Off-Grid Solar Africa,llm,blind,4.3,3.7,3.2,3.8,3.9,3.5,4.6,llm
+T1044,AF0348,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,2.7,2.6,2.2,2.6,3.3,2.5,5.8,N/A
+T1045,AF0349,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.8,5.4,5.4,5.6,5.9,6.3,1.0,N/A
+T1046,AF0349,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,6.2,5.6,5.1,5.6,5.4,5.7,1.4,N/A
+T1047,AF0349,LEG_04,legal,South Africa Mining Charter,human,blind,4.6,4.9,4.9,5.0,4.5,5.3,2.4,llm
+T1048,AF0350,NEWS_01,news,African Union Climate Summit,llm,blind,4.6,4.5,4.2,4.4,5.2,4.5,2.0,llm
+T1049,AF0350,SCI_03,science,Nile Basin Water Stress,llm,disclosed,1.6,1.4,1.2,1.7,1.8,1.5,6.0,N/A
+T1050,AF0350,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.6,4.1,3.4,4.1,4.1,4.4,4.8,N/A
+T1051,AF0351,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.4,4.6,4.9,4.6,4.4,4.7,2.4,N/A
+T1052,AF0351,SCI_04,science,Off-Grid Solar Africa,human,blind,5.0,4.9,4.8,5.3,5.4,5.8,2.7,llm
+T1053,AF0351,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.8,4.1,3.6,3.6,3.9,3.7,4.7,N/A
+T1054,AF0352,NEWS_01,news,African Union Climate Summit,llm,disclosed,3.4,3.5,3.6,3.4,3.5,4.1,5.9,N/A
+T1055,AF0352,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,4.3,4.6,4.3,4.4,4.7,4.6,3.3,llm
+T1056,AF0352,LEG_01,legal,African Court Land Rights,llm,disclosed,2.6,2.9,2.5,2.7,2.6,2.5,5.4,N/A
+T1057,AF0353,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.9,4.7,4.9,4.8,4.9,5.4,1.8,N/A
+T1058,AF0353,SCI_04,science,Off-Grid Solar Africa,human,blind,5.8,6.4,5.7,5.6,5.9,4.9,1.8,llm
+T1059,AF0353,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,4.9,4.9,5.0,4.9,5.0,4.4,2.5,N/A
+T1060,AF0354,NEWS_01,news,African Union Climate Summit,llm,blind,5.5,5.2,4.9,5.1,5.3,5.3,1.3,llm
+T1061,AF0354,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.7,3.8,3.5,3.4,3.5,3.2,4.5,N/A
+T1062,AF0354,LEG_01,legal,African Court Land Rights,llm,disclosed,1.0,1.6,1.2,1.6,1.5,2.0,6.8,N/A
+T1063,AF0355,NEWS_01,news,African Union Climate Summit,human,blind,5.6,5.0,4.9,5.1,4.7,5.3,1.0,llm
+T1064,AF0355,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.7,3.7,4.5,4.4,4.2,4.5,2.6,N/A
+T1065,AF0355,LEG_01,legal,African Court Land Rights,human,disclosed,4.2,3.6,3.4,3.7,4.1,4.3,2.1,N/A
+T1066,AF0356,NEWS_01,news,African Union Climate Summit,llm,blind,4.2,4.2,3.9,4.1,4.8,4.6,3.6,llm
+T1067,AF0356,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.7,3.4,3.5,3.4,3.8,2.9,4.9,N/A
+T1068,AF0356,LEG_04,legal,South Africa Mining Charter,llm,disclosed,3.5,3.4,3.8,3.4,3.3,3.5,4.0,N/A
+T1069,AF0357,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.0,5.1,5.4,5.3,5.6,6.1,3.0,N/A
+T1070,AF0357,SCI_04,science,Off-Grid Solar Africa,human,disclosed,5.3,5.3,5.4,5.4,6.0,5.1,3.9,N/A
+T1071,AF0357,LEG_03,legal,ICC African Union Jurisdiction,human,blind,3.6,3.3,3.1,3.4,3.8,3.4,4.1,llm
+T1072,AF0358,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,2.3,2.2,2.5,2.3,2.9,2.8,5.7,N/A
+T1073,AF0358,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,3.8,3.1,3.3,3.4,3.2,3.9,4.7,human
+T1074,AF0358,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.3,2.9,2.9,2.9,3.4,3.4,4.1,N/A
+T1075,AF0359,NEWS_01,news,African Union Climate Summit,human,blind,4.9,4.5,4.8,4.6,4.7,4.9,4.4,llm
+T1076,AF0359,SCI_03,science,Nile Basin Water Stress,human,disclosed,5.7,5.6,5.6,5.2,5.3,5.5,1.9,N/A
+T1077,AF0359,LEG_04,legal,South Africa Mining Charter,human,disclosed,4.8,5.3,5.0,5.1,5.1,5.2,2.2,N/A
+T1078,AF0360,NEWS_03,news,Sahel Drought Food Security,llm,blind,5.1,4.4,5.3,4.9,4.7,4.6,2.2,llm
+T1079,AF0360,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.8,2.2,2.2,2.5,2.5,2.2,5.1,N/A
+T1080,AF0360,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,4.3,4.2,3.7,4.0,4.0,4.7,4.1,N/A
+T1081,AF0361,NEWS_01,news,African Union Climate Summit,human,blind,4.4,4.2,4.0,4.2,3.7,3.2,2.5,llm
+T1082,AF0361,SCI_03,science,Nile Basin Water Stress,human,disclosed,6.0,5.4,5.4,5.6,5.3,6.1,1.4,N/A
+T1083,AF0361,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,3.4,3.9,3.2,3.7,3.3,4.5,3.8,N/A
+T1084,AF0362,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.3,3.3,3.3,3.0,3.6,2.7,5.3,N/A
+T1085,AF0362,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,3.5,3.4,3.1,3.7,3.8,3.4,5.7,N/A
+T1086,AF0362,LEG_01,legal,African Court Land Rights,llm,blind,4.9,5.3,4.7,4.8,5.1,5.1,1.9,human
+T1087,AF0363,NEWS_01,news,African Union Climate Summit,human,blind,5.4,5.5,5.0,5.2,5.0,5.0,2.8,human
+T1088,AF0363,SCI_03,science,Nile Basin Water Stress,human,disclosed,3.1,2.8,3.3,3.0,3.1,2.9,4.9,N/A
+T1089,AF0363,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.2,4.8,5.6,5.0,4.9,5.3,3.8,N/A
+T1090,AF0364,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,3.7,3.8,3.3,3.7,4.0,3.3,3.6,N/A
+T1091,AF0364,SCI_03,science,Nile Basin Water Stress,llm,blind,5.4,4.9,4.3,4.9,5.3,4.4,1.2,human
+T1092,AF0364,LEG_01,legal,African Court Land Rights,llm,disclosed,2.9,3.1,3.0,2.9,2.8,2.6,5.7,N/A
+T1093,AF0365,NEWS_02,news,AfCFTA Trade Progress,human,blind,6.5,5.9,6.2,6.5,6.2,5.7,1.6,llm
+T1094,AF0365,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,5.2,5.0,5.3,5.0,5.3,4.7,2.7,N/A
+T1095,AF0365,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.1,4.2,4.0,4.0,4.2,3.6,3.2,N/A
+T1096,AF0366,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,1.9,2.2,2.0,2.1,2.0,1.9,6.3,N/A
+T1097,AF0366,SCI_03,science,Nile Basin Water Stress,llm,blind,3.6,4.1,3.8,3.8,3.9,4.1,3.4,llm
+T1098,AF0366,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.9,4.4,3.3,4.2,4.2,3.9,3.1,N/A
+T1099,AF0367,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.0,4.7,4.9,4.9,5.1,5.3,1.7,N/A
+T1100,AF0367,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,4.4,4.3,4.6,4.3,4.2,4.4,3.5,N/A
+T1101,AF0367,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.3,4.2,4.3,4.3,5.0,4.6,2.8,llm
+T1102,AF0368,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,2.9,3.0,2.4,2.8,3.4,2.4,4.7,N/A
+T1103,AF0368,SCI_04,science,Off-Grid Solar Africa,llm,blind,5.4,5.5,5.5,5.4,5.6,5.7,1.4,llm
+T1104,AF0368,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.6,3.6,2.8,3.6,3.5,3.8,3.9,N/A
+T1105,AF0369,NEWS_02,news,AfCFTA Trade Progress,human,blind,4.8,4.6,5.3,4.8,4.5,4.8,3.2,human
+T1106,AF0369,SCI_04,science,Off-Grid Solar Africa,human,disclosed,4.8,5.4,5.1,5.1,5.1,5.1,1.7,N/A
+T1107,AF0369,LEG_04,legal,South Africa Mining Charter,human,disclosed,3.2,3.3,3.7,3.5,4.0,3.8,5.4,N/A
+T1108,AF0370,NEWS_01,news,African Union Climate Summit,llm,disclosed,4.7,4.4,4.8,4.5,4.3,5.1,2.5,N/A
+T1109,AF0370,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.1,2.6,1.6,2.1,2.2,2.4,6.4,N/A
+T1110,AF0370,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,4.0,4.1,3.8,4.1,4.1,4.1,3.1,llm
+T1111,AF0371,NEWS_02,news,AfCFTA Trade Progress,human,blind,5.0,4.9,5.3,4.9,4.3,5.0,3.2,llm
+T1112,AF0371,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.7,4.5,4.7,4.6,4.4,4.7,2.5,N/A
+T1113,AF0371,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.4,3.7,4.1,3.6,3.3,4.1,4.5,N/A
+T1114,AF0372,NEWS_01,news,African Union Climate Summit,llm,disclosed,2.3,1.6,1.2,1.9,2.4,2.3,6.4,N/A
+T1115,AF0372,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,2.5,2.5,1.8,2.3,2.6,2.2,5.7,N/A
+T1116,AF0372,LEG_04,legal,South Africa Mining Charter,llm,blind,4.7,4.7,4.5,5.1,5.7,5.4,2.0,llm
+T1117,AF0373,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.6,5.5,5.8,5.6,5.7,5.6,2.9,N/A
+T1118,AF0373,SCI_02,science,H3Africa Genomics Hypertension,human,blind,4.7,3.9,4.6,4.7,4.3,4.9,3.5,llm
+T1119,AF0373,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,5.7,5.6,5.3,5.3,5.3,5.1,3.4,N/A
+T1120,AF0374,NEWS_01,news,African Union Climate Summit,llm,blind,4.6,4.9,4.4,4.6,5.0,4.9,4.4,human
+T1121,AF0374,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,2.5,2.7,2.9,2.6,2.9,2.9,5.4,N/A
+T1122,AF0374,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.3,3.0,2.0,2.6,2.4,2.4,6.2,N/A
+T1123,AF0375,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.4,5.0,4.9,4.9,4.9,5.2,3.8,N/A
+T1124,AF0375,SCI_04,science,Off-Grid Solar Africa,human,blind,2.3,1.6,1.5,2.1,2.2,2.0,4.2,llm
+T1125,AF0375,LEG_01,legal,African Court Land Rights,human,disclosed,5.6,5.6,5.4,5.2,5.4,4.9,2.8,N/A
+T1126,AF0376,NEWS_03,news,Sahel Drought Food Security,llm,blind,4.7,5.3,5.2,5.0,5.1,4.8,1.9,llm
+T1127,AF0376,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.8,2.8,2.6,2.7,2.8,2.5,4.8,N/A
+T1128,AF0376,LEG_02,legal,Kenya Data Protection Enforcement,llm,disclosed,3.5,3.6,3.9,3.5,3.9,3.3,3.6,N/A
+T1129,AF0377,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,3.2,3.4,2.9,3.1,3.2,2.9,3.5,N/A
+T1130,AF0377,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,6.0,5.1,6.1,5.6,5.1,6.0,3.7,N/A
+T1131,AF0377,LEG_04,legal,South Africa Mining Charter,human,blind,3.7,3.4,3.3,3.5,4.0,3.5,3.8,human
+T1132,AF0378,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.4,3.8,3.8,3.2,3.2,3.5,3.2,N/A
+T1133,AF0378,SCI_03,science,Nile Basin Water Stress,llm,blind,4.6,4.6,4.4,4.4,4.5,4.9,2.4,llm
+T1134,AF0378,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.2,3.9,3.5,3.4,3.2,3.7,5.9,N/A
+T1135,AF0379,NEWS_03,news,Sahel Drought Food Security,human,disclosed,5.5,5.2,4.9,5.5,6.2,5.9,1.8,N/A
+T1136,AF0379,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,blind,4.2,4.4,4.0,4.0,3.7,4.4,4.2,human
+T1137,AF0379,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.7,5.8,5.6,5.8,6.2,6.4,3.2,N/A
+T1138,AF0380,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.4,2.6,2.3,2.7,2.4,3.1,5.4,N/A
+T1139,AF0380,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,4.6,5.1,4.2,4.6,4.8,5.0,2.1,llm
+T1140,AF0380,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.2,3.4,2.7,3.2,3.0,4.0,4.4,N/A
+T1141,AF0381,NEWS_03,news,Sahel Drought Food Security,human,disclosed,4.4,4.9,4.1,4.5,4.8,4.8,3.1,N/A
+T1142,AF0381,SCI_03,science,Nile Basin Water Stress,human,blind,4.8,5.0,4.9,4.6,4.3,5.4,2.7,llm
+T1143,AF0381,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.2,3.7,4.2,4.2,4.0,3.8,3.8,N/A
+T1144,AF0382,NEWS_04,news,East African Tech Startup Growth,llm,disclosed,2.2,2.6,2.2,2.2,2.4,1.6,5.9,N/A
+T1145,AF0382,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,3.2,3.2,3.7,3.6,3.6,3.7,5.0,N/A
+T1146,AF0382,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,3.0,3.1,3.7,3.3,3.4,3.9,3.8,human
+T1147,AF0383,NEWS_03,news,Sahel Drought Food Security,human,blind,3.8,3.5,3.7,3.7,4.0,3.8,3.8,human
+T1148,AF0383,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.5,4.8,4.3,4.4,3.8,4.3,2.6,N/A
+T1149,AF0383,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.0,4.9,4.9,4.8,5.0,4.8,2.5,N/A
+T1150,AF0384,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,5.6,5.5,5.5,5.4,5.7,5.2,4.6,N/A
+T1151,AF0384,SCI_02,science,H3Africa Genomics Hypertension,llm,blind,6.3,6.8,6.3,6.4,7.0,6.5,1.6,llm
+T1152,AF0384,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,1.7,1.7,1.6,1.9,2.0,1.9,5.3,N/A
+T1153,AF0385,NEWS_04,news,East African Tech Startup Growth,human,disclosed,4.8,4.4,4.3,4.1,4.2,4.0,4.1,N/A
+T1154,AF0385,SCI_02,science,H3Africa Genomics Hypertension,human,disclosed,3.2,3.4,3.7,3.6,3.9,3.8,4.6,N/A
+T1155,AF0385,LEG_04,legal,South Africa Mining Charter,human,blind,3.8,3.9,3.7,3.8,3.9,3.8,3.2,human
+T1156,AF0386,NEWS_01,news,African Union Climate Summit,llm,disclosed,2.0,2.0,1.0,1.7,1.9,1.6,6.5,N/A
+T1157,AF0386,SCI_03,science,Nile Basin Water Stress,llm,disclosed,4.2,3.9,4.3,4.1,4.6,3.5,4.2,N/A
+T1158,AF0386,LEG_04,legal,South Africa Mining Charter,llm,blind,4.1,3.3,4.2,4.0,4.0,4.4,4.7,human
+T1159,AF0387,NEWS_04,news,East African Tech Startup Growth,human,disclosed,2.9,2.6,3.1,3.0,3.1,3.2,3.2,N/A
+T1160,AF0387,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.4,4.7,4.8,4.5,4.5,4.7,2.1,N/A
+T1161,AF0387,LEG_01,legal,African Court Land Rights,human,blind,4.0,3.9,3.8,3.7,3.4,3.1,4.3,llm
+T1162,AF0388,NEWS_03,news,Sahel Drought Food Security,llm,blind,4.8,4.4,4.6,4.9,4.9,4.7,3.0,human
+T1163,AF0388,SCI_03,science,Nile Basin Water Stress,llm,disclosed,4.4,4.4,4.7,4.5,4.8,4.2,2.5,N/A
+T1164,AF0388,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,2.1,3.0,2.7,2.8,3.0,3.6,6.0,N/A
+T1165,AF0389,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.6,4.8,5.5,4.5,4.7,4.5,1.4,N/A
+T1166,AF0389,SCI_04,science,Off-Grid Solar Africa,human,blind,5.1,5.2,5.2,5.3,5.3,5.6,3.5,llm
+T1167,AF0389,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,5.4,5.2,4.5,5.0,4.7,4.7,2.9,N/A
+T1168,AF0390,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,2.8,3.6,2.8,2.9,2.9,3.5,5.9,N/A
+T1169,AF0390,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,2.1,2.4,2.5,2.2,2.0,2.4,7.0,N/A
+T1170,AF0390,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,4.6,4.1,4.4,4.6,4.9,4.9,2.6,llm
+T1171,AF0391,NEWS_04,news,East African Tech Startup Growth,human,disclosed,5.6,5.2,5.5,5.2,5.8,6.2,1.1,N/A
+T1172,AF0391,SCI_03,science,Nile Basin Water Stress,human,disclosed,5.6,6.0,6.1,5.5,5.2,4.9,2.2,N/A
+T1173,AF0391,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.8,4.0,4.2,4.3,4.8,4.0,3.6,llm
+T1174,AF0392,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,4.8,4.4,4.8,4.9,4.3,5.3,2.8,N/A
+T1175,AF0392,SCI_03,science,Nile Basin Water Stress,llm,blind,6.7,7.0,6.7,7.0,7.0,6.5,1.2,llm
+T1176,AF0392,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,1.9,1.9,1.2,1.9,2.3,1.4,5.1,N/A
+T1177,AF0393,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,5.1,5.5,4.7,5.0,5.0,5.8,1.7,N/A
+T1178,AF0393,SCI_04,science,Off-Grid Solar Africa,human,blind,5.0,5.0,5.1,5.1,5.1,5.7,2.5,human
+T1179,AF0393,LEG_04,legal,South Africa Mining Charter,human,disclosed,6.1,6.4,6.7,6.3,5.9,6.5,1.6,N/A
+T1180,AF0394,NEWS_01,news,African Union Climate Summit,llm,disclosed,5.4,5.7,5.4,5.2,4.8,4.7,3.0,N/A
+T1181,AF0394,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,4.0,4.5,4.1,3.9,4.5,3.8,4.5,N/A
+T1182,AF0394,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,5.0,4.8,4.5,5.0,4.9,4.9,1.6,llm
+T1183,AF0395,NEWS_01,news,African Union Climate Summit,human,disclosed,5.0,5.0,4.3,4.9,5.2,4.8,2.6,N/A
+T1184,AF0395,SCI_04,science,Off-Grid Solar Africa,human,blind,4.8,5.2,4.3,4.9,4.8,4.9,3.3,llm
+T1185,AF0395,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,3.9,3.4,4.2,3.7,3.5,3.5,4.9,N/A
+T1186,AF0396,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,1.9,2.1,2.0,2.2,1.9,2.2,5.1,N/A
+T1187,AF0396,SCI_04,science,Off-Grid Solar Africa,llm,disclosed,3.8,4.2,3.9,3.7,3.4,3.6,4.5,N/A
+T1188,AF0396,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,5.5,5.1,5.0,5.2,5.2,5.2,1.0,human
+T1189,AF0397,NEWS_04,news,East African Tech Startup Growth,human,disclosed,5.1,5.5,5.2,5.1,5.3,5.4,2.4,N/A
+T1190,AF0397,SCI_03,science,Nile Basin Water Stress,human,blind,4.1,3.7,3.7,3.9,4.4,3.6,4.2,llm
+T1191,AF0397,LEG_02,legal,Kenya Data Protection Enforcement,human,disclosed,5.7,4.7,5.4,5.2,5.3,5.7,2.9,N/A
+T1192,AF0398,NEWS_01,news,African Union Climate Summit,llm,disclosed,3.0,2.8,2.6,2.6,2.6,2.7,5.5,N/A
+T1193,AF0398,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.7,2.6,2.6,2.6,2.6,3.3,4.5,N/A
+T1194,AF0398,LEG_04,legal,South Africa Mining Charter,llm,blind,4.6,4.2,4.5,4.8,5.0,4.3,1.9,llm
+T1195,AF0399,NEWS_04,news,East African Tech Startup Growth,human,blind,6.1,5.7,5.7,6.0,6.0,6.2,1.9,human
+T1196,AF0399,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,5.5,5.5,5.5,5.4,5.3,5.5,1.6,N/A
+T1197,AF0399,LEG_04,legal,South Africa Mining Charter,human,disclosed,5.4,5.5,4.8,5.2,5.8,5.4,1.7,N/A
+T1198,AF0400,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,3.4,3.4,3.4,3.3,3.3,3.8,3.3,N/A
+T1199,AF0400,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,2.8,2.7,2.6,3.0,2.3,3.1,5.0,N/A
+T1200,AF0400,LEG_02,legal,Kenya Data Protection Enforcement,llm,blind,3.3,3.8,3.6,3.5,3.4,3.1,3.8,llm
+T1201,AF0401,NEWS_04,news,East African Tech Startup Growth,human,blind,4.6,3.9,4.5,4.1,4.2,4.7,3.9,human
+T1202,AF0401,SCI_04,science,Off-Grid Solar Africa,human,disclosed,3.8,3.4,4.0,3.7,3.9,4.0,2.5,N/A
+T1203,AF0401,LEG_04,legal,South Africa Mining Charter,human,disclosed,3.1,2.8,3.2,3.1,3.5,3.3,4.9,N/A
+T1204,AF0402,NEWS_01,news,African Union Climate Summit,llm,disclosed,1.0,1.3,1.3,1.2,2.3,1.5,5.8,N/A
+T1205,AF0402,SCI_03,science,Nile Basin Water Stress,llm,disclosed,2.0,1.5,1.6,1.8,2.1,2.0,6.5,N/A
+T1206,AF0402,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,4.0,4.7,4.7,4.5,4.2,5.2,2.8,llm
+T1207,AF0403,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,6.2,5.6,5.2,5.5,5.3,5.9,1.0,N/A
+T1208,AF0403,SCI_04,science,Off-Grid Solar Africa,human,blind,5.9,4.9,5.2,5.2,4.7,5.6,2.8,llm
+T1209,AF0403,LEG_03,legal,ICC African Union Jurisdiction,human,disclosed,4.1,3.5,4.6,4.3,4.8,4.6,2.8,N/A
+T1210,AF0404,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,2.2,2.3,1.8,2.2,2.0,2.3,6.8,N/A
+T1211,AF0404,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,disclosed,1.8,1.2,1.0,1.3,1.6,1.3,7.0,N/A
+T1212,AF0404,LEG_03,legal,ICC African Union Jurisdiction,llm,blind,2.9,3.1,2.8,3.2,3.5,4.1,4.9,human
+T1213,AF0405,NEWS_01,news,African Union Climate Summit,human,disclosed,3.4,3.9,3.3,3.7,3.4,3.7,3.6,N/A
+T1214,AF0405,SCI_04,science,Off-Grid Solar Africa,human,disclosed,3.9,4.0,4.1,4.3,4.2,4.1,4.3,N/A
+T1215,AF0405,LEG_03,legal,ICC African Union Jurisdiction,human,blind,4.6,4.4,4.5,4.7,4.9,4.9,2.1,human
+T1216,AF0406,NEWS_01,news,African Union Climate Summit,llm,disclosed,2.4,1.5,1.7,2.1,2.1,2.3,6.6,N/A
+T1217,AF0406,SCI_03,science,Nile Basin Water Stress,llm,blind,5.3,5.2,4.7,4.9,4.5,5.3,2.3,llm
+T1218,AF0406,LEG_04,legal,South Africa Mining Charter,llm,disclosed,4.8,5.3,5.1,5.0,4.9,5.1,2.5,N/A
+T1219,AF0407,NEWS_03,news,Sahel Drought Food Security,human,disclosed,7.0,6.3,6.0,6.1,6.0,6.0,1.4,N/A
+T1220,AF0407,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.6,4.7,4.5,4.3,4.3,4.7,2.5,N/A
+T1221,AF0407,LEG_04,legal,South Africa Mining Charter,human,blind,6.5,6.8,6.8,6.3,6.9,6.8,1.5,human
+T1222,AF0408,NEWS_02,news,AfCFTA Trade Progress,llm,disclosed,1.2,1.1,1.4,1.3,1.0,1.2,7.0,N/A
+T1223,AF0408,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,llm,blind,5.0,4.8,4.5,4.6,4.8,4.5,3.6,human
+T1224,AF0408,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,1.3,1.2,1.2,1.3,1.2,1.5,7.0,N/A
+T1225,AF0409,NEWS_02,news,AfCFTA Trade Progress,human,disclosed,4.4,3.4,3.8,4.0,4.6,4.4,3.5,N/A
+T1226,AF0409,SCI_01,science,Malaria Vaccine Rollout Sub-Saharan Africa,human,disclosed,4.6,4.4,4.2,4.5,4.3,4.7,2.2,N/A
+T1227,AF0409,LEG_02,legal,Kenya Data Protection Enforcement,human,blind,5.4,5.3,5.4,5.5,5.7,5.4,1.0,human
+T1228,AF0410,NEWS_03,news,Sahel Drought Food Security,llm,disclosed,3.7,3.8,3.3,3.8,4.2,3.9,4.0,N/A
+T1229,AF0410,SCI_02,science,H3Africa Genomics Hypertension,llm,disclosed,1.8,2.4,1.9,2.0,1.9,2.4,5.5,N/A
+T1230,AF0410,LEG_01,legal,African Court Land Rights,llm,blind,3.1,3.9,3.7,3.6,3.4,4.2,3.7,llm
+T1231,AF0411,NEWS_01,news,African Union Climate Summit,human,disclosed,7.0,7.0,6.7,7.0,7.0,7.0,1.1,N/A
+T1232,AF0411,SCI_02,science,H3Africa Genomics Hypertension,human,blind,5.2,4.3,4.3,4.7,5.5,4.8,3.6,llm
+T1233,AF0411,LEG_01,legal,African Court Land Rights,human,disclosed,3.9,5.0,3.5,4.4,4.5,4.0,3.2,N/A
+T1234,AF0412,NEWS_04,news,East African Tech Startup Growth,llm,blind,4.9,4.6,4.2,4.8,4.9,4.1,2.1,human
+T1235,AF0412,SCI_03,science,Nile Basin Water Stress,llm,disclosed,3.3,3.6,2.9,3.1,3.2,2.8,3.6,N/A
+T1236,AF0412,LEG_03,legal,ICC African Union Jurisdiction,llm,disclosed,3.6,4.0,3.3,3.7,3.6,4.4,4.9,N/A

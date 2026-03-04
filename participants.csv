@@ -1,0 +1,413 @@
+participant_id,country,region,age,gender,education,occupation,primary_language,urban_rural,internet_access,news_consumption_platform,ai_use_frequency,ai_literacy_score,source_condition
+AF0001,Ethiopia,East Africa,41,Woman,Master's degree,Healthcare worker,Amharic,Rural,Broadband/WiFi,Radio,Never,4.25,human
+AF0002,Nigeria,West Africa,40,Woman,Secondary school certificate,Self-employed/Entrepreneur,Yoruba,Urban,No regular internet,Online news site,Sometimes (monthly),3.75,llm
+AF0003,South Africa,Southern Africa,29,Woman,Some university/college,Business/Finance,Sotho,Urban,Mobile data (4G),Online news site,Sometimes (monthly),3.25,human
+AF0004,Kenya,East Africa,37,Man,Bachelor's degree,Healthcare worker,Luo,Urban,Mobile data (4G),WhatsApp/Social media,Daily,1.75,llm
+AF0005,South Africa,Southern Africa,27,Woman,Bachelor's degree,Business/Finance,English,Urban,Mobile data (4G),Online news site,Rarely (a few times a year),4.25,human
+AF0006,Ghana,West Africa,26,Woman,Bachelor's degree,Student,English,Rural,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),2.5,llm
+AF0007,South Africa,Southern Africa,24,Woman,Bachelor's degree,Teacher/Educator,Sotho,Urban,Broadband/WiFi,Social media,Sometimes (monthly),2.75,human
+AF0008,South Africa,Southern Africa,30,Woman,Some university/college,Unemployed/Seeking work,Zulu,Peri-urban,Mobile data (4G),Online news site,Rarely (a few times a year),3.5,llm
+AF0009,Zimbabwe,Southern Africa,23,Man,Bachelor's degree,Business/Finance,Shona,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),1.5,human
+AF0010,South Africa,Southern Africa,18,Man,Some university/college,Student,Zulu,Urban,Mobile data (2G/3G),Online news site,Often (weekly),3.25,llm
+AF0011,Ethiopia,East Africa,29,Woman,Bachelor's degree,Government/Civil service,Somali,Urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),2.75,human
+AF0012,Nigeria,West Africa,25,Woman,Bachelor's degree,Farmer/Agriculture,Yoruba,Urban,Mobile data (2G/3G),Television,Rarely (a few times a year),3.5,llm
+AF0013,Zambia,Southern Africa,18,Man,Less than secondary school,Business/Finance,Bemba,Rural,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),2.0,human
+AF0014,Uganda,East Africa,27,Woman,Bachelor's degree,Informal sector/Trader,Acholi,Rural,Mobile data (4G),Online news site,Never,3.75,llm
+AF0015,Tanzania,East Africa,35,Woman,Bachelor's degree,Farmer/Agriculture,Sukuma,Rural,No regular internet,Radio,Daily,2.75,human
+AF0016,Tanzania,East Africa,18,Woman,Bachelor's degree,Student,English,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),3.75,llm
+AF0017,Uganda,East Africa,18,Non-binary,Some university/college,Teacher/Educator,Runyankole,Rural,Mobile data (4G),Online news site,Rarely (a few times a year),2.0,human
+AF0018,Rwanda,East Africa,26,Woman,Some university/college,Healthcare worker,French,Urban,Mobile data (4G),Online news site,Sometimes (monthly),3.25,llm
+AF0019,Nigeria,West Africa,45,Woman,Bachelor's degree,Business/Finance,Igbo,Rural,Mobile data (2G/3G),Radio,Sometimes (monthly),2.5,human
+AF0020,Ethiopia,East Africa,35,Man,Bachelor's degree,Informal sector/Trader,Amharic,Urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),3.75,llm
+AF0021,Zambia,Southern Africa,21,Woman,Bachelor's degree,Farmer/Agriculture,Nyanja,Urban,Mobile data (2G/3G),Radio,Never,4.5,human
+AF0022,Nigeria,West Africa,27,Man,Less than secondary school,Business/Finance,English,Urban,Mobile data (4G),Television,Often (weekly),3.0,llm
+AF0023,Ghana,West Africa,19,Woman,Bachelor's degree,Self-employed/Entrepreneur,Ga,Urban,Mobile data (2G/3G),Radio,Sometimes (monthly),3.25,human
+AF0024,Ethiopia,East Africa,26,Woman,Bachelor's degree,Farmer/Agriculture,Oromo,Urban,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),1.25,llm
+AF0025,South Africa,Southern Africa,40,Man,Secondary school certificate,Informal sector/Trader,Sotho,Urban,Broadband/WiFi,Social media,Often (weekly),3.25,human
+AF0026,Ethiopia,East Africa,31,Man,Master's degree,Government/Civil service,Somali,Peri-urban,No regular internet,Newspaper (print),Rarely (a few times a year),2.5,llm
+AF0027,Nigeria,West Africa,27,Woman,Bachelor's degree,Student,Hausa,Urban,Mobile data (2G/3G),Radio,Never,3.5,human
+AF0028,Ghana,West Africa,20,Woman,Some university/college,Engineer/Technology,Twi (Akan),Rural,Broadband/WiFi,WhatsApp/Social media,Rarely (a few times a year),2.75,llm
+AF0029,South Africa,Southern Africa,33,Man,Master's degree,Business/Finance,Sotho,Urban,Broadband/WiFi,Newspaper (print),Rarely (a few times a year),3.5,human
+AF0030,Kenya,East Africa,19,Woman,Secondary school certificate,Engineer/Technology,Swahili,Peri-urban,Mobile data (4G),Radio,Often (weekly),2.75,llm
+AF0031,Uganda,East Africa,23,Woman,Less than secondary school,Farmer/Agriculture,Luganda,Rural,Mobile data (2G/3G),Television,Often (weekly),3.0,human
+AF0032,Nigeria,West Africa,29,Man,Some university/college,Engineer/Technology,English,Urban,Mobile data (2G/3G),Radio,Never,4.0,llm
+AF0033,Nigeria,West Africa,25,Man,Bachelor's degree,Student,Yoruba,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),4.5,human
+AF0034,Nigeria,West Africa,27,Man,Some university/college,Farmer/Agriculture,Yoruba,Peri-urban,Mobile data (4G),Online news site,Often (weekly),3.5,llm
+AF0035,Tanzania,East Africa,27,Man,Bachelor's degree,Informal sector/Trader,Swahili,Urban,Broadband/WiFi,Radio,Often (weekly),3.25,human
+AF0036,Senegal,West Africa,46,Woman,Master's degree,Healthcare worker,Wolof,Rural,Broadband/WiFi,WhatsApp/Social media,Never,3.0,llm
+AF0037,Nigeria,West Africa,36,Non-binary,Some university/college,Farmer/Agriculture,Hausa,Rural,Mobile data (2G/3G),Radio,Sometimes (monthly),2.25,human
+AF0038,Zimbabwe,Southern Africa,20,Man,Some university/college,Student,English,Rural,Mobile data (2G/3G),WhatsApp/Social media,Daily,3.25,llm
+AF0039,Nigeria,West Africa,26,Woman,Secondary school certificate,Healthcare worker,English,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.0,human
+AF0040,Kenya,East Africa,22,Woman,Some university/college,Informal sector/Trader,Swahili,Peri-urban,Mobile data (4G),Radio,Rarely (a few times a year),3.75,llm
+AF0041,South Africa,Southern Africa,33,Man,Bachelor's degree,Government/Civil service,Afrikaans,Urban,Broadband/WiFi,Online news site,Sometimes (monthly),4.0,human
+AF0042,South Africa,Southern Africa,18,Woman,Bachelor's degree,Business/Finance,Sotho,Rural,Mobile data (4G),Online news site,Sometimes (monthly),2.25,llm
+AF0043,Ethiopia,East Africa,35,Woman,Secondary school certificate,Farmer/Agriculture,Oromo,Rural,No regular internet,Television,Sometimes (monthly),3.0,human
+AF0044,Nigeria,West Africa,21,Man,Some university/college,Student,Yoruba,Urban,Mobile data (4G),Radio,Never,3.5,llm
+AF0045,Ethiopia,East Africa,18,Woman,Bachelor's degree,Farmer/Agriculture,English,Peri-urban,Mobile data (4G),Radio,Sometimes (monthly),4.0,human
+AF0046,South Africa,Southern Africa,18,Man,Secondary school certificate,Self-employed/Entrepreneur,Zulu,Urban,Mobile data (4G),Social media,Sometimes (monthly),3.75,llm
+AF0047,South Africa,Southern Africa,41,Man,Secondary school certificate,Informal sector/Trader,English,Peri-urban,Broadband/WiFi,Online news site,Often (weekly),3.75,human
+AF0048,Nigeria,West Africa,18,Woman,Some university/college,Healthcare worker,Hausa,Urban,Mobile data (2G/3G),Radio,Often (weekly),3.0,llm
+AF0049,Kenya,East Africa,29,Man,Doctoral/professional degree,Government/Civil service,English,Rural,Mobile data (2G/3G),Television,Daily,1.75,human
+AF0050,South Africa,Southern Africa,31,Woman,Some university/college,Government/Civil service,Zulu,Urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),1.75,llm
+AF0051,Nigeria,West Africa,33,Man,Bachelor's degree,Informal sector/Trader,Hausa,Peri-urban,Mobile data (4G),Online news site,Never,2.75,human
+AF0052,Tanzania,East Africa,39,Man,Master's degree,Business/Finance,English,Peri-urban,Mobile data (2G/3G),Radio,Never,3.5,llm
+AF0053,Nigeria,West Africa,28,Woman,Less than secondary school,Government/Civil service,Hausa,Urban,Mobile data (4G),Online news site,Sometimes (monthly),3.25,human
+AF0054,Ghana,West Africa,26,Man,Secondary school certificate,Student,Ewe,Urban,Broadband/WiFi,Radio,Sometimes (monthly),2.75,llm
+AF0055,Ethiopia,East Africa,37,Woman,Secondary school certificate,Farmer/Agriculture,Somali,Urban,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),2.75,human
+AF0056,Ethiopia,East Africa,27,Woman,Master's degree,Farmer/Agriculture,Tigrinya,Rural,Mobile data (4G),Radio,Often (weekly),2.75,llm
+AF0057,Kenya,East Africa,36,Man,Bachelor's degree,Farmer/Agriculture,Swahili,Urban,Mobile data (2G/3G),WhatsApp/Social media,Daily,4.5,human
+AF0058,South Africa,Southern Africa,18,Man,Less than secondary school,Farmer/Agriculture,Tswana,Peri-urban,Mobile data (2G/3G),Television,Rarely (a few times a year),2.5,llm
+AF0059,Ethiopia,East Africa,24,Woman,Less than secondary school,Farmer/Agriculture,Amharic,Urban,Mobile data (4G),Radio,Rarely (a few times a year),2.25,human
+AF0060,Zambia,Southern Africa,43,Man,Some university/college,Farmer/Agriculture,Nyanja,Peri-urban,Broadband/WiFi,Online news site,Daily,2.25,llm
+AF0061,South Africa,Southern Africa,19,Woman,Bachelor's degree,Teacher/Educator,English,Urban,Mobile data (4G),Radio,Never,2.0,human
+AF0062,Ethiopia,East Africa,24,Woman,Bachelor's degree,Informal sector/Trader,Oromo,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),3.0,llm
+AF0063,South Africa,Southern Africa,18,Man,Secondary school certificate,Teacher/Educator,Afrikaans,Peri-urban,Mobile data (4G),Television,Never,4.25,human
+AF0064,South Africa,Southern Africa,28,Man,Bachelor's degree,Student,Zulu,Urban,Mobile data (2G/3G),Online news site,Often (weekly),3.75,llm
+AF0065,Kenya,East Africa,36,Woman,Master's degree,Government/Civil service,Swahili,Urban,Mobile data (4G),Radio,Daily,2.75,human
+AF0066,Zambia,Southern Africa,32,Woman,Bachelor's degree,Informal sector/Trader,English,Peri-urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.75,llm
+AF0067,South Africa,Southern Africa,24,Woman,Master's degree,Unemployed/Seeking work,Sotho,Rural,Mobile data (4G),Television,Daily,2.5,human
+AF0068,Tanzania,East Africa,26,Woman,Secondary school certificate,Self-employed/Entrepreneur,Sukuma,Urban,Broadband/WiFi,Television,Rarely (a few times a year),4.5,llm
+AF0069,South Africa,Southern Africa,19,Woman,Secondary school certificate,Self-employed/Entrepreneur,Afrikaans,Rural,Mobile data (4G),Social media,Never,2.75,human
+AF0070,Kenya,East Africa,26,Man,Bachelor's degree,Student,Swahili,Urban,Broadband/WiFi,Online news site,Never,3.25,llm
+AF0071,Ethiopia,East Africa,26,Woman,Master's degree,Farmer/Agriculture,Amharic,Rural,No regular internet,WhatsApp/Social media,Rarely (a few times a year),3.5,human
+AF0072,Ethiopia,East Africa,18,Woman,Secondary school certificate,Farmer/Agriculture,English,Rural,Mobile data (2G/3G),Radio,Often (weekly),2.75,llm
+AF0073,Kenya,East Africa,18,Man,Some university/college,Student,Swahili,Peri-urban,Mobile data (4G),Television,Often (weekly),3.0,human
+AF0074,Zimbabwe,Southern Africa,37,Man,Bachelor's degree,Teacher/Educator,Shona,Rural,Mobile data (2G/3G),Online news site,Often (weekly),3.5,llm
+AF0075,Tanzania,East Africa,28,Man,Master's degree,Informal sector/Trader,Swahili,Rural,Broadband/WiFi,WhatsApp/Social media,Rarely (a few times a year),3.5,human
+AF0076,Tanzania,East Africa,32,Woman,Master's degree,Business/Finance,Haya,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),3.25,llm
+AF0077,South Africa,Southern Africa,38,Man,Secondary school certificate,NGO/Non-profit,Tswana,Urban,No regular internet,Social media,Never,4.0,human
+AF0078,Ghana,West Africa,28,Non-binary,Master's degree,Healthcare worker,Twi (Akan),Rural,Mobile data (2G/3G),Radio,Rarely (a few times a year),2.75,llm
+AF0079,Uganda,East Africa,24,Man,Bachelor's degree,Self-employed/Entrepreneur,Swahili,Peri-urban,Mobile data (4G),Radio,Sometimes (monthly),3.5,human
+AF0080,Ghana,West Africa,24,Man,Bachelor's degree,Self-employed/Entrepreneur,Twi (Akan),Urban,Broadband/WiFi,Online news site,Never,3.25,llm
+AF0081,South Africa,Southern Africa,26,Woman,Bachelor's degree,Business/Finance,English,Urban,Mobile data (4G),Television,Often (weekly),2.0,human
+AF0082,Ethiopia,East Africa,33,Woman,Bachelor's degree,Self-employed/Entrepreneur,Tigrinya,Rural,Mobile data (4G),Television,Daily,4.0,llm
+AF0083,Nigeria,West Africa,29,Woman,Bachelor's degree,Government/Civil service,Igbo,Peri-urban,Mobile data (4G),Radio,Sometimes (monthly),4.5,human
+AF0084,Zambia,Southern Africa,23,Man,Less than secondary school,Informal sector/Trader,Bemba,Rural,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),2.75,llm
+AF0085,Kenya,East Africa,36,Woman,Less than secondary school,Informal sector/Trader,Kikuyu,Rural,Mobile data (2G/3G),Radio,Sometimes (monthly),3.0,human
+AF0086,South Africa,Southern Africa,31,Man,Master's degree,NGO/Non-profit,English,Urban,Mobile data (4G),Social media,Sometimes (monthly),3.25,llm
+AF0087,Ethiopia,East Africa,35,Man,Secondary school certificate,Farmer/Agriculture,Somali,Rural,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.0,human
+AF0088,South Africa,Southern Africa,41,Woman,Doctoral/professional degree,Government/Civil service,Sotho,Urban,Broadband/WiFi,Television,Sometimes (monthly),3.25,llm
+AF0089,Ghana,West Africa,28,Woman,Secondary school certificate,Student,English,Peri-urban,Mobile data (4G),Radio,Rarely (a few times a year),3.5,human
+AF0090,Cameroon,Central Africa,18,Woman,Some university/college,Farmer/Agriculture,English,Urban,Mobile data (4G),Radio,Often (weekly),2.25,llm
+AF0091,Kenya,East Africa,18,Woman,Some university/college,Student,Swahili,Urban,Broadband/WiFi,WhatsApp/Social media,Rarely (a few times a year),2.75,human
+AF0092,Kenya,East Africa,37,Man,Less than secondary school,Farmer/Agriculture,Kamba,Peri-urban,Broadband/WiFi,WhatsApp/Social media,Sometimes (monthly),2.75,llm
+AF0093,Ethiopia,East Africa,24,Man,Less than secondary school,Business/Finance,Somali,Rural,Mobile data (2G/3G),Radio,Daily,2.5,human
+AF0094,South Africa,Southern Africa,32,Man,Doctoral/professional degree,Healthcare worker,Afrikaans,Urban,Mobile data (4G),Social media,Sometimes (monthly),3.0,llm
+AF0095,Kenya,East Africa,18,Woman,Some university/college,Farmer/Agriculture,Kikuyu,Peri-urban,Broadband/WiFi,Online news site,Daily,3.75,human
+AF0096,Zimbabwe,Southern Africa,27,Man,Master's degree,Business/Finance,Shona,Urban,Mobile data (2G/3G),Television,Rarely (a few times a year),2.25,llm
+AF0097,Uganda,East Africa,43,Man,Secondary school certificate,Teacher/Educator,Runyankole,Peri-urban,No regular internet,Radio,Often (weekly),2.75,human
+AF0098,Tanzania,East Africa,26,Man,Some university/college,Farmer/Agriculture,Swahili,Urban,Mobile data (2G/3G),Radio,Never,3.25,llm
+AF0099,Nigeria,West Africa,30,Man,Some university/college,Engineer/Technology,Yoruba,Peri-urban,Mobile data (2G/3G),Online news site,Often (weekly),4.0,human
+AF0100,Nigeria,West Africa,18,Man,Some university/college,Government/Civil service,Yoruba,Urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),2.75,llm
+AF0101,Kenya,East Africa,38,Woman,Bachelor's degree,Healthcare worker,Swahili,Rural,Mobile data (2G/3G),Online news site,Never,2.25,human
+AF0102,Rwanda,East Africa,27,Man,Master's degree,Business/Finance,English,Peri-urban,Mobile data (2G/3G),Radio,Never,4.0,llm
+AF0103,Cameroon,Central Africa,27,Woman,Master's degree,Farmer/Agriculture,French,Peri-urban,No regular internet,Radio,Sometimes (monthly),2.25,human
+AF0104,Kenya,East Africa,38,Man,Secondary school certificate,Government/Civil service,Swahili,Rural,Mobile data (4G),Online news site,Rarely (a few times a year),3.75,llm
+AF0105,Senegal,West Africa,28,Man,Bachelor's degree,Healthcare worker,Pulaar,Peri-urban,Mobile data (4G),Radio,Sometimes (monthly),3.5,human
+AF0106,Zambia,Southern Africa,20,Woman,Less than secondary school,Business/Finance,Nyanja,Rural,Broadband/WiFi,Radio,Sometimes (monthly),2.75,llm
+AF0107,Zambia,Southern Africa,22,Woman,Some university/college,Government/Civil service,Nyanja,Rural,Mobile data (4G),Radio,Often (weekly),2.25,human
+AF0108,Ghana,West Africa,20,Man,Bachelor's degree,Government/Civil service,Twi (Akan),Rural,Broadband/WiFi,Online news site,Rarely (a few times a year),3.75,llm
+AF0109,Kenya,East Africa,23,Woman,Secondary school certificate,Student,English,Rural,Mobile data (4G),Television,Daily,3.0,human
+AF0110,Senegal,West Africa,40,Woman,Secondary school certificate,Self-employed/Entrepreneur,Wolof,Urban,No regular internet,Radio,Rarely (a few times a year),2.5,llm
+AF0111,Nigeria,West Africa,40,Man,Master's degree,Business/Finance,Hausa,Rural,Mobile data (4G),Radio,Sometimes (monthly),2.75,human
+AF0112,Ghana,West Africa,28,Woman,Doctoral/professional degree,Healthcare worker,Ga,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),4.25,llm
+AF0113,Uganda,East Africa,18,Man,Secondary school certificate,Student,English,Urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),3.0,human
+AF0114,South Africa,Southern Africa,40,Man,Master's degree,Student,English,Urban,Broadband/WiFi,Social media,Often (weekly),2.5,llm
+AF0115,Ethiopia,East Africa,25,Woman,Secondary school certificate,Student,English,Rural,Mobile data (2G/3G),Online news site,Rarely (a few times a year),3.0,human
+AF0116,Ghana,West Africa,23,Woman,Master's degree,Government/Civil service,Ewe,Peri-urban,Mobile data (2G/3G),Television,Daily,3.0,llm
+AF0117,Ethiopia,East Africa,28,Woman,Bachelor's degree,Informal sector/Trader,Somali,Rural,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),2.75,human
+AF0118,Nigeria,West Africa,30,Man,Master's degree,Teacher/Educator,Igbo,Urban,Mobile data (4G),WhatsApp/Social media,Never,5.0,llm
+AF0119,South Africa,Southern Africa,21,Woman,Some university/college,Farmer/Agriculture,English,Urban,Broadband/WiFi,Radio,Sometimes (monthly),3.25,human
+AF0120,Nigeria,West Africa,32,Woman,Doctoral/professional degree,Business/Finance,Hausa,Urban,Mobile data (2G/3G),Online news site,Often (weekly),3.25,llm
+AF0121,Kenya,East Africa,29,Man,Bachelor's degree,Self-employed/Entrepreneur,Kamba,Peri-urban,Broadband/WiFi,Radio,Sometimes (monthly),3.5,human
+AF0122,Tanzania,East Africa,25,Man,Secondary school certificate,Self-employed/Entrepreneur,Swahili,Urban,Mobile data (2G/3G),WhatsApp/Social media,Daily,1.75,llm
+AF0123,South Africa,Southern Africa,18,Woman,Some university/college,Healthcare worker,English,Urban,Mobile data (2G/3G),Social media,Sometimes (monthly),2.0,human
+AF0124,Nigeria,West Africa,21,Man,Some university/college,Business/Finance,Igbo,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),3.5,llm
+AF0125,Uganda,East Africa,24,Woman,Less than secondary school,Farmer/Agriculture,Runyankole,Peri-urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.75,human
+AF0126,Rwanda,East Africa,31,Woman,Bachelor's degree,Informal sector/Trader,Kinyarwanda,Peri-urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),4.0,llm
+AF0127,Ghana,West Africa,36,Woman,Bachelor's degree,Government/Civil service,Twi (Akan),Urban,Broadband/WiFi,Radio,Rarely (a few times a year),4.0,human
+AF0128,Rwanda,East Africa,20,Woman,Some university/college,Healthcare worker,Kinyarwanda,Peri-urban,Mobile data (4G),Radio,Never,2.75,llm
+AF0129,Nigeria,West Africa,43,Woman,Bachelor's degree,Engineer/Technology,English,Urban,Mobile data (4G),Radio,Never,3.0,human
+AF0130,Tanzania,East Africa,33,Man,Bachelor's degree,Healthcare worker,Swahili,Urban,Mobile data (4G),Online news site,Rarely (a few times a year),3.75,llm
+AF0131,Nigeria,West Africa,18,Woman,Some university/college,Unemployed/Seeking work,Hausa,Rural,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),3.75,human
+AF0132,Kenya,East Africa,31,Man,Master's degree,Informal sector/Trader,Swahili,Urban,Mobile data (4G),WhatsApp/Social media,Daily,4.25,llm
+AF0133,South Africa,Southern Africa,29,Man,Bachelor's degree,Healthcare worker,Afrikaans,Urban,Mobile data (4G),Television,Rarely (a few times a year),3.5,human
+AF0134,Ghana,West Africa,33,Man,Doctoral/professional degree,Teacher/Educator,Ewe,Urban,Mobile data (4G),Radio,Often (weekly),2.75,llm
+AF0135,South Africa,Southern Africa,31,Man,Bachelor's degree,Business/Finance,Xhosa,Peri-urban,Broadband/WiFi,Social media,Rarely (a few times a year),3.0,human
+AF0136,Nigeria,West Africa,24,Woman,Some university/college,Self-employed/Entrepreneur,English,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.5,llm
+AF0137,Zambia,Southern Africa,33,Man,Master's degree,Business/Finance,English,Urban,No regular internet,WhatsApp/Social media,Often (weekly),2.75,human
+AF0138,Nigeria,West Africa,29,Man,Bachelor's degree,Student,Hausa,Peri-urban,Broadband/WiFi,Television,Rarely (a few times a year),4.0,llm
+AF0139,Ghana,West Africa,28,Woman,Bachelor's degree,Self-employed/Entrepreneur,Twi (Akan),Rural,Mobile data (4G),Radio,Sometimes (monthly),2.75,human
+AF0140,Zimbabwe,Southern Africa,36,Woman,Secondary school certificate,Unemployed/Seeking work,Ndebele,Urban,No regular internet,Radio,Sometimes (monthly),4.5,llm
+AF0141,Rwanda,East Africa,25,Woman,Bachelor's degree,Business/Finance,Kinyarwanda,Urban,Mobile data (4G),Newspaper (print),Daily,4.75,human
+AF0142,South Africa,Southern Africa,20,Woman,Some university/college,Unemployed/Seeking work,Xhosa,Peri-urban,Broadband/WiFi,Television,Sometimes (monthly),4.0,llm
+AF0143,Cameroon,Central Africa,31,Woman,Bachelor's degree,Farmer/Agriculture,French,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),3.5,human
+AF0144,Kenya,East Africa,38,Man,Less than secondary school,Informal sector/Trader,Swahili,Rural,Broadband/WiFi,WhatsApp/Social media,Often (weekly),1.0,llm
+AF0145,Uganda,East Africa,32,Woman,Secondary school certificate,Teacher/Educator,Runyankole,Peri-urban,Mobile data (4G),Radio,Rarely (a few times a year),3.5,human
+AF0146,South Africa,Southern Africa,32,Man,Master's degree,Government/Civil service,English,Rural,Broadband/WiFi,Social media,Daily,3.25,llm
+AF0147,Zimbabwe,Southern Africa,22,Man,Bachelor's degree,Healthcare worker,Shona,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),2.25,human
+AF0148,Zimbabwe,Southern Africa,26,Man,Bachelor's degree,Student,English,Urban,Mobile data (2G/3G),Television,Sometimes (monthly),3.5,llm
+AF0149,South Africa,Southern Africa,30,Man,Bachelor's degree,Engineer/Technology,Zulu,Urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),2.75,human
+AF0150,South Africa,Southern Africa,32,Prefer not to say,Bachelor's degree,Unemployed/Seeking work,Afrikaans,Urban,Broadband/WiFi,Online news site,Often (weekly),1.75,llm
+AF0151,Kenya,East Africa,28,Man,Bachelor's degree,Farmer/Agriculture,English,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),2.5,human
+AF0152,Nigeria,West Africa,29,Woman,Bachelor's degree,Business/Finance,Igbo,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Never,4.5,llm
+AF0153,Senegal,West Africa,18,Man,Secondary school certificate,Government/Civil service,Pulaar,Rural,Broadband/WiFi,WhatsApp/Social media,Sometimes (monthly),3.25,human
+AF0154,Kenya,East Africa,34,Woman,Bachelor's degree,Engineer/Technology,English,Urban,Mobile data (4G),Radio,Rarely (a few times a year),1.5,llm
+AF0155,Nigeria,West Africa,25,Man,Bachelor's degree,Student,Igbo,Peri-urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),2.75,human
+AF0156,Nigeria,West Africa,18,Prefer not to say,Some university/college,Teacher/Educator,Yoruba,Rural,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),4.0,llm
+AF0157,Tanzania,East Africa,21,Man,Secondary school certificate,Business/Finance,Swahili,Rural,Mobile data (4G),Television,Rarely (a few times a year),3.5,human
+AF0158,Rwanda,East Africa,24,Woman,Secondary school certificate,Farmer/Agriculture,Kinyarwanda,Urban,Mobile data (4G),WhatsApp/Social media,Never,3.0,llm
+AF0159,Ethiopia,East Africa,35,Woman,Some university/college,Farmer/Agriculture,English,Rural,No regular internet,Radio,Rarely (a few times a year),3.75,human
+AF0160,Kenya,East Africa,22,Woman,Less than secondary school,Informal sector/Trader,Kikuyu,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),2.75,llm
+AF0161,Kenya,East Africa,18,Woman,Bachelor's degree,Informal sector/Trader,Swahili,Urban,Mobile data (2G/3G),Online news site,Rarely (a few times a year),2.5,human
+AF0162,South Africa,Southern Africa,42,Man,Bachelor's degree,Unemployed/Seeking work,English,Urban,Mobile data (2G/3G),Online news site,Often (weekly),3.75,llm
+AF0163,Nigeria,West Africa,24,Man,Bachelor's degree,Self-employed/Entrepreneur,English,Urban,Broadband/WiFi,Radio,Often (weekly),2.0,human
+AF0164,Uganda,East Africa,45,Man,Master's degree,Farmer/Agriculture,Luganda,Peri-urban,No regular internet,Radio,Often (weekly),3.5,llm
+AF0165,Senegal,West Africa,20,Man,Some university/college,Business/Finance,French,Rural,No regular internet,Radio,Sometimes (monthly),2.25,human
+AF0166,Ghana,West Africa,38,Man,Master's degree,Informal sector/Trader,Twi (Akan),Peri-urban,No regular internet,Online news site,Daily,2.75,llm
+AF0167,Kenya,East Africa,34,Man,Secondary school certificate,Business/Finance,English,Urban,Mobile data (4G),Radio,Sometimes (monthly),3.0,human
+AF0168,Rwanda,East Africa,31,Woman,Bachelor's degree,Healthcare worker,Swahili,Peri-urban,Mobile data (4G),Radio,Sometimes (monthly),3.0,llm
+AF0169,Tanzania,East Africa,30,Man,Master's degree,Informal sector/Trader,Swahili,Urban,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),2.5,human
+AF0170,Nigeria,West Africa,24,Man,Some university/college,Farmer/Agriculture,Hausa,Urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),2.5,llm
+AF0171,Kenya,East Africa,32,Man,Master's degree,Business/Finance,Swahili,Rural,Mobile data (2G/3G),Radio,Never,2.5,human
+AF0172,Ghana,West Africa,23,Man,Some university/college,Farmer/Agriculture,English,Urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),3.75,llm
+AF0173,South Africa,Southern Africa,26,Woman,Master's degree,Government/Civil service,English,Urban,No regular internet,Online news site,Rarely (a few times a year),2.5,human
+AF0174,South Africa,Southern Africa,23,Man,Secondary school certificate,Engineer/Technology,Afrikaans,Rural,Mobile data (4G),Social media,Often (weekly),3.0,llm
+AF0175,South Africa,Southern Africa,33,Woman,Master's degree,Engineer/Technology,Xhosa,Urban,Mobile data (4G),Social media,Rarely (a few times a year),3.0,human
+AF0176,Nigeria,West Africa,18,Woman,Secondary school certificate,Engineer/Technology,Hausa,Urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),3.5,llm
+AF0177,Ghana,West Africa,22,Woman,Secondary school certificate,Government/Civil service,English,Urban,Broadband/WiFi,Television,Often (weekly),2.25,human
+AF0178,Nigeria,West Africa,32,Man,Master's degree,Farmer/Agriculture,Hausa,Peri-urban,No regular internet,WhatsApp/Social media,Never,2.75,llm
+AF0179,Cameroon,Central Africa,33,Woman,Master's degree,Healthcare worker,Bamileke,Rural,No regular internet,WhatsApp/Social media,Sometimes (monthly),2.75,human
+AF0180,Zimbabwe,Southern Africa,36,Woman,Secondary school certificate,Informal sector/Trader,English,Rural,No regular internet,Radio,Never,3.75,llm
+AF0181,Nigeria,West Africa,26,Woman,Bachelor's degree,Business/Finance,English,Rural,Mobile data (4G),Radio,Often (weekly),3.0,human
+AF0182,Nigeria,West Africa,31,Woman,Some university/college,Farmer/Agriculture,Hausa,Rural,Mobile data (4G),Newspaper (print),Never,4.25,llm
+AF0183,Tanzania,East Africa,18,Woman,Some university/college,Student,Swahili,Urban,Mobile data (2G/3G),Online news site,Often (weekly),2.75,human
+AF0184,Ethiopia,East Africa,32,Man,Bachelor's degree,Farmer/Agriculture,English,Rural,Mobile data (2G/3G),Radio,Sometimes (monthly),3.5,llm
+AF0185,Ghana,West Africa,24,Woman,Master's degree,Teacher/Educator,Ewe,Urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),3.5,human
+AF0186,Zambia,Southern Africa,28,Woman,Bachelor's degree,Informal sector/Trader,Nyanja,Rural,Mobile data (2G/3G),Television,Never,2.0,llm
+AF0187,Kenya,East Africa,32,Woman,Bachelor's degree,Informal sector/Trader,Kamba,Urban,Broadband/WiFi,WhatsApp/Social media,Sometimes (monthly),4.5,human
+AF0188,Kenya,East Africa,22,Man,Less than secondary school,Business/Finance,Swahili,Urban,Mobile data (4G),Newspaper (print),Sometimes (monthly),3.5,llm
+AF0189,Uganda,East Africa,40,Woman,Some university/college,Farmer/Agriculture,Luganda,Rural,Mobile data (2G/3G),Online news site,Sometimes (monthly),3.0,human
+AF0190,South Africa,Southern Africa,29,Woman,Some university/college,Healthcare worker,Sotho,Peri-urban,Mobile data (4G),Television,Sometimes (monthly),3.5,llm
+AF0191,Zambia,Southern Africa,38,Man,Secondary school certificate,Self-employed/Entrepreneur,Bemba,Peri-urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),2.75,human
+AF0192,South Africa,Southern Africa,25,Woman,Less than secondary school,Self-employed/Entrepreneur,Afrikaans,Rural,Mobile data (4G),Television,Rarely (a few times a year),3.0,llm
+AF0193,Nigeria,West Africa,18,Woman,Secondary school certificate,Self-employed/Entrepreneur,Yoruba,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),2.5,human
+AF0194,Ethiopia,East Africa,30,Woman,Master's degree,Teacher/Educator,Somali,Urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),3.25,llm
+AF0195,Tanzania,East Africa,24,Woman,Secondary school certificate,Government/Civil service,Sukuma,Urban,Mobile data (4G),WhatsApp/Social media,Often (weekly),2.25,human
+AF0196,Nigeria,West Africa,18,Woman,Less than secondary school,Teacher/Educator,Igbo,Peri-urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),2.5,llm
+AF0197,Kenya,East Africa,25,Non-binary,Bachelor's degree,Business/Finance,Swahili,Rural,Mobile data (2G/3G),Radio,Often (weekly),2.25,human
+AF0198,Nigeria,West Africa,36,Woman,Bachelor's degree,Farmer/Agriculture,Igbo,Urban,Mobile data (2G/3G),Radio,Often (weekly),3.75,llm
+AF0199,South Africa,Southern Africa,33,Woman,Master's degree,Student,Xhosa,Urban,Broadband/WiFi,Online news site,Daily,3.5,human
+AF0200,Kenya,East Africa,33,Man,Bachelor's degree,Self-employed/Entrepreneur,Swahili,Urban,Broadband/WiFi,WhatsApp/Social media,Often (weekly),3.5,llm
+AF0201,Ghana,West Africa,25,Woman,Some university/college,Farmer/Agriculture,Ewe,Urban,Mobile data (4G),WhatsApp/Social media,Often (weekly),4.5,human
+AF0202,Nigeria,West Africa,38,Woman,Secondary school certificate,Student,Hausa,Urban,Mobile data (4G),Online news site,Sometimes (monthly),4.0,llm
+AF0203,Cameroon,Central Africa,42,Man,Bachelor's degree,Self-employed/Entrepreneur,French,Urban,Mobile data (4G),WhatsApp/Social media,Daily,2.25,human
+AF0204,Uganda,East Africa,25,Woman,Bachelor's degree,Healthcare worker,Luganda,Urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),2.5,llm
+AF0205,Nigeria,West Africa,32,Woman,Master's degree,Healthcare worker,Pidgin English,Urban,Mobile data (4G),Online news site,Often (weekly),3.5,human
+AF0206,Ghana,West Africa,45,Man,Secondary school certificate,Student,Ewe,Urban,No regular internet,Radio,Sometimes (monthly),3.5,llm
+AF0207,Kenya,East Africa,18,Woman,Secondary school certificate,Business/Finance,Kamba,Urban,Mobile data (4G),Television,Rarely (a few times a year),4.0,human
+AF0208,Senegal,West Africa,32,Woman,Master's degree,Informal sector/Trader,English,Urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),4.25,llm
+AF0209,Nigeria,West Africa,21,Man,Secondary school certificate,Informal sector/Trader,English,Urban,Mobile data (2G/3G),Television,Rarely (a few times a year),3.5,human
+AF0210,South Africa,Southern Africa,21,Woman,Some university/college,Self-employed/Entrepreneur,Sotho,Peri-urban,Broadband/WiFi,Newspaper (print),Sometimes (monthly),4.75,llm
+AF0211,Kenya,East Africa,42,Woman,Master's degree,Government/Civil service,English,Urban,Mobile data (4G),WhatsApp/Social media,Daily,3.25,human
+AF0212,Nigeria,West Africa,24,Woman,Some university/college,Student,Hausa,Urban,Mobile data (4G),Online news site,Sometimes (monthly),2.5,llm
+AF0213,Ethiopia,East Africa,37,Woman,Master's degree,Self-employed/Entrepreneur,Oromo,Urban,Broadband/WiFi,WhatsApp/Social media,Sometimes (monthly),3.0,human
+AF0214,Nigeria,West Africa,27,Man,Less than secondary school,Business/Finance,Igbo,Rural,Mobile data (4G),WhatsApp/Social media,Daily,4.0,llm
+AF0215,Ghana,West Africa,28,Woman,Bachelor's degree,Farmer/Agriculture,English,Rural,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),3.5,human
+AF0216,Ethiopia,East Africa,21,Woman,Some university/college,Healthcare worker,Amharic,Urban,Mobile data (2G/3G),Online news site,Often (weekly),2.75,llm
+AF0217,Nigeria,West Africa,30,Woman,Master's degree,Student,Igbo,Rural,Mobile data (2G/3G),WhatsApp/Social media,Often (weekly),3.0,human
+AF0218,Kenya,East Africa,47,Woman,Secondary school certificate,Government/Civil service,English,Peri-urban,Broadband/WiFi,WhatsApp/Social media,Often (weekly),4.0,llm
+AF0219,Nigeria,West Africa,22,Woman,Some university/college,Engineer/Technology,Yoruba,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),3.0,human
+AF0220,Zambia,Southern Africa,36,Woman,Secondary school certificate,Teacher/Educator,Bemba,Rural,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),2.5,llm
+AF0221,Nigeria,West Africa,23,Man,Master's degree,Government/Civil service,English,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),3.25,human
+AF0222,Kenya,East Africa,29,Woman,Master's degree,Self-employed/Entrepreneur,Luo,Rural,Mobile data (4G),Radio,Daily,3.75,llm
+AF0223,South Africa,Southern Africa,26,Woman,Some university/college,Student,Zulu,Urban,Mobile data (4G),Newspaper (print),Often (weekly),3.75,human
+AF0224,Ghana,West Africa,26,Man,Some university/college,Engineer/Technology,Twi (Akan),Urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),4.25,llm
+AF0225,Rwanda,East Africa,23,Woman,Bachelor's degree,Student,Kinyarwanda,Rural,Mobile data (4G),Online news site,Rarely (a few times a year),3.0,human
+AF0226,South Africa,Southern Africa,34,Prefer not to say,Bachelor's degree,Healthcare worker,Zulu,Urban,Mobile data (4G),Television,Often (weekly),4.0,llm
+AF0227,Senegal,West Africa,27,Man,Bachelor's degree,Business/Finance,French,Urban,Mobile data (4G),Television,Sometimes (monthly),2.75,human
+AF0228,South Africa,Southern Africa,18,Woman,Less than secondary school,Engineer/Technology,Tswana,Peri-urban,Broadband/WiFi,Social media,Sometimes (monthly),4.0,llm
+AF0229,Nigeria,West Africa,34,Woman,Some university/college,Informal sector/Trader,Yoruba,Rural,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.75,human
+AF0230,Ghana,West Africa,25,Man,Bachelor's degree,Farmer/Agriculture,English,Peri-urban,Broadband/WiFi,Radio,Sometimes (monthly),2.75,llm
+AF0231,South Africa,Southern Africa,18,Non-binary,Secondary school certificate,Farmer/Agriculture,Zulu,Urban,Mobile data (4G),Radio,Sometimes (monthly),2.5,human
+AF0232,Nigeria,West Africa,23,Woman,Bachelor's degree,Healthcare worker,Hausa,Urban,Mobile data (4G),Radio,Rarely (a few times a year),2.25,llm
+AF0233,Ethiopia,East Africa,19,Woman,Some university/college,Engineer/Technology,Amharic,Peri-urban,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),2.75,human
+AF0234,Tanzania,East Africa,18,Woman,Secondary school certificate,Teacher/Educator,Swahili,Rural,Mobile data (4G),Radio,Rarely (a few times a year),3.0,llm
+AF0235,Kenya,East Africa,27,Man,Secondary school certificate,Healthcare worker,Kikuyu,Peri-urban,Mobile data (2G/3G),Radio,Never,3.5,human
+AF0236,Uganda,East Africa,23,Woman,Secondary school certificate,Informal sector/Trader,Luganda,Peri-urban,Mobile data (4G),Radio,Daily,3.75,llm
+AF0237,Ghana,West Africa,44,Woman,Bachelor's degree,Unemployed/Seeking work,Ewe,Rural,Mobile data (2G/3G),Online news site,Rarely (a few times a year),2.25,human
+AF0238,Ethiopia,East Africa,23,Non-binary,Some university/college,Engineer/Technology,English,Urban,No regular internet,Radio,Rarely (a few times a year),3.25,llm
+AF0239,Uganda,East Africa,38,Woman,Master's degree,Informal sector/Trader,Swahili,Urban,Mobile data (4G),WhatsApp/Social media,Often (weekly),2.5,human
+AF0240,Nigeria,West Africa,36,Woman,Master's degree,Engineer/Technology,Hausa,Urban,Broadband/WiFi,Online news site,Rarely (a few times a year),2.5,llm
+AF0241,Nigeria,West Africa,31,Woman,Bachelor's degree,Informal sector/Trader,Igbo,Peri-urban,Mobile data (2G/3G),Online news site,Rarely (a few times a year),2.75,human
+AF0242,Cameroon,Central Africa,35,Man,Bachelor's degree,Farmer/Agriculture,Ewondo,Rural,Mobile data (2G/3G),Radio,Sometimes (monthly),3.0,llm
+AF0243,Zambia,Southern Africa,18,Woman,Bachelor's degree,Informal sector/Trader,Nyanja,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),2.75,human
+AF0244,Senegal,West Africa,28,Man,Bachelor's degree,Business/Finance,Serer,Urban,Mobile data (4G),WhatsApp/Social media,Often (weekly),2.75,llm
+AF0245,Uganda,East Africa,32,Man,Doctoral/professional degree,Farmer/Agriculture,English,Peri-urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),3.0,human
+AF0246,Senegal,West Africa,29,Woman,Master's degree,Government/Civil service,French,Rural,No regular internet,WhatsApp/Social media,Often (weekly),2.75,llm
+AF0247,Tanzania,East Africa,26,Woman,Some university/college,Farmer/Agriculture,Chaga,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Often (weekly),3.5,human
+AF0248,Ethiopia,East Africa,20,Woman,Some university/college,Engineer/Technology,Amharic,Rural,No regular internet,Radio,Never,3.5,llm
+AF0249,Zimbabwe,Southern Africa,26,Woman,Some university/college,Healthcare worker,Ndebele,Urban,Mobile data (4G),WhatsApp/Social media,Never,3.0,human
+AF0250,Nigeria,West Africa,36,Woman,Master's degree,Student,Igbo,Urban,Mobile data (2G/3G),Radio,Often (weekly),2.75,llm
+AF0251,Cameroon,Central Africa,27,Man,Secondary school certificate,Business/Finance,French,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),3.25,human
+AF0252,Cameroon,Central Africa,28,Man,Doctoral/professional degree,Farmer/Agriculture,French,Rural,Mobile data (2G/3G),Radio,Sometimes (monthly),3.25,llm
+AF0253,Ethiopia,East Africa,26,Man,Bachelor's degree,Government/Civil service,Oromo,Urban,Mobile data (4G),Radio,Never,3.25,human
+AF0254,Ethiopia,East Africa,28,Woman,Bachelor's degree,Farmer/Agriculture,Oromo,Urban,Mobile data (2G/3G),Newspaper (print),Sometimes (monthly),3.0,llm
+AF0255,Kenya,East Africa,27,Woman,Secondary school certificate,Self-employed/Entrepreneur,Kamba,Urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),3.5,human
+AF0256,South Africa,Southern Africa,23,Woman,Secondary school certificate,Student,English,Rural,Broadband/WiFi,Newspaper (print),Daily,2.75,llm
+AF0257,Nigeria,West Africa,28,Man,Bachelor's degree,Informal sector/Trader,Pidgin English,Urban,Mobile data (4G),Radio,Never,3.5,human
+AF0258,Ghana,West Africa,30,Woman,Bachelor's degree,Teacher/Educator,Dagbani,Urban,Mobile data (4G),Online news site,Sometimes (monthly),3.0,llm
+AF0259,Ethiopia,East Africa,30,Woman,Master's degree,Farmer/Agriculture,Amharic,Rural,Mobile data (4G),Radio,Rarely (a few times a year),4.25,human
+AF0260,Senegal,West Africa,18,Man,Some university/college,Government/Civil service,Pulaar,Urban,No regular internet,Radio,Never,2.5,llm
+AF0261,Uganda,East Africa,22,Man,Some university/college,Farmer/Agriculture,English,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),4.25,human
+AF0262,South Africa,Southern Africa,31,Man,Some university/college,Engineer/Technology,English,Urban,Broadband/WiFi,Online news site,Sometimes (monthly),3.5,llm
+AF0263,Ethiopia,East Africa,18,Woman,Bachelor's degree,Student,Amharic,Rural,Mobile data (2G/3G),Radio,Rarely (a few times a year),3.25,human
+AF0264,South Africa,Southern Africa,36,Man,Less than secondary school,Farmer/Agriculture,Zulu,Urban,Mobile data (4G),Television,Rarely (a few times a year),3.75,llm
+AF0265,Nigeria,West Africa,44,Woman,Master's degree,Government/Civil service,Yoruba,Peri-urban,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),3.25,human
+AF0266,Nigeria,West Africa,25,Man,Bachelor's degree,Unemployed/Seeking work,Yoruba,Urban,Mobile data (4G),Radio,Sometimes (monthly),3.5,llm
+AF0267,South Africa,Southern Africa,37,Man,Secondary school certificate,Informal sector/Trader,English,Urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),2.0,human
+AF0268,Senegal,West Africa,33,Woman,Bachelor's degree,Informal sector/Trader,English,Urban,Broadband/WiFi,Online news site,Often (weekly),2.25,llm
+AF0269,Kenya,East Africa,18,Woman,Some university/college,Informal sector/Trader,Luo,Peri-urban,Mobile data (4G),Television,Often (weekly),2.75,human
+AF0270,Zambia,Southern Africa,34,Woman,Some university/college,Government/Civil service,Tonga,Rural,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),3.25,llm
+AF0271,Nigeria,West Africa,32,Woman,Some university/college,Informal sector/Trader,Pidgin English,Urban,Mobile data (4G),Newspaper (print),Often (weekly),4.25,human
+AF0272,Nigeria,West Africa,44,Man,Secondary school certificate,Healthcare worker,Hausa,Urban,Mobile data (4G),Online news site,Often (weekly),5.0,llm
+AF0273,Ethiopia,East Africa,29,Man,Master's degree,Teacher/Educator,Oromo,Peri-urban,Mobile data (4G),Television,Never,2.5,human
+AF0274,Nigeria,West Africa,18,Woman,Bachelor's degree,Informal sector/Trader,Igbo,Urban,Mobile data (2G/3G),Television,Rarely (a few times a year),3.5,llm
+AF0275,Nigeria,West Africa,34,Man,Bachelor's degree,Business/Finance,Igbo,Urban,Broadband/WiFi,Radio,Daily,3.25,human
+AF0276,South Africa,Southern Africa,24,Man,Bachelor's degree,Engineer/Technology,English,Rural,Mobile data (4G),Online news site,Often (weekly),4.25,llm
+AF0277,Ethiopia,East Africa,39,Woman,Secondary school certificate,Farmer/Agriculture,English,Peri-urban,Mobile data (4G),Radio,Rarely (a few times a year),2.25,human
+AF0278,Kenya,East Africa,29,Man,Secondary school certificate,Student,Kikuyu,Peri-urban,Mobile data (4G),Online news site,Often (weekly),4.0,llm
+AF0279,Nigeria,West Africa,40,Man,Bachelor's degree,Engineer/Technology,Pidgin English,Urban,Mobile data (4G),Radio,Sometimes (monthly),3.75,human
+AF0280,Nigeria,West Africa,19,Woman,Bachelor's degree,Government/Civil service,Yoruba,Rural,Mobile data (4G),WhatsApp/Social media,Often (weekly),2.25,llm
+AF0281,Zimbabwe,Southern Africa,32,Man,Secondary school certificate,Healthcare worker,English,Urban,Mobile data (4G),Radio,Often (weekly),3.75,human
+AF0282,Nigeria,West Africa,28,Woman,Some university/college,Self-employed/Entrepreneur,English,Urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),2.25,llm
+AF0283,Nigeria,West Africa,25,Woman,Bachelor's degree,Government/Civil service,Hausa,Urban,Mobile data (2G/3G),WhatsApp/Social media,Often (weekly),4.25,human
+AF0284,Kenya,East Africa,29,Man,Bachelor's degree,Engineer/Technology,Swahili,Rural,Mobile data (2G/3G),Radio,Rarely (a few times a year),4.25,llm
+AF0285,Rwanda,East Africa,24,Man,Some university/college,Informal sector/Trader,Kinyarwanda,Urban,Mobile data (2G/3G),WhatsApp/Social media,Daily,2.75,human
+AF0286,South Africa,Southern Africa,48,Woman,Secondary school certificate,Student,Tswana,Urban,Broadband/WiFi,Online news site,Rarely (a few times a year),3.75,llm
+AF0287,Ethiopia,East Africa,30,Man,Some university/college,Farmer/Agriculture,Amharic,Rural,Mobile data (2G/3G),Television,Sometimes (monthly),3.0,human
+AF0288,Ghana,West Africa,36,Woman,Secondary school certificate,Farmer/Agriculture,English,Urban,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),3.25,llm
+AF0289,Kenya,East Africa,35,Man,Master's degree,Farmer/Agriculture,Swahili,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Often (weekly),4.0,human
+AF0290,South Africa,Southern Africa,21,Man,Secondary school certificate,Student,Xhosa,Urban,Mobile data (2G/3G),Television,Often (weekly),3.75,llm
+AF0291,Kenya,East Africa,19,Man,Some university/college,Business/Finance,Swahili,Urban,Mobile data (4G),WhatsApp/Social media,Never,4.0,human
+AF0292,Ghana,West Africa,34,Woman,Bachelor's degree,Healthcare worker,Ga,Rural,Mobile data (4G),WhatsApp/Social media,Never,1.75,llm
+AF0293,South Africa,Southern Africa,30,Woman,Bachelor's degree,Self-employed/Entrepreneur,Xhosa,Urban,Mobile data (4G),Social media,Rarely (a few times a year),2.75,human
+AF0294,South Africa,Southern Africa,39,Man,Some university/college,Teacher/Educator,Zulu,Urban,Broadband/WiFi,Social media,Sometimes (monthly),3.0,llm
+AF0295,Tanzania,East Africa,30,Man,Bachelor's degree,Student,Swahili,Rural,Mobile data (4G),Radio,Often (weekly),4.0,human
+AF0296,Ethiopia,East Africa,21,Non-binary,Bachelor's degree,Farmer/Agriculture,Oromo,Urban,Mobile data (2G/3G),WhatsApp/Social media,Often (weekly),5.0,llm
+AF0297,Nigeria,West Africa,40,Man,Master's degree,Government/Civil service,Yoruba,Urban,Mobile data (4G),Radio,Often (weekly),4.5,human
+AF0298,Nigeria,West Africa,30,Man,Bachelor's degree,Self-employed/Entrepreneur,English,Urban,Mobile data (2G/3G),Radio,Sometimes (monthly),2.0,llm
+AF0299,Ghana,West Africa,24,Man,Secondary school certificate,Student,Twi (Akan),Urban,Mobile data (2G/3G),Radio,Never,2.75,human
+AF0300,Tanzania,East Africa,29,Man,Master's degree,Teacher/Educator,Swahili,Rural,No regular internet,WhatsApp/Social media,Never,3.5,llm
+AF0301,Kenya,East Africa,30,Man,Doctoral/professional degree,Farmer/Agriculture,English,Peri-urban,Mobile data (4G),Radio,Rarely (a few times a year),2.75,human
+AF0302,South Africa,Southern Africa,23,Woman,Some university/college,Government/Civil service,Sotho,Urban,Mobile data (2G/3G),Newspaper (print),Daily,2.0,llm
+AF0303,Zambia,Southern Africa,38,Man,Bachelor's degree,Government/Civil service,Nyanja,Rural,Mobile data (4G),Television,Sometimes (monthly),3.75,human
+AF0304,South Africa,Southern Africa,25,Woman,Secondary school certificate,Student,Sotho,Peri-urban,No regular internet,Social media,Sometimes (monthly),2.25,llm
+AF0305,Rwanda,East Africa,22,Woman,Less than secondary school,Self-employed/Entrepreneur,English,Rural,Mobile data (2G/3G),Radio,Rarely (a few times a year),3.5,human
+AF0306,Nigeria,West Africa,35,Woman,Bachelor's degree,Teacher/Educator,Yoruba,Urban,No regular internet,Television,Sometimes (monthly),2.75,llm
+AF0307,Ethiopia,East Africa,18,Man,Some university/college,Student,Oromo,Rural,Mobile data (2G/3G),Television,Often (weekly),3.25,human
+AF0308,South Africa,Southern Africa,44,Man,Less than secondary school,Self-employed/Entrepreneur,English,Urban,Mobile data (2G/3G),Radio,Never,3.25,llm
+AF0309,Nigeria,West Africa,28,Man,Master's degree,Student,English,Peri-urban,Mobile data (4G),WhatsApp/Social media,Never,3.5,human
+AF0310,Ethiopia,East Africa,23,Woman,Master's degree,Healthcare worker,Amharic,Rural,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),4.0,llm
+AF0311,Nigeria,West Africa,29,Man,Bachelor's degree,Teacher/Educator,Hausa,Rural,Broadband/WiFi,Radio,Sometimes (monthly),2.25,human
+AF0312,Nigeria,West Africa,41,Woman,Bachelor's degree,Student,Yoruba,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.5,llm
+AF0313,Kenya,East Africa,20,Man,Secondary school certificate,Farmer/Agriculture,English,Rural,Mobile data (4G),Radio,Rarely (a few times a year),4.0,human
+AF0314,Cameroon,Central Africa,32,Man,Secondary school certificate,Teacher/Educator,English,Urban,Mobile data (4G),WhatsApp/Social media,Never,2.25,llm
+AF0315,Uganda,East Africa,21,Man,Secondary school certificate,Teacher/Educator,Luganda,Urban,Mobile data (4G),Radio,Never,4.25,human
+AF0316,Nigeria,West Africa,34,Man,Master's degree,Teacher/Educator,Hausa,Rural,Broadband/WiFi,WhatsApp/Social media,Sometimes (monthly),3.75,llm
+AF0317,Nigeria,West Africa,29,Man,Doctoral/professional degree,Teacher/Educator,English,Urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),3.5,human
+AF0318,Zambia,Southern Africa,22,Man,Secondary school certificate,Farmer/Agriculture,English,Rural,Mobile data (2G/3G),Radio,Daily,3.75,llm
+AF0319,South Africa,Southern Africa,32,Man,Secondary school certificate,Teacher/Educator,English,Urban,Mobile data (2G/3G),Online news site,Rarely (a few times a year),3.75,human
+AF0320,South Africa,Southern Africa,26,Woman,Secondary school certificate,Engineer/Technology,Zulu,Urban,Mobile data (2G/3G),Social media,Rarely (a few times a year),1.75,llm
+AF0321,South Africa,Southern Africa,21,Man,Secondary school certificate,Unemployed/Seeking work,Afrikaans,Urban,Mobile data (4G),Social media,Often (weekly),3.5,human
+AF0322,Kenya,East Africa,40,Woman,Less than secondary school,Self-employed/Entrepreneur,Swahili,Rural,Mobile data (4G),Online news site,Sometimes (monthly),4.25,llm
+AF0323,Zambia,Southern Africa,23,Man,Master's degree,Informal sector/Trader,Nyanja,Urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),2.25,human
+AF0324,Kenya,East Africa,27,Woman,Master's degree,Teacher/Educator,English,Urban,Broadband/WiFi,WhatsApp/Social media,Never,3.0,llm
+AF0325,Kenya,East Africa,23,Man,Less than secondary school,Self-employed/Entrepreneur,Kikuyu,Rural,Mobile data (4G),Radio,Sometimes (monthly),2.0,human
+AF0326,Tanzania,East Africa,31,Woman,Bachelor's degree,Teacher/Educator,English,Rural,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),3.25,llm
+AF0327,South Africa,Southern Africa,28,Woman,Some university/college,Teacher/Educator,Zulu,Rural,Broadband/WiFi,Newspaper (print),Rarely (a few times a year),4.0,human
+AF0328,Nigeria,West Africa,18,Man,Bachelor's degree,Farmer/Agriculture,Hausa,Rural,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),2.0,llm
+AF0329,Tanzania,East Africa,41,Woman,Secondary school certificate,Informal sector/Trader,Swahili,Peri-urban,Broadband/WiFi,Radio,Sometimes (monthly),3.0,human
+AF0330,Kenya,East Africa,38,Prefer not to say,Doctoral/professional degree,Government/Civil service,Swahili,Peri-urban,Mobile data (4G),Radio,Sometimes (monthly),3.0,llm
+AF0331,Tanzania,East Africa,30,Woman,Master's degree,Teacher/Educator,Swahili,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),4.25,human
+AF0332,Kenya,East Africa,28,Woman,Master's degree,Student,Swahili,Peri-urban,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),2.25,llm
+AF0333,Kenya,East Africa,43,Woman,Master's degree,Teacher/Educator,Kamba,Peri-urban,Mobile data (4G),Radio,Rarely (a few times a year),2.25,human
+AF0334,Kenya,East Africa,42,Woman,Secondary school certificate,Healthcare worker,English,Urban,Mobile data (2G/3G),Television,Sometimes (monthly),3.25,llm
+AF0335,South Africa,Southern Africa,29,Man,Master's degree,Business/Finance,Zulu,Urban,Broadband/WiFi,Online news site,Never,4.25,human
+AF0336,Nigeria,West Africa,22,Woman,Bachelor's degree,Student,Hausa,Rural,Mobile data (2G/3G),WhatsApp/Social media,Rarely (a few times a year),2.25,llm
+AF0337,Tanzania,East Africa,28,Woman,Bachelor's degree,Self-employed/Entrepreneur,Chaga,Peri-urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),4.5,human
+AF0338,Nigeria,West Africa,28,Woman,Secondary school certificate,Farmer/Agriculture,Igbo,Urban,Mobile data (4G),Radio,Sometimes (monthly),3.25,llm
+AF0339,Tanzania,East Africa,39,Man,Secondary school certificate,Business/Finance,Sukuma,Rural,No regular internet,Television,Sometimes (monthly),1.75,human
+AF0340,Nigeria,West Africa,28,Woman,Some university/college,Informal sector/Trader,Igbo,Urban,Mobile data (2G/3G),Television,Rarely (a few times a year),2.75,llm
+AF0341,South Africa,Southern Africa,32,Man,Master's degree,Unemployed/Seeking work,Tswana,Urban,Broadband/WiFi,Social media,Rarely (a few times a year),3.75,human
+AF0342,South Africa,Southern Africa,38,Woman,Secondary school certificate,Unemployed/Seeking work,Tswana,Urban,Broadband/WiFi,Social media,Sometimes (monthly),4.5,llm
+AF0343,Nigeria,West Africa,21,Woman,Some university/college,Teacher/Educator,English,Rural,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),1.75,human
+AF0344,Rwanda,East Africa,34,Woman,Some university/college,Government/Civil service,English,Urban,Mobile data (2G/3G),WhatsApp/Social media,Daily,2.5,llm
+AF0345,Tanzania,East Africa,18,Woman,Bachelor's degree,Healthcare worker,Swahili,Rural,Mobile data (4G),Newspaper (print),Never,2.75,human
+AF0346,South Africa,Southern Africa,41,Non-binary,Secondary school certificate,Engineer/Technology,English,Peri-urban,Mobile data (4G),Online news site,Rarely (a few times a year),2.75,llm
+AF0347,Nigeria,West Africa,25,Man,Bachelor's degree,Self-employed/Entrepreneur,Igbo,Urban,Mobile data (4G),Radio,Often (weekly),4.25,human
+AF0348,Kenya,East Africa,38,Woman,Some university/college,Business/Finance,Swahili,Rural,Broadband/WiFi,WhatsApp/Social media,Rarely (a few times a year),3.5,llm
+AF0349,Zambia,Southern Africa,24,Woman,Secondary school certificate,Farmer/Agriculture,English,Peri-urban,Mobile data (2G/3G),Radio,Never,3.0,human
+AF0350,Tanzania,East Africa,27,Man,Master's degree,Informal sector/Trader,Swahili,Peri-urban,Broadband/WiFi,Radio,Sometimes (monthly),2.75,llm
+AF0351,Nigeria,West Africa,20,Woman,Bachelor's degree,Business/Finance,Pidgin English,Peri-urban,Mobile data (4G),Television,Often (weekly),5.0,human
+AF0352,South Africa,Southern Africa,30,Non-binary,Some university/college,Teacher/Educator,Xhosa,Urban,Mobile data (4G),Online news site,Often (weekly),4.5,llm
+AF0353,Kenya,East Africa,30,Man,Doctoral/professional degree,Engineer/Technology,Swahili,Urban,Mobile data (4G),Television,Daily,4.5,human
+AF0354,Kenya,East Africa,34,Woman,Some university/college,Healthcare worker,English,Urban,Mobile data (4G),Newspaper (print),Sometimes (monthly),3.0,llm
+AF0355,South Africa,Southern Africa,20,Man,Secondary school certificate,Teacher/Educator,Zulu,Urban,Mobile data (4G),Newspaper (print),Sometimes (monthly),4.5,human
+AF0356,Kenya,East Africa,18,Man,Some university/college,Informal sector/Trader,Swahili,Peri-urban,Mobile data (4G),Online news site,Daily,3.0,llm
+AF0357,Uganda,East Africa,43,Prefer not to say,Secondary school certificate,Healthcare worker,Luganda,Rural,Mobile data (2G/3G),WhatsApp/Social media,Never,3.0,human
+AF0358,Nigeria,West Africa,24,Woman,Bachelor's degree,Student,Igbo,Peri-urban,Broadband/WiFi,WhatsApp/Social media,Often (weekly),3.5,llm
+AF0359,Ghana,West Africa,18,Woman,Bachelor's degree,Informal sector/Trader,English,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),2.75,human
+AF0360,Nigeria,West Africa,25,Woman,Bachelor's degree,Teacher/Educator,English,Urban,Broadband/WiFi,WhatsApp/Social media,Often (weekly),2.0,llm
+AF0361,Cameroon,Central Africa,18,Man,Secondary school certificate,Teacher/Educator,French,Urban,Broadband/WiFi,Newspaper (print),Sometimes (monthly),4.75,human
+AF0362,Ghana,West Africa,29,Woman,Bachelor's degree,Business/Finance,Ga,Rural,Broadband/WiFi,Radio,Rarely (a few times a year),3.75,llm
+AF0363,Uganda,East Africa,24,Woman,Bachelor's degree,Teacher/Educator,English,Urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),5.0,human
+AF0364,Nigeria,West Africa,18,Man,Less than secondary school,Healthcare worker,English,Peri-urban,Mobile data (4G),WhatsApp/Social media,Never,4.25,llm
+AF0365,Ghana,West Africa,21,Man,Less than secondary school,Informal sector/Trader,Twi (Akan),Peri-urban,Broadband/WiFi,WhatsApp/Social media,Often (weekly),3.5,human
+AF0366,South Africa,Southern Africa,34,Woman,Master's degree,Unemployed/Seeking work,English,Rural,Mobile data (4G),Social media,Often (weekly),4.0,llm
+AF0367,Senegal,West Africa,34,Woman,Doctoral/professional degree,Government/Civil service,Serer,Peri-urban,Mobile data (2G/3G),Radio,Sometimes (monthly),3.5,human
+AF0368,Rwanda,East Africa,35,Woman,Bachelor's degree,Healthcare worker,French,Peri-urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),2.5,llm
+AF0369,Ethiopia,East Africa,32,Woman,Master's degree,Healthcare worker,Somali,Rural,No regular internet,Radio,Daily,1.0,human
+AF0370,Uganda,East Africa,32,Man,Some university/college,Farmer/Agriculture,Luganda,Rural,Mobile data (2G/3G),Online news site,Sometimes (monthly),2.5,llm
+AF0371,Tanzania,East Africa,37,Man,Less than secondary school,Healthcare worker,Swahili,Rural,Mobile data (4G),Television,Rarely (a few times a year),3.25,human
+AF0372,Uganda,East Africa,32,Man,Bachelor's degree,Farmer/Agriculture,Luganda,Rural,Mobile data (4G),Radio,Never,3.5,llm
+AF0373,Kenya,East Africa,31,Woman,Master's degree,Healthcare worker,Kikuyu,Urban,Broadband/WiFi,WhatsApp/Social media,Rarely (a few times a year),3.5,human
+AF0374,Tanzania,East Africa,30,Woman,Bachelor's degree,Self-employed/Entrepreneur,English,Rural,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),3.0,llm
+AF0375,Kenya,East Africa,35,Woman,Master's degree,Farmer/Agriculture,Kikuyu,Urban,Mobile data (4G),WhatsApp/Social media,Often (weekly),3.75,human
+AF0376,South Africa,Southern Africa,41,Woman,Secondary school certificate,Unemployed/Seeking work,English,Peri-urban,Broadband/WiFi,Social media,Rarely (a few times a year),4.0,llm
+AF0377,South Africa,Southern Africa,41,Man,Less than secondary school,Engineer/Technology,Zulu,Peri-urban,Mobile data (2G/3G),Newspaper (print),Often (weekly),3.0,human
+AF0378,Nigeria,West Africa,37,Woman,Bachelor's degree,Healthcare worker,Hausa,Urban,Mobile data (2G/3G),Online news site,Often (weekly),3.25,llm
+AF0379,South Africa,Southern Africa,31,Woman,Bachelor's degree,NGO/Non-profit,English,Peri-urban,Mobile data (4G),Online news site,Often (weekly),3.5,human
+AF0380,Ghana,West Africa,18,Man,Less than secondary school,Self-employed/Entrepreneur,Ewe,Urban,Mobile data (4G),Online news site,Never,4.5,llm
+AF0381,Kenya,East Africa,18,Woman,Secondary school certificate,Farmer/Agriculture,Swahili,Urban,Broadband/WiFi,WhatsApp/Social media,Often (weekly),3.75,human
+AF0382,Ghana,West Africa,18,Woman,Some university/college,Self-employed/Entrepreneur,Twi (Akan),Urban,Mobile data (4G),Radio,Sometimes (monthly),3.5,llm
+AF0383,Nigeria,West Africa,19,Man,Some university/college,Student,Hausa,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),2.5,human
+AF0384,South Africa,Southern Africa,22,Man,Secondary school certificate,Unemployed/Seeking work,Zulu,Urban,Mobile data (2G/3G),Social media,Never,4.75,llm
+AF0385,Ethiopia,East Africa,27,Woman,Less than secondary school,Teacher/Educator,Oromo,Peri-urban,Mobile data (2G/3G),Radio,Rarely (a few times a year),2.75,human
+AF0386,Tanzania,East Africa,24,Woman,Some university/college,Farmer/Agriculture,Haya,Urban,Broadband/WiFi,Online news site,Often (weekly),5.0,llm
+AF0387,Kenya,East Africa,34,Woman,Bachelor's degree,Healthcare worker,English,Urban,Broadband/WiFi,WhatsApp/Social media,Sometimes (monthly),4.0,human
+AF0388,South Africa,Southern Africa,26,Man,Bachelor's degree,Self-employed/Entrepreneur,Zulu,Peri-urban,Mobile data (4G),Television,Rarely (a few times a year),2.75,llm
+AF0389,Ethiopia,East Africa,38,Man,Bachelor's degree,Farmer/Agriculture,Amharic,Urban,Mobile data (2G/3G),Television,Often (weekly),3.5,human
+AF0390,Zimbabwe,Southern Africa,20,Woman,Secondary school certificate,Teacher/Educator,English,Urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),3.5,llm
+AF0391,Kenya,East Africa,34,Man,Master's degree,Informal sector/Trader,English,Rural,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),3.5,human
+AF0392,Zimbabwe,Southern Africa,33,Man,Master's degree,Teacher/Educator,Shona,Peri-urban,Mobile data (2G/3G),Online news site,Never,3.5,llm
+AF0393,Tanzania,East Africa,26,Man,Some university/college,Farmer/Agriculture,Swahili,Peri-urban,Mobile data (2G/3G),Radio,Sometimes (monthly),2.75,human
+AF0394,Ghana,West Africa,27,Man,Master's degree,Farmer/Agriculture,Dagbani,Urban,Mobile data (4G),Radio,Daily,3.75,llm
+AF0395,Ghana,West Africa,24,Woman,Some university/college,Self-employed/Entrepreneur,Ga,Rural,Mobile data (4G),WhatsApp/Social media,Never,3.5,human
+AF0396,Kenya,East Africa,33,Man,Bachelor's degree,Farmer/Agriculture,Luo,Peri-urban,Mobile data (4G),Television,Sometimes (monthly),3.5,llm
+AF0397,Ghana,West Africa,28,Man,Master's degree,Self-employed/Entrepreneur,English,Urban,Mobile data (2G/3G),Online news site,Sometimes (monthly),4.0,human
+AF0398,Tanzania,East Africa,32,Woman,Some university/college,Government/Civil service,Swahili,Peri-urban,Mobile data (2G/3G),Television,Sometimes (monthly),3.0,llm
+AF0399,Uganda,East Africa,30,Non-binary,Some university/college,Self-employed/Entrepreneur,English,Urban,Mobile data (2G/3G),Radio,Often (weekly),2.0,human
+AF0400,Nigeria,West Africa,34,Woman,Bachelor's degree,Business/Finance,Hausa,Peri-urban,Mobile data (4G),Television,Often (weekly),2.75,llm
+AF0401,South Africa,Southern Africa,40,Woman,Master's degree,Farmer/Agriculture,Zulu,Rural,Mobile data (4G),Television,Sometimes (monthly),3.25,human
+AF0402,Kenya,East Africa,35,Woman,Master's degree,Business/Finance,Swahili,Urban,No regular internet,Radio,Often (weekly),3.25,llm
+AF0403,Nigeria,West Africa,26,Woman,Secondary school certificate,Government/Civil service,Yoruba,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.75,human
+AF0404,Kenya,East Africa,18,Man,Secondary school certificate,Healthcare worker,English,Peri-urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),4.25,llm
+AF0405,Nigeria,West Africa,43,Woman,Secondary school certificate,Self-employed/Entrepreneur,Igbo,Urban,Mobile data (4G),WhatsApp/Social media,Rarely (a few times a year),3.0,human
+AF0406,Nigeria,West Africa,40,Man,Secondary school certificate,Healthcare worker,Igbo,Urban,Mobile data (2G/3G),WhatsApp/Social media,Sometimes (monthly),3.75,llm
+AF0407,Nigeria,West Africa,23,Woman,Bachelor's degree,Informal sector/Trader,Pidgin English,Urban,Mobile data (4G),Online news site,Rarely (a few times a year),3.0,human
+AF0408,Nigeria,West Africa,31,Woman,Bachelor's degree,Self-employed/Entrepreneur,Igbo,Urban,Mobile data (4G),WhatsApp/Social media,Sometimes (monthly),3.25,llm
+AF0409,Ghana,West Africa,21,Woman,Some university/college,Healthcare worker,Twi (Akan),Urban,Mobile data (4G),Radio,Rarely (a few times a year),4.25,human
+AF0410,Ghana,West Africa,27,Woman,Less than secondary school,Student,Twi (Akan),Urban,Broadband/WiFi,WhatsApp/Social media,Never,3.75,llm
+AF0411,Nigeria,West Africa,33,Man,Master's degree,Healthcare worker,Hausa,Urban,Mobile data (4G),Online news site,Daily,3.0,human
+AF0412,Ethiopia,East Africa,19,Man,Less than secondary school,Student,Oromo,Peri-urban,Mobile data (4G),Radio,Sometimes (monthly),3.75,llm
