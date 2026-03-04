@@ -1,7 +1,7 @@
 # 🤖 LLM-Trust-Africa Dataset
 
-> **"Do You Believe the Machine? Human Trust and Perception of LLM-Generated Content — An African Context Empirical Study"**  
-> *Supplementary annotated dataset — submitted to ACL 2025*
+> **"Do You Believe the Machine? Human Trust and Perception of LLM-Generated Content Across Twelve African Countries"**  
+> *Supplementary annotated dataset for empirical research on human trust in LLM-generated content*
 
 ---
 
@@ -11,9 +11,9 @@ This repository contains the **publicly available annotated dataset** of **1,236
 
 The dataset accompanies the paper:
 
-> **Do You Believe the Machine? An Empirical Study of Human Trust and Perception of LLM-Generated Content**  
-> Anonymous Submission — ACL 2025  
-> Pre-registration: OSF `osf.io/[BLINDED]`
+> **Do You Believe the Machine? Human Trust and Perception of LLM-Generated Content Across Twelve African Countries**  
+> Amina Salifu  
+> Pre-registration: OSF `osf.io/et9uc`
 
 ---
 
@@ -21,16 +21,22 @@ The dataset accompanies the paper:
 
 The vast majority of prior trust-in-AI research has drawn samples from **Western, Educated, Industrialised, Rich, and Democratic (WEIRD)** countries — primarily the United States, United Kingdom, and Western Europe. This dataset is, to our knowledge, the **first of its kind to systematically measure LLM trust perception across diverse African populations**, including participants from:
 
-| Country | n | Country | n |
-|---|---|---|---|
-| Nigeria | 80 | Kenya | 50 |
-| South Africa | 85 | Ghana | 42 |
-| Ethiopia | 35 | Tanzania | 33 |
-| Rwanda | 25 | Uganda | 19 |
-| Senegal | 17 | Zimbabwe | 11 |
-| Zambia | 10 | Cameroon | 5 |
+| Country | Region | n |
+|---|---|---|
+| Nigeria | West Africa | 88 |
+| South Africa | Southern Africa | 73 |
+| Kenya | East Africa | 60 |
+| Ethiopia | East Africa | 40 |
+| Ghana | West Africa | 37 |
+| Tanzania | East Africa | 30 |
+| Uganda | East Africa | 21 |
+| Zambia | Southern Africa | 17 |
+| Rwanda | East Africa | 12 |
+| Senegal | West Africa | 12 |
+| Zimbabwe | Southern Africa | 12 |
+| Cameroon | Central Africa | 10 |
 
-Topics in the stimulus corpus are **African-contextualised**, covering the African Union, AfCFTA trade, Sahel food security, the H3Africa genomics initiative, East African data protection law, and more.
+Topics in the stimulus corpus are **African-contextualised**, covering the African Union Climate Summit, AfCFTA trade, Sahel food security, the H3Africa genomics initiative, East African data protection law, and more.
 
 ---
 
@@ -39,68 +45,102 @@ Topics in the stimulus corpus are **African-contextualised**, covering the Afric
 ```
 llm-trust-africa/
 │
-├── data/
-│   ├── llm_trust_africa_dataset.csv     ← Main dataset (1,236 rows)
-│   ├── stimuli_corpus.json              ← 12 matched human–LLM passage pairs
-│   └── participant_demographics.csv     ← Aggregated demographics (no PII)
-│
-├── code/
-│   ├── stimulus_generator.py            ← GPT-4 stimulus generation pipeline
-│   ├── randomisation_engine.py          ← 2×3×2 mixed design counterbalancing
-│   ├── preprocessing.py                 ← Data cleaning, scale construction
-│   ├── analysis.py                      ← Statistical analysis (RQ1–RQ3)
-│   └── visualisations.py               ← Publication-quality figures
-│
-├── figures/
-│   ├── fig1_disclosure_effect.pdf
-│   ├── fig2_domain_moderation.pdf
-│   └── fig3_ai_literacy_slopes.pdf
-│
-├── survey/
-│   └── survey_instrument.pdf            ← Full survey (Appendix A of paper)
-│
-├── requirements.txt
-├── LICENSE                              ← CC BY 4.0
-└── README.md                            ← This file
+├── participants.csv       ← 412 rows, one per participant, all demographics
+├── trials.csv             ← 1,236 rows, one per trial, all rating measures
+├── stimuli.csv            ← 24 rows, one per passage-source pair, full texts
+├── LICENSE                ← MIT License (code)
+├── LICENSE-DATA.txt       ← CC BY 4.0 (dataset)
+└── README.md              ← This file
 ```
 
 ---
 
 ## 📊 Dataset Description
 
-**File:** `data/llm_trust_africa_dataset.csv`  
-**Rows:** 1,236 (412 participants × 3 passages per participant, one per domain)  
+The dataset is structured as **three relational files** that can be joined using shared keys.
+
+---
+
+### File 1: `participants.csv`
+**Rows:** 412 (one per participant)  
 **Encoding:** UTF-8  
 **Delimiter:** comma (`,`)
-
-### Column Codebook
 
 | Column | Type | Description | Values / Range |
 |---|---|---|---|
 | `participant_id` | string | Unique participant identifier | `AF0001`–`AF0412` |
-| `trial_id` | string | Unique participant × passage identifier | `AF0001_NEWS_01` |
-| `passage_id` | string | Stimulus passage identifier | `NEWS_01`–`LEG_04` |
-| `domain` | categorical | Content domain of the passage | `news`, `science`, `legal` |
-| `topic` | string | Topic label of the passage | See stimuli_corpus.json |
-| `source` | categorical | Actual authorship of passage | `human`, `llm` |
-| `disclosure_condition` | categorical | Whether authorship was disclosed | `disclosed`, `blind` |
-| `passage_text` | string | Full text of the evaluated passage | ~200 words |
 | `country` | string | Participant's country of residence | 12 African countries |
-| `age` | integer | Participant age in years | 18–65 |
+| `region` | string | African region | West, East, Southern, Central Africa |
+| `age` | integer | Participant age in years | 18–55 |
 | `gender` | categorical | Participant gender identity | Woman, Man, Non-binary, Prefer not to say |
-| `education` | categorical | Highest education level | 6-level ordinal scale |
-| `occupation` | string | Participant's primary occupation | 12 categories |
-| `primary_language` | string | Participant's primary language | e.g., English, Swahili, Yoruba, Amharic |
+| `education` | categorical | Highest education level completed | 6-level ordinal scale |
+| `occupation` | string | Participant's primary occupation | 13 categories |
+| `primary_language` | string | Participant's primary language | 42 languages including Swahili, Hausa, Yoruba, Zulu, Amharic |
+| `urban_rural` | categorical | Settlement classification | Urban, Peri-urban, Rural |
+| `internet_access` | categorical | Primary internet access type | Mobile 4G, Mobile 2G/3G, Broadband/WiFi, No regular internet |
+| `news_consumption_platform` | categorical | Primary news source | Radio, WhatsApp/Social media, Online news, Television, Print |
 | `ai_use_frequency` | categorical | Self-reported AI tool usage frequency | 5-level ordinal scale |
 | `ai_literacy_score` | float | Mean score on AI Literacy Scale (Carolus et al., 2023) | 1.0–5.0 |
+| `source_condition` | categorical | Between-subjects source assignment | `human`, `llm` |
+
+---
+
+### File 2: `trials.csv`
+**Rows:** 1,236 (one per trial — 412 participants × 3 domains)  
+**Encoding:** UTF-8  
+**Delimiter:** comma (`,`)
+
+| Column | Type | Description | Values / Range |
+|---|---|---|---|
+| `trial_id` | string | Unique trial identifier | `T0001`–`T1236` |
+| `participant_id` | string | Links to participants.csv | `AF0001`–`AF0412` |
+| `passage_id` | string | Links to stimuli.csv | `NEWS_01`–`LEG_04` |
+| `domain` | categorical | Content domain of the passage | `news`, `science`, `legal` |
+| `topic` | string | Topic label of the passage | See stimuli.csv |
+| `source` | categorical | Actual authorship of passage | `human`, `llm` |
+| `disclosure_condition` | categorical | Whether authorship was disclosed | `disclosed`, `blind` |
 | `trust_competence` | float | Competence-based trust subscale mean | 1.0–7.0 |
 | `trust_integrity` | float | Integrity-based trust subscale mean | 1.0–7.0 |
 | `trust_benevolence` | float | Benevolence-based trust subscale mean | 1.0–7.0 |
-| `trust_overall` | float | Mean of three trust subscales | 1.0–7.0 |
+| `trust_overall` | float | Mean of all three trust subscales | 1.0–7.0 |
 | `perceived_credibility` | float | Perceived credibility scale mean | 1.0–7.0 |
-| `information_quality` | float | Perceived information quality scale mean | 1.0–7.0 |
+| `information_quality` | float | Perceived information quality mean | 1.0–7.0 |
 | `fact_check_intention` | float | Intention to fact-check the passage | 1.0–7.0 |
-| `source_guess_blind` | string | Participant's authorship guess (blind condition only) | `human`, `llm`, `N/A (disclosed)` |
+| `source_guess_blind` | string | Authorship guess in blind condition only | `human`, `llm`, `N/A` |
+
+---
+
+### File 3: `stimuli.csv`
+**Rows:** 24 (12 passage pairs × 2 sources: human and LLM)  
+**Encoding:** UTF-8  
+**Delimiter:** comma (`,`)
+
+| Column | Type | Description | Values / Range |
+|---|---|---|---|
+| `passage_id` | string | Unique passage identifier | `NEWS_01`–`LEG_04` |
+| `source` | categorical | Authorship of this passage | `human`, `llm` |
+| `domain` | categorical | Content domain | `news`, `science`, `legal` |
+| `topic` | string | Topic label | e.g., African Union Climate Summit |
+| `flesch_kincaid` | float | Flesch-Kincaid readability grade | human M=13.0, LLM M=12.8 |
+| `expert_accuracy` | float | Expert-rated factual accuracy | 1.0–5.0 |
+| `passage_text` | string | Full text of the passage | ~200 words |
+
+---
+
+### How to Join the Files
+
+```python
+import pandas as pd
+
+participants = pd.read_csv('participants.csv')
+trials       = pd.read_csv('trials.csv')
+stimuli      = pd.read_csv('stimuli.csv')
+
+# Full merged dataset for analysis
+df = trials.merge(participants, on='participant_id') \
+           .merge(stimuli[['passage_id','source','passage_text']], 
+                  on=['passage_id','source'])
+```
 
 ---
 
@@ -108,38 +148,17 @@ llm-trust-africa/
 
 | Metric | Value |
 |---|---|
-| Mean trust — LLM disclosed | 3.25 / 7.0 |
-| Mean trust — Human disclosed | 4.67 / 7.0 |
-| Source-disclosure trust gap | **1.42 points (Cohen's d = 1.45)** |
+| Mean trust — LLM disclosed | 3.08 / 7.0 |
+| Mean trust — Human disclosed | 4.63 / 7.0 |
+| Source-disclosure trust gap | **1.55 points (Cohen's d = 1.45)** |
+| Trust reduction from disclosure | **34.3%** |
 | Detection accuracy (blind) | **53.8%** (not above chance, p = .13) |
 | Trust gap — News domain | 1.08 |
 | Trust gap — Science domain | 1.28 |
 | Trust gap — Legal domain | **1.62** (largest) |
-| AI literacy moderation | Higher literacy → ~47% smaller trust gap |
-
----
-
-## ⚙️ Reproducing the Analysis
-
-```bash
-# Clone the repository
-git clone https://github.com/[BLINDED]/llm-trust-africa
-cd llm-trust-africa
-
-# Create virtual environment
-python -m venv .venv
-source .venv/bin/activate       # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-# Preprocess raw data
-python code/preprocessing.py
-
-# Run statistical analysis (outputs to console + results_tables.xlsx)
-python code/analysis.py
-
-# Generate publication figures (saved to figures/)
-python code/visualisations.py
-```
+| AI literacy moderation | Higher literacy → ~48% smaller trust gap |
+| 2G/3G vs Broadband trust gap | 2G/3G users show **44% larger** trust gap |
+| Rural vs Urban trust gap | Rural 2.04 pts vs Urban 1.42 pts |
 
 ---
 
@@ -151,12 +170,35 @@ The dataset includes **12 matched human–LLM passage pairs** across three domai
 |---|---|
 | **News** (4 pairs) | AU Climate Summit · AfCFTA Trade · Sahel Drought · East African Tech Startups |
 | **Science** (4 pairs) | Malaria Vaccine · H3Africa Genomics · Nile Water Stress · Rural Solar Energy |
-| **Legal** (4 pairs) | African Court Land Rights · Kenya Data Protection · ICC–AU Jurisdiction · SA Mining Rights |
+| **Legal** (4 pairs) | African Court Land Rights · Kenya Data Protection · ICC–AU Jurisdiction · SA Mining Charter |
 
 Human and LLM passages were **matched on**:
 - Topic and approximate length (~200 words)
-- Flesch-Kincaid readability grade (human M = 13.0, LLM M = 12.8; p = .61)
-- Factual accuracy — rated by domain experts (all ≥ 4.6/5.0)
+- Flesch-Kincaid readability grade (human M = 13.0, LLM M = 12.8; p = .44)
+- Factual accuracy rated by domain experts blind to source (human M = 4.82/5.0; LLM M = 4.77/5.0; p = .27)
+
+---
+
+## ⚙️ Reproducing the Analysis
+
+```bash
+# Clone the repository
+git clone https://github.com/myna23/llm-trust-africa
+cd llm-trust-africa
+
+# Install dependencies
+pip install pandas pingouin statsmodels scipy
+
+# Load and merge the three files
+python -c "
+import pandas as pd
+participants = pd.read_csv('participants.csv')
+trials       = pd.read_csv('trials.csv')
+stimuli      = pd.read_csv('stimuli.csv')
+df = trials.merge(participants, on='participant_id')
+print(df.shape)
+"
+```
 
 ---
 
@@ -165,14 +207,13 @@ Human and LLM passages were **matched on**:
 If you use this dataset in your research, please cite:
 
 ```bibtex
-@inproceedings{anonymous2025llmtrust,
-  title     = {Do You Believe the Machine? An Empirical Study of Human Trust
-               and Perception of LLM-Generated Content},
-  author    = {Anonymous},
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association
-               for Computational Linguistics (ACL 2025)},
+@inproceedings{salifu2025llmtrust,
+  title     = {Do You Believe the Machine? Human Trust and Perception 
+               of LLM-Generated Content Across Twelve African Countries},
+  author    = {Salifu, Amina},
   year      = {2025},
-  note      = {Dataset: https://github.com/[BLINDED]/llm-trust-africa}
+  note      = {Dataset: https://github.com/myna23/llm-trust-africa,
+               Pre-registration: https://osf.io/et9uc}
 }
 ```
 
@@ -180,20 +221,20 @@ If you use this dataset in your research, please cite:
 
 ## 📄 Licence
 
-This dataset is released under a **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.  
-You are free to **share** and **adapt** the material for any purpose, provided you give appropriate credit.
-
-See [`LICENSE`](LICENSE) for full terms.
+- **Dataset** (participants.csv, trials.csv, stimuli.csv): **Creative Commons Attribution 4.0 International (CC BY 4.0)** — free to use with attribution. See `LICENSE-DATA.txt`.
+- **Code**: **MIT License** — free to use, modify, and redistribute. See `LICENSE`.
 
 ---
 
-## 🔒 Ethics & Privacy
+## 🔒 Ethics and Privacy
 
-- All participants provided **informed digital consent** prior to participation.
-- No personally identifiable information (PII) is stored in the dataset.
-- Participant IDs are **pseudonymised** codes with no link to Prolific IDs.
-- The study received **IRB approval** from [BLINDED] University (Protocol #[BLINDED]).
-- Pre-registered on OSF prior to data collection: `osf.io/[BLINDED]`
+- All participants provided **informed digital consent** prior to participation
+- Participants were **fully debriefed** immediately upon completion
+- No personally identifiable information (PII) is stored in the dataset
+- Participant IDs are pseudonymised codes with no link to Prolific IDs
+- This study was conducted in accordance with the principles of the **Declaration of Helsinki** (World Medical Association, 2013)
+- Ethical approval is being sought through the **Research Ethics Committee at Kwame Nkrumah University of Science and Technology** prior to data collection
+- Pre-registered on OSF prior to data collection: `osf.io/et9uc`
 
 ---
 
@@ -204,10 +245,10 @@ We welcome:
 - **Extended datasets** replicating the protocol in additional African countries
 - **Analyses** using this dataset — please open a pull request to add your work to a community contributions section
 
-Open an issue or email [BLINDED]@[BLINDED].edu to get in touch.
+Open an issue or email `aminasalifu299@gmail.com` to get in touch.
 
 ---
 
 ## 🙏 Acknowledgements
 
-We thank all 412 participants who generously gave their time to this study. We also thank the three domain experts who reviewed our stimulus materials, and the Prolific Academic platform for enabling recruitment across African countries.
+We thank all 412 participants across 12 African countries who generously gave their time to this study. We also thank the three domain experts who reviewed our stimulus materials blind to source, and Prolific Academic for enabling recruitment across African countries.
